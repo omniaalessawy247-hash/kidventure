@@ -1,0 +1,3218 @@
+{
+  "brand": {
+    "name": "Kidventure",
+    "tagline": "A guided learning platform for families.",
+    "headerTagline": "Learning · Adventure · Wonder",
+    "premiumLabel": "A Premium Learning Experience"
+  },
+  "common": {
+    "langEnShort": "EN",
+    "langArShort": "AR",
+    "themeToggle": "Toggle theme",
+    "langToggle": "Switch language",
+    "menuToggle": "Toggle menu",
+    "download": "Download App",
+    "login": "Login",
+    "logout": "Logout",
+    "learnMore": "Learn more",
+    "getStarted": "Get Started",
+    "manage": "Manage",
+    "save": "Save",
+    "email": "Email",
+    "password": "Password",
+    "fullName": "Full name",
+    "message": "Message",
+    "send": "Send",
+    "back": "Back",
+    "getTheApp": "Get the App",
+    "nav": {
+      "signupLink": "Sign Up",
+      "loginLink": "Login",
+      "getApp": "Get the App"
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "why": "Why Kidventure",
+    "features": "Features",
+    "pricing": "Plans & Pricing",
+    "forParents": "For Parents",
+    "support": "Support",
+    "parentGuide": "Parent Guide",
+    "progress": "Progress Tracking",
+    "safety": "Safety Guidelines",
+    "faq": "FAQ / Help Center",
+    "contact": "Contact Us",
+    "terms": "Terms of Service",
+    "privacy": "Privacy Policy",
+    "download": "Download App",
+    "dashboard": "Dashboard",
+    "reports": "Reports",
+    "children": "Child Profiles",
+    "subscription": "Subscription",
+    "settings": "Settings"
+  },
+  "footer": {
+    "tagline": "Helping families turn everyday curiosity into meaningful learning.",
+    "links": {
+      "why": "Why Kidventure",
+      "pricing": "Plans & Pricing",
+      "parentGuide": "Parent Guide",
+      "faq": "Support (FAQ)",
+      "download": "Download App"
+    },
+    "legal": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service"
+    },
+    "copyrightSafe": "© {{year}} Kidventure. All rights reserved.",
+    "copyrightText": "‎{{year}} Kidventure. All rights reserved.",
+    "copyright": "‎{{year}} Kidventure. All rights reserved."
+  },
+  "parents": {
+    "guideTitle": "Parent Guide",
+    "guideLead": "Practical ways to support learning at home — without turning it into homework.",
+    "guideTip1": "Keep sessions short and consistent.",
+    "guideTip2": "Ask what your child discovered today.",
+    "guideTip3": "Use the dashboard to notice patterns over time.",
+    "progressTitle": "Progress Tracking",
+    "progressLead": "Understand patterns over time with simple summaries and reports.",
+    "progressPoint1": "View weekly summaries and activity history.",
+    "progressPoint2": "Spot strengths and areas that need support.",
+    "progressPoint3": "Use reports as a conversation starter, not a score.",
+    "safetyTitle": "Safety Guidelines",
+    "safetyLead": "Privacy-aware defaults and parent visibility built into the experience.",
+    "safetyPoint1": "Parent account controls what is visible and manageable.",
+    "safetyPoint2": "Keep login access private and secure.",
+    "safetyPoint3": "Use the dashboard to review activity when needed.",
+    "tipsTitle": "Tips for Parents",
+    "tipsLead": "Practical ways to support learning at home.",
+    "tipsPoint1": "Keep sessions short and consistent.",
+    "tipsPoint2": "Ask what your child discovered today.",
+    "tipsPoint3": "Use the dashboard to notice patterns over time.",
+    "cta": "Get Started"
+  },
+  "pages": {
+    "home": {
+      "heroBadge": "Made for modern families (parent-guided, child-loved)",
+      "heroTitleA": "Turn screen time into",
+      "heroTitleB": "real growth",
+      "heroSubtitle": "Kidventure is an AI-powered learning adventure that kids choose—while parents stay in control. Less guilt. Less arguing. More skills, confidence, and focus.",
+      "heroCtaPrimary": "Login",
+      "heroCtaSecondary": "Watch Demo",
+      "heroStat1Value": "25k+",
+      "heroStat1Label": "Families building better habits",
+      "heroStat2Value": "120+",
+      "heroStat2Label": "Weekly learning missions",
+      "heroStat3Value": "6",
+      "heroStat3Label": "Core skills tracked",
+      "heroStat4Value": "4.9/5",
+      "heroStat4Label": "Parent satisfaction",
+      "whatTitle": "What is Kidventure?",
+      "whatSubtitle": "A full learning ecosystem that feels like play—guided by parents.",
+      "whatBody": "Kidventure is not \"just another learning app.\" It is a connected ecosystem designed around how kids actually behave with screens today. Children learn through interactive stories, games, and creative missions that feel exciting—while parents see structured progress, insights, and routines from the web dashboard. The experience is safe by default, simple to start, and built to convert passive consumption into active skill-building.",
+      "whatMicro1Title": "For Children (Mobile)",
+      "whatMicro1Body": "A rewarding adventure: missions, stories, games, creativity.",
+      "whatMicro2Title": "For Parents (Web)",
+      "whatMicro2Body": "Progress visibility: insights, milestones, and control.",
+      "whatMicro3Title": "Designed for trust",
+      "whatMicro3Body": "Safe, structured, age-appropriate—without noise.",
+      "whatCta": "See how it works",
+      "platformTitle": "One Platform. Two Experiences. One Stronger Learning Habit.",
+      "platformIntro": "Kidventure is built for the real world: kids want fun, parents want clarity. We designed both sides—mobile for the child and web for the parent—so learning stays enjoyable and progress stays visible.",
+      "platformChildTitle": "For Children — A Learning Adventure on Mobile",
+      "platformChildBody": "Kids don't feel like they're studying. They feel like they're exploring. Every interaction is designed to create small wins—so motivation grows naturally.",
+      "platformChildBullet1": "Play-based missions that train focus and thinking without pressure.",
+      "platformChildBullet2": "Interactive stories that build reading and comprehension through choices.",
+      "platformChildBullet3": "Creative activities that reward curiosity and expression.",
+      "platformChildBullet4": "A child-first interface made to keep engagement healthy—not chaotic.",
+      "platformParentTitle": "For Parents — A Clear View from the Web Dashboard",
+      "platformParentBody": "Parents get a calm, structured overview: what happened, what improved, what needs support—without interrupting the child's flow.",
+      "platformParentBullet1": "Track milestones and skill growth over time (not just time spent).",
+      "platformParentBullet2": "View activity history and weekly summaries in seconds.",
+      "platformParentBullet3": "Manage child profiles, routines, and preferences in one place.",
+      "platformParentBullet4": "Securely manage subscription and settings on web.",
+      "feelTitle": "How Learning Feels for Your Child",
+      "feelIntro": "Kidventure is designed to keep kids in the 'flow state': not bored, not overwhelmed—just curious and motivated. That's where real habits form.",
+      "feelCard1Title": "It feels like a game",
+      "feelCard1Body": "Short learning loops + rewards that celebrate effort, not perfection.",
+      "feelCard2Title": "Curiosity gets rewarded",
+      "feelCard2Body": "Kids are encouraged to explore, try again, and ask questions.",
+      "feelCard3Title": "No pressure, no stress",
+      "feelCard3Body": "Designed to avoid the 'school vibe' that makes kids resist learning.",
+      "feelCard4Title": "Progress at their pace",
+      "feelCard4Body": "The experience supports different speeds so confidence stays high.",
+      "learnTitle": "What Your Child Will Learn",
+      "learnIntro": "Not just activities—measurable growth. The goal is better focus, stronger thinking, and healthier screen habits.",
+      "outcome1Title": "Reading & Storytelling",
+      "outcome1Body": "Interactive narratives that strengthen language and comprehension.",
+      "outcome2Title": "Critical Thinking",
+      "outcome2Body": "Reasoning, choices, and smart decision-making practice.",
+      "outcome3Title": "Curiosity & Exploration",
+      "outcome3Body": "Guided discovery that turns 'why?' into real learning.",
+      "outcome4Title": "Cultural Awareness",
+      "outcome4Body": "Meaningful context that connects learning to the real world.",
+      "outcome5Title": "Problem Solving",
+      "outcome5Body": "Logic challenges that build persistence and patience.",
+      "outcome6Title": "Confidence & Motivation",
+      "outcome6Body": "Positive reinforcement that builds a love for learning.",
+      "parentsTitle": "How Parents Stay Involved",
+      "parentsIntro": "Parents don't need to sit beside the child. You just need visibility and control. Kidventure gives you both.",
+      "parentsBullet1": "Clear progress reports: see milestones and improvement over time.",
+      "parentsBullet2": "Activity history: understand what your child explored and when.",
+      "parentsBullet3": "Learning insights: spot strengths, gaps, and engagement patterns.",
+      "parentsBullet4": "Safe and guided experience: you stay in control of the journey.",
+      "parentsCta": "Login to Dashboard",
+      "howTitle": "How It Works — Simple from Day One",
+      "howIntro": "Start in minutes. Build habits over weeks. See real change over months.",
+      "howStep1Title": "Create a Parent Account",
+      "howStep1Body": "Set up your account and your child profile—fast and parent-first.",
+      "howStep1Note": "Simple onboarding with guided setup.",
+      "howStep2Title": "Your Child Learns on Mobile",
+      "howStep2Body": "Kids explore stories, games, and creativity missions in short sessions.",
+      "howStep2Note": "Designed to feel fun, rewarding, and intentional.",
+      "howStep3Title": "Track Progress from the Web",
+      "howStep3Body": "Open the dashboard to see growth, routines, and learning insights.",
+      "howStep3Note": "Quick check-ins, clear patterns, real progress.",
+      "chooseTitle": "Why Parents Choose Kidventure",
+      "chooseIntro": "Because it solves the real problem: kids love screens—so we make screens work for them.",
+      "chooseCard1Title": "Built for real families",
+      "chooseCard1Body": "Designed for busy routines: simple, fast, and clear.",
+      "chooseCard2Title": "Education-first",
+      "chooseCard2Body": "Learning outcomes come first—without sacrificing fun.",
+      "chooseCard3Title": "Healthy engagement",
+      "chooseCard3Body": "Motivating and immersive, without addictive chaos.",
+      "chooseCard4Title": "Parent visibility",
+      "chooseCard4Body": "Know what's happening and guide the journey calmly.",
+      "previewTitle": "A Quick Look Inside Kidventure",
+      "previewSubtitle": "See how kids learn on mobile and how parents track progress on web.",
+      "previewMobileTitle": "Mobile screens",
+      "previewMobileBody": "Stories, games, and missions designed for attention and fun.",
+      "previewDashboardTitle": "Dashboard preview",
+      "previewDashboardBody": "Progress overview, history, insights—built for parents.",
+      "trustTitle": "Built for Trust, Safety, and Peace of Mind",
+      "trustSubtitle": "A child-first experience with parent visibility and safe, structured defaults.",
+      "trustCard1Title": "Child-first experience",
+      "trustCard1Body": "Age-appropriate content and a calm interface.",
+      "trustCard2Title": "Parent visibility",
+      "trustCard2Body": "You can monitor progress without interrupting the child.",
+      "trustCard3Title": "Secure payments on web",
+      "trustCard3Body": "Subscription and billing handled safely through Stripe.",
+      "trustCard4Title": "Reliable system structure",
+      "trustCard4Body": "Scalable architecture built for stability and security.",
+      "downloadTitle": "Download Kidventure",
+      "downloadBody": "Start the learning adventure on mobile—and stay in control from the web dashboard.",
+      "downloadIos": "Download on iOS",
+      "downloadAndroid": "Get it on Android",
+      "finalTitle": "Start your child's learning adventure today",
+      "finalBody": "Less passive scrolling. More skills. More confidence. More peace of mind.",
+      "finalCta": "Get Started",
+      "aria": {
+        "home": "Home page"
+      },
+      "hero": {
+        "badge": "AI-Powered Learning Platform",
+        "titleA": "Where Learning Becomes an",
+        "titleB": "Adventure",
+        "description": "Kidventure transforms passive screen time into active learning missions kids love—while parents get clear visibility, control, and measurable progress.",
+        "ctaPrimary": "Download App",
+        "ctaSecondary": "Watch Demo",
+        "statsAria": "Key benefits",
+        "stats": {
+          "1": { "title": "Purposeful screen time", "body": "Active learning with real outcomes" },
+          "2": { "title": "Parent visibility", "body": "See progress without interrupting" },
+          "3": { "title": "Safe by design", "body": "Calm, structured, age-appropriate" }
+        },
+        "mockup": {
+          "time": "9:41",
+          "welcomeTitle": "Let's Explore!",
+          "welcomeSubtitle": "Choose your adventure",
+          "cards": {
+            "1": { "title": "Interactive Stories", "body": "New story missions" },
+            "2": { "title": "Learning Games", "body": "Play-and-learn challenges" },
+            "3": { "title": "Creative Studio", "body": "Draw, build, express" }
+          },
+          "progress": {
+            "title": "Today's Progress",
+            "body": "3 of 5 missions completed"
+          }
+        }
+      },
+      "parentDashboard": {
+        "badge": "Parent Dashboard",
+        "title": "Stay connected to your child's learning",
+        "subtitle": "Get a calm, organized view of progress—so you can support learning without turning it into a daily fight.",
+        "bullets": {
+          "1": { "title": "Clear progress reports", "body": "See milestones, growth, and improvements over time." },
+          "2": { "title": "Activity history", "body": "Know what your child explored and when." },
+          "3": { "title": "Learning insights", "body": "Spot strengths, gaps, and engagement patterns early." },
+          "4": { "title": "Safe and guided", "body": "You stay in control of the learning journey—always." }
+        },
+        "cta": "Log in to Dashboard",
+        "mockup": {
+          "title": "Progress overview",
+          "range": "This week",
+          "chartTitle": "Daily activity",
+          "placeholderValue": "—",
+          "stats": {
+            "achievements": "Achievements",
+            "stories": "Stories completed",
+            "time": "Learning time"
+          }
+        },
+        "underNote": "Already set up? Log in to your Parent Dashboard →"
+      },
+      "days": {
+        "mon": "Mon",
+        "tue": "Tue",
+        "wed": "Wed",
+        "thu": "Thu",
+        "fri": "Fri"
+      },
+      "transformation": {
+        "badge": "The Before → After Shift",
+        "title": "Make the switch: from passive scrolling to active learning",
+        "subtitle": "Kids are already on screens. The question is: are screens training distraction… or building skills? Kidventure turns screen time into a guided learning habit—without killing the fun.",
+        "arrow": "Kidventure switch",
+        "before": {
+          "videoLabel": "Before: passive scrolling",
+          "title": "Fast dopamine. Zero growth.",
+          "caption": "Infinite short content trains the brain to expect instant rewards with minimal effort—and learning starts to feel 'too slow.'",
+          "points": [
+            "Endless scrolling with no destination",
+            "Instant gratification that weakens patience and focus",
+            "Consumption without thinking, creating, or solving",
+            "Parents feel guilty, kids feel restless"
+          ]
+        },
+        "after": {
+          "videoLabel": "After: active learning",
+          "title": "Missions that build skills—kids choose it",
+          "caption": "Short learning missions create small wins, real progress, and a healthier relationship with screens—without pressure or stress.",
+          "points": [
+            "Clear missions and milestones that feel rewarding",
+            "Active interaction: read, solve, draw, create",
+            "Rewards for effort and curiosity—not mindless watching",
+            "Parents get visibility, kids gain confidence"
+          ]
+        },
+        "stats": {
+          "attention": { "value": "Less arguing", "label": "because it feels fun" },
+          "learning": { "value": "Measurable growth", "label": "not just time spent" },
+          "parents": { "value": "Parent clarity", "label": "without interrupting" }
+        }
+      },
+      "whatKidsDo": {
+        "badge": "Inside the kid experience",
+        "title": "What kids actually do in Kidventure",
+        "subtitle": "Every section is built around one idea: if it doesn't create engagement + learning together, it doesn't belong here.",
+        "cards": {
+          "1": { "title": "Interactive Stories", "body": "Kids don't just read—they choose, respond, and unlock meaning. Stories quietly build reading fluency, vocabulary, and comprehension.", "detail": "Hooked by fun. Powered by skills." },
+          "2": { "title": "Learning Games", "body": "Fast missions that train problem-solving, logic, and focus—without the child feeling like they're studying.", "detail": "Tiny wins → stronger habits." },
+          "3": { "title": "Creative Studio", "body": "A space to draw and express. Creativity supports language, confidence, and emotional expression—while keeping engagement meaningful.", "detail": "Creation beats consumption." },
+          "4": { "title": "Rewards & Milestones", "body": "Badges, XP, levels, milestones—kids feel progress. Parents see progress. Motivation becomes a routine.", "detail": "Reward effort, build confidence." }
+        }
+      },
+      "emotionalAnchor": {
+        "badge": "Peace of mind for parents",
+        "title": "A calmer home starts with screen time you trust",
+        "subtitle": "Kidventure is built to reduce daily tension: no guilt, no guessing, no chaos—just a safe learning habit kids enjoy.",
+        "quote": "When your child asks for one more mission—and you say yes with confidence—that's the Kidventure difference.",
+        "features": [
+          { "icon": "brain", "text": "Focus-friendly design that trains thinking over time" },
+          { "icon": "heart", "text": "Positive reinforcement that builds confidence daily" },
+          { "icon": "star", "text": "Small wins that keep motivation high without pressure" },
+          { "icon": "target", "text": "Clear goals and progress so learning feels meaningful" }
+        ]
+      },
+      "aiSection": {
+        "badge": "AI that supports learning (with guardrails)",
+        "title": "Smarter learning, personalized for every child",
+        "subtitle": "Our AI keeps kids in the sweet spot: not bored, not frustrated—just engaged. And everything stays learning-first, safe, and age-appropriate.",
+        "cards": {
+          "1": { "title": "Adaptive difficulty", "body": "Activities adjust naturally to the child's level so they stay motivated and confident." },
+          "2": { "title": "Guided curiosity", "body": "Kids get nudges that encourage questions, thinking, and exploration—without distracting noise." },
+          "3": { "title": "Progress you can measure", "body": "AI turns interaction into insights: patterns, strengths, weak spots, and growth over time." }
+        },
+        "note": "Built for families: safe by design, learning-first by default."
+      },
+      "v2": {
+        "aria": { "home": "Home page" },
+        "hero": {
+          "badge": "AI-Powered Learning Platform",
+          "titleA": "Where Learning Becomes an",
+          "titleB": "Adventure",
+          "description": "An intelligent learning ecosystem that connects children and parents through interactive experiences, guided progress tracking, and AI-powered support.",
+          "ctaPrimary": "Download App",
+          "ctaSecondary": "Watch Demo",
+          "statsAria": "Key benefits",
+          "stats": {
+            "1": { "title": "Purposeful screen time", "body": "Learning with real outcomes" },
+            "2": { "title": "Parent visibility", "body": "Stay informed without interrupting" },
+            "3": { "title": "Safe by design", "body": "Structured, age-appropriate, guided" }
+          },
+          "mockup": {
+            "time": "9:41",
+            "welcomeTitle": "Let's Explore!",
+            "welcomeSubtitle": "Choose your adventure",
+            "cards": {
+              "1": { "title": "Interactive Stories", "body": "New stories to explore" },
+              "2": { "title": "Learning Games", "body": "Play-and-learn challenges" },
+              "3": { "title": "Creative Studio", "body": "Draw, build, express" }
+            },
+            "progress": { "title": "Today's Progress", "body": "3 of 5 activities completed" }
+          }
+        },
+        "parentDashboard": {
+          "badge": "Parent Dashboard",
+          "title": "Stay connected to your child's learning",
+          "subtitle": "Get a clear, organized view of progress—without interrupting your child's experience.",
+          "bullets": {
+            "1": { "title": "Clear progress reports", "body": "See milestones and improvement over time." },
+            "2": { "title": "Activity history", "body": "Understand what your child explored and when." },
+            "3": { "title": "Learning insights", "body": "Spot strengths, gaps, and engagement patterns." },
+            "4": { "title": "Safe and guided", "body": "You stay in control of the learning journey." }
+          },
+          "cta": "Log in to Dashboard",
+          "mockup": {
+            "title": "Progress overview",
+            "range": "This week",
+            "chartTitle": "Daily activity",
+            "placeholderValue": "—",
+            "stats": {
+              "achievements": "Achievements",
+              "stories": "Stories completed",
+              "time": "Learning time"
+            }
+          },
+          "underNote": "Already set up? Log in to your Parent Dashboard →"
+        },
+        "days": { "mon": "Mon", "tue": "Tue", "wed": "Wed", "thu": "Thu", "fri": "Fri" },
+        "whyDownload": {
+          "badge": "Why download",
+          "title": "Why parents download Kidventure",
+          "intro": "Turn screen time into meaningful learning—while staying in control.",
+          "cards": {
+            "purpose": { "title": "Purposeful screen time", "body": "Learning with real outcomes—no guilt." },
+            "visibility": { "title": "Parent visibility", "body": "Stay informed without interrupting the child." },
+            "fun": { "title": "Fun meets learning", "body": "Playful experiences that build real skills." },
+            "safe": { "title": "Safe by design", "body": "Structured, age-appropriate, guided learning." }
+          }
+        },
+        "childLearn": {
+          "badge": "Outcomes",
+          "title": "What your child will learn",
+          "subtitle": "Not just activities—measurable growth.",
+          "note": "Not just activities—measurable growth.",
+          "skills": {
+            "reading": { "title": "Reading & storytelling", "body": "Build language skills through interactive stories." },
+            "critical": { "title": "Critical thinking", "body": "Practice reasoning and making smart choices." },
+            "problem": { "title": "Problem solving", "body": "Tackle challenges with logic and persistence." },
+            "curiosity": { "title": "Curiosity & exploration", "body": "Stay curious through guided discovery." },
+            "creativity": { "title": "Creativity & expression", "body": "Express ideas through playful creation." },
+            "confidence": { "title": "Confidence & motivation", "body": "Feel proud, stay motivated, keep going." }
+          }
+        },
+        "howFeels": {
+          "badge": "Experience",
+          "title": "How learning feels",
+          "subtitle": "Safe, fun, pressure-free learning for every child.",
+          "highlight": "Designed to keep children engaged—without burnout.",
+          "cards": {
+            "play": { "title": "Learning feels like play", "body": "Gamified, interactive learning loops." },
+            "reward": { "title": "Curiosity is rewarded", "body": "Positive reinforcement builds confidence." },
+            "noPressure": { "title": "No pressure, no exams", "body": "Stress-free learning that feels natural." },
+            "atPace": { "title": "Progress at their pace", "body": "Supports different speeds and styles." }
+          }
+        },
+        "howItWorks": {
+          "badge": "Setup",
+          "title": "How it works — start in minutes",
+          "subtitle": "A simple flow for busy families.",
+          "steps": {
+            "1": { "title": "Download Kidventure on mobile", "body": "Create the child account inside the mobile app." },
+            "2": { "title": "Your child learns on mobile", "body": "Stories, games, and activities in a daily learning loop." },
+            "3": { "title": "Parents log in on the website", "body": "Use the same account to view the dashboard and progress." }
+          },
+          "noteTitle": "One account. Two experiences.",
+          "noteBody": "Your child learns independently while you stay informed.",
+          "ctaDownload": "Download App",
+          "ctaLogin": "Log in"
+        },
+        "testimonials": {
+          "badge": "Social proof",
+          "title": "Loved by families",
+          "subtitle": "Built with education in mind. Designed for real life.",
+          "role": "Parent",
+          "verified": "Verified",
+          "cards": {
+            "1": "My child enjoys the activities, and I love seeing progress without making it feel like homework.",
+            "2": "Setup was simple. The app keeps learning fun, and the dashboard helps me stay involved.",
+            "3": "It feels calm and safe. My child learns independently while I stay updated."
+          }
+        },
+        "trust": {
+          "badge": "Trust & Safety",
+          "title": "Trust & Safety",
+          "subtitle": "Peace of mind built in—simple, clear, and parent-friendly.",
+          "cards": {
+            "childFirst": { "title": "Child-first experience", "body": "Designed to be safe, clear, and age-appropriate." },
+            "visibility": { "title": "Parent visibility & monitoring", "body": "Stay informed through progress and activity history." },
+            "privacy": { "title": "Privacy protected", "body": "Your data is handled with care and clear defaults." },
+            "secureAccess": { "title": "Secure account access", "body": "Login and access designed to stay protected." }
+          }
+        },
+        "preview": {
+          "badge": "Quick preview",
+          "title": "Quick Preview",
+          "subtitle": "See what children do on mobile and what you see on the dashboard.",
+          "tabs": {
+            "aria": "Preview tabs",
+            "mobile": "Mobile App",
+            "dashboard": "Parent Dashboard"
+          },
+          "mobile": {
+            "tiles": { "stories": "Stories", "games": "Games", "drawing": "Drawing" }
+          },
+          "dashboard": {
+            "tiles": {
+              "reports": "Reports",
+              "milestones": "Milestones",
+              "activity": "Activity history",
+              "insights": "Insights",
+              "profiles": "Profiles",
+              "subscription": "Subscription status"
+            }
+          }
+        },
+        "download": {
+          "badge": "Download",
+          "title": "Download Kidventure",
+          "subtitle": "Start on mobile. Track progress on web.",
+          "qrLabel": "QR code placeholder",
+          "qrText": "Scan to download",
+          "reassurance": "Set up in under 2 minutes",
+          "appStore": "App Store",
+          "appStoreSub": "iPhone & iPad",
+          "playStore": "Google Play",
+          "playStoreSub": "Android devices",
+          "loginLink": "Already set up? Log in on the web"
+        },
+        "faq": {
+          "badge": "FAQ",
+          "title": "Quick questions",
+          "subtitle": "Short answers for parents.",
+          "q1": { "q": "How do parents track progress?", "a": "Parents log in to the website using the same account, then view progress summaries and activity history." },
+          "q2": { "q": "Is Kidventure safe for kids?", "a": "Yes. It's built child-first, with parent visibility for real peace of mind." },
+          "q3": { "q": "Can I use the same account on mobile and web?", "a": "Yes—create the child account in the app, then use the same login on the website." }
+        },
+        "final": {
+          "title": "Start your child's learning adventure today",
+          "subtitle": "Made for families. Built for meaningful growth.",
+          "ctaDownload": "Download App",
+          "ctaLogin": "Log in",
+          "note": "Start on mobile. Track progress on web."
+        }
+      }
+    },
+    "whyKidventure": {
+      "cover": {
+        "emoji": "🏆",
+        "title": "Why Kidventure",
+        "subtitle": "A smarter way for children to use screen time",
+        "tagline": "Fun for kids. Peace of mind for parents.",
+        "cta": "Open the Story",
+        "ctaSub": "Discover why families choose Kidventure",
+        "stars": ["🏆", "⭐", "🌟", "🎯", "💎", "🚀", "🎖️", "✨"]
+      },
+      "problem": {
+        "chapterTag": "Chapter One",
+        "chapterNum": "01",
+        "title": "Screens are everywhere",
+        "titleLine2": "but they should help children grow",
+        "stat1Value": "Many hours",
+        "stat1Label": "Daily screen time",
+        "stat2Value": "Mostly passive",
+        "stat2Label": "Watching and scrolling",
+        "stat3Value": "Too little",
+        "stat3Label": "Real learning value",
+        "body1": "Phones and tablets are part of modern childhood. For many families, screen time is already a daily habit.",
+        "body2": "The real problem is not the screen itself. The problem is when children spend hours watching and scrolling without learning anything useful.",
+        "quote": "The goal is not less screen time. The goal is better screen time.",
+        "quoteAuthor": "Kidventure Vision",
+        "imgAlt": "Children using tablets illustration",
+        "imgHint": "A challenge many families face today",
+        "ach1": "Too much passive watching",
+        "ach2": "Not enough real learning"
+      },
+      "bigIdea": {
+        "chapterTag": "Chapter Two",
+        "chapterNum": "02",
+        "title": "What if screen time could become",
+        "titleHighlight": "learning time?",
+        "body1": "Kidventure turns screen time into an active learning experience children actually enjoy.",
+        "body2": "Instead of endless entertainment, children explore stories, play smart games, create, and earn rewards while building real skills.",
+        "features": {
+          "stories": "Interactive Stories",
+          "brain": "Learning Games",
+          "creative": "Creative Missions",
+          "rewards": "Stars & Rewards"
+        },
+        "pillars": {
+          "stories": "Interactive Stories",
+          "storiesDesc": "Stories that make reading feel exciting, fun, and easy to enjoy.",
+          "brain": "Learning Games",
+          "brainDesc": "Short challenges that build focus, thinking, and problem solving.",
+          "creative": "Creative Missions",
+          "creativeDesc": "Fun activities that let children draw, explore, and express ideas.",
+          "rewards": "Rewards & Progress",
+          "rewardsDesc": "Stars and badges that keep children motivated to keep going."
+        },
+        "ach1": "Learning feels fun",
+        "ach2": "Curiosity grows naturally",
+        "ach3": "Children stay engaged longer"
+      },
+      "philosophy": {
+        "chapterTag": "Chapter Three",
+        "chapterNum": "03",
+        "title": "Children learn best",
+        "titleLine2": "when they feel curious and confident",
+        "body1": "When learning feels heavy, children lose interest. When it feels playful, they want more.",
+        "body2": "Kidventure is designed to make learning feel simple, exciting, and rewarding instead of stressful.",
+        "body3": "That is how stronger habits begin and real confidence grows.",
+        "values": {
+          "explore": "Explore",
+          "exploreDesc": "Children discover new ideas through playful and guided learning.",
+          "create": "Create",
+          "createDesc": "Children draw, imagine, and express themselves in meaningful ways.",
+          "grow": "Grow",
+          "growDesc": "Small daily progress helps children build stronger habits over time.",
+          "celebrate": "Celebrate",
+          "celebrateDesc": "Every step forward feels rewarding and worth being proud of."
+        },
+        "ach1": "Curiosity becomes a habit",
+        "ach2": "Confidence grows with every win"
+      },
+      "insideApp": {
+        "chapterTag": "Chapter Four",
+        "chapterNum": "04",
+        "title": "Inside the Kidventure experience",
+        "subtitle": "A fun learning world built to keep children interested.",
+        "features": {
+          "stories": "Interactive Stories",
+          "storiesDesc": "Children enjoy stories that build reading, understanding, and attention.",
+          "games": "Learning Games",
+          "gamesDesc": "Short games make thinking, logic, and focus feel fun.",
+          "studio": "Creative Studio",
+          "studioDesc": "A space where children can draw, imagine, and express ideas.",
+          "rewards": "Rewards & Milestones",
+          "rewardsDesc": "Progress becomes visible through stars, badges, and small wins."
+        },
+        "imgAlt": "Kidventure mobile app screen",
+        "imgHint": "A preview of the child learning experience inside the app",
+        "ach1": "Children stay interested",
+        "ach2": "Creativity becomes part of learning",
+        "ach3": "Progress feels exciting"
+      },
+      "parents": {
+        "chapterTag": "Chapter Five",
+        "chapterNum": "05",
+        "title": "Parents stay connected",
+        "titleLine2": "while children explore",
+        "body1": "Kidventure gives parents something they rarely get from children's apps: clarity.",
+        "features": {
+          "track": "Track real progress",
+          "trackDesc": "See how your child improves over time in a simple and clear way.",
+          "time": "Understand screen time",
+          "timeDesc": "Know how digital time is being used in a more meaningful way.",
+          "safe": "Feel more secure",
+          "safeDesc": "A learning experience built to feel safer and more trustworthy.",
+          "insight": "Get useful insights",
+          "insightDesc": "Understand strengths, progress, and learning patterns more easily."
+        },
+        "testimonial": "For the first time, screen time feels helpful instead of worrying.",
+        "testimonialAuthor": "Parent Review",
+        "imgAlt": "Parent dashboard interface preview",
+        "imgHint": "A simple dashboard built for parents",
+        "ach1": "Parents feel more confident",
+        "ach2": "Progress becomes easy to follow"
+      },
+      "vision": {
+        "chapterTag": "Final Chapter",
+        "chapterNum": "06",
+        "title": "We believe learning should feel",
+        "titleHighlight": "like something children want",
+        "titleEnd": "every single day",
+        "body1": "Technology will always be part of children's lives.",
+        "body2": "The real question is how families choose to use it.",
+        "body3": "Kidventure helps turn screen time into something meaningful, useful, and easier to feel good about.",
+        "stats": {
+          "kids": "Better Screen Time",
+          "kidsLabel": "Learning with purpose",
+          "countries": "Built for Families",
+          "countriesLabel": "Designed for real life",
+          "rating": "Learning Through Play",
+          "ratingLabel": "Fun that builds skills",
+          "missions": "Parent Confidence",
+          "missionsLabel": "Clear progress for families"
+        },
+        "ctaApp": "Download App",
+        "ctaDashboard": "Parent Dashboard",
+        "ctaLearn": "Learn More",
+        "ach1": "Built for curious children",
+        "ach2": "Made for modern families",
+        "ach3": "Designed for real progress",
+        "ach4": "A better way to use technology"
+      },
+      "final": {
+        "badge": "The Kidventure Promise",
+        "title": "Why families choose Kidventure",
+        "subtitle": "Because screen time should help children grow.",
+        "imgAlt": "Happy child holding a tablet",
+        "points": {
+          "1": { "key": "Learning", "val": "Children build real skills through fun and active experiences." },
+          "2": { "key": "Fun", "val": "Kids enjoy coming back because learning feels exciting." },
+          "3": { "key": "Progress", "val": "Parents can clearly see growth and improvement over time." },
+          "4": { "key": "Trust", "val": "Families feel better about the time children spend on screens." }
+        }
+      },
+      "nav": { "prev": "Previous Page", "next": "Next Page", "pageOf": "Page" },
+      "exp": {
+        "title": "What children actually experience",
+        "sub": "Kidventure replaces passive watching with active learning that feels fun from the child's side and meaningful from the parent's side.",
+        "notThis": "Not this",
+        "butThis": "But this",
+        "pair1Before": "Endless scrolling",
+        "pair1After": "Interactive learning",
+        "pair2Before": "Fast entertainment",
+        "pair2After": "Confidence and useful skills",
+        "pair3Before": "Screen time with no value",
+        "pair3After": "Learning parents trust"
+      },
+      "intent": {
+        "mantra1": "Technology can do more than entertain.",
+        "mantra2": "It can help children learn and grow.",
+        "mantraAccent": "That is the idea behind Kidventure.",
+        "sub": "Every feature is designed to make screen time more meaningful for children and easier for parents to feel good about.",
+        "p1Title": "Learning first",
+        "p1Body": "Every activity is built to support real growth, not just attention.",
+        "p2Title": "Designed for focus",
+        "p2Body": "Simple and engaging experiences help children stay involved.",
+        "p3Title": "Motivation that matters",
+        "p3Body": "Rewards encourage effort, progress, and the desire to continue.",
+        "p4Title": "Built with purpose",
+        "p4Body": "Children explore inside a guided experience that still feels fun."
+      },
+      "belief": {
+        "title": "The kind of screen time we believe in",
+        "sub": "Screen time should feel useful, rewarding, and worth it for the whole family.",
+        "item1Tag": "Active learning",
+        "item1Title": "Children should think, choose, and explore",
+        "item1Body": "The best digital experiences are not passive. They invite children to participate and stay mentally involved.",
+        "item1ImgHint": "Active learning instead of passive watching",
+        "item1b1": "More interaction",
+        "item1b2": "More curiosity",
+        "item1b3": "Stronger attention",
+        "item2Tag": "Fun with purpose",
+        "item2Title": "Play should lead to real growth",
+        "item2Body": "Children deserve experiences that feel exciting while still helping them build real skills and stronger habits.",
+        "item2ImgHint": "Fun that supports progress",
+        "item2b1": "Rewards for effort",
+        "item2b2": "Progress children can feel",
+        "item2b3": "Learning that stays enjoyable",
+        "item3Tag": "Parent clarity",
+        "item3Title": "Parents should know what screen time is doing",
+        "item3Body": "A learning platform should help parents feel informed, reassured, and confident about what their child is experiencing.",
+        "item3ImgHint": "Clearer visibility for families",
+        "item3b1": "Clear progress",
+        "item3b2": "Better decisions",
+        "item3b3": "More peace of mind"
+      },
+      "story": {
+        "question": "Why did we build",
+        "questionEm": "Kidventure?",
+        "sub": "Because children already love screens. We wanted to give families a better way to use that time.",
+        "mediaHint": "A better idea for children, parents, and technology",
+        "n1Label": "The problem",
+        "n1Title": "Too much screen time with too little value",
+        "n1Body": "A lot of digital content keeps children busy, but teaches very little.",
+        "n2Label": "The idea",
+        "n2Title": "Learning works better when children enjoy it",
+        "n2Body": "When experiences feel playful and rewarding, children stay engaged much longer.",
+        "n3Label": "The solution",
+        "n3Title": "A platform children enjoy and parents trust",
+        "n3Body": "Kidventure was created to feel exciting for children and reassuring for families.",
+        "n4Label": "The mission",
+        "n4Title": "Give screen time a better purpose",
+        "n4Body": "Our goal is simple: better habits, stronger skills, and more confident families.",
+        "ctaTitle": "Ready to start your child's Kidventure journey?"
+      },
+      "wingFloaters": ["🏆", "⭐", "🎖️", "🌟", "💎", "🚀", "🎯", "✨", "🥇", "💫"],
+      "particleFloaters": ["⭐", "🌟", "✨", "💫", "⚡", "🔥", "💎", "🎯", "🏆", "🎖️"]
+    },
+"features": {
+    "hero": {
+      "eyebrow": "KidVenture Platform",
+      "live": "LIVE",
+      "titleLine1": "Learning Through",
+      "typewriterText": "Adventure & Play",
+      "paragraph": "KidVenture is a comprehensive, gamified educational platform built for primary school children aged 6 to 12. Twelve features, from curriculum-aligned games and a Gemini-powered chatbot to CNN drawing detection and interactive 3D models, make learning feel like the best part of the day.",
+      "strip": [
+        {
+          "v": "13",
+          "l": "Features"
+        },
+        {
+          "v": "90%",
+          "l": "AI Accuracy"
+        },
+        {
+          "v": "10",
+          "l": "Games"
+        },
+        {
+          "v": "6–12",
+          "l": "Ages"
+        }
+      ],
+      "exploreBtn": "Explore Features",
+      "overviewBtn": "Quick Overview",
+      "trustLabel": "Trusted by thousands of families across Egypt",
+      "heroAlt": "KidVenture App",
+      "chips": [
+        {
+          "l": "10 Fun Games"
+        },
+        {
+          "l": "AI Chatbot"
+        },
+        {
+          "l": "CNN Drawing"
+        }
+      ],
+      "badges": [
+        {
+          "label": "AI Powered"
+        },
+        {
+          "label": "Grade 1–6"
+        },
+        {
+          "label": "10 Games"
+        },
+        {
+          "label": "Curriculum"
+        },
+        {
+          "label": "Personalised"
+        }
+      ],
+      "pmsPowered": "AI Powered",
+      "pmsRating": "4.9 ★"
+    },
+    "ticker": {},
+    "overview": {
+      "label": "All 13 Features",
+      "heading": "Everything Your Child Needs in One App",
+      "subheading": "Tap any feature to jump straight to the full description and screenshots"
+    },
+    "items": {
+      "home": {
+        "name": "Home Dashboard",
+        "title": "Your Child's",
+        "accent": "Learning Home",
+        "tech": "Flutter UI",
+        "desc": "KidVenture opens on a single screen built for children aged 6 to 12. Every game, story, and lesson sits one tap away, inside a colourful dashboard kids genuinely want to open every day.",
+        "bullets": [
+          "A personal welcome with the child's name and current streak",
+          "Quick-access tiles to all 13 learning features in one view",
+          "Progress rings that show how far each module has come"
+        ],
+        "stat1": {
+          "v": "13",
+          "l": "Features on home"
+        },
+        "stat2": {
+          "v": "100%",
+          "l": "Built for kids"
+        },
+        "shotAlts": [
+          "Home dashboard"
+        ]
+      },
+      "stories": {
+        "name": "Interactive Stories",
+        "title": "Interactive",
+        "accent": "Story World",
+        "tech": "AI Narrative Engine",
+        "desc": "Children don't just read here, they decide what happens next. Branching stories turn every choice into a lesson in reading, empathy, and cause and effect.",
+        "bullets": [
+          "Branching plots with multiple endings that reward curiosity",
+          "Read-aloud narration with clear, native pronunciation",
+          "Every story tied to the Ministry of Education curriculum"
+        ],
+        "stat1": {
+          "v": "50+",
+          "l": "Story adventures"
+        },
+        "stat2": {
+          "v": "3×",
+          "l": "More engaged reading"
+        },
+        "shotAlts": [
+          "Story home screen showing featured tales",
+          "Story reader with illustrated scene",
+          "Character choice screen",
+          "Branching decision moment",
+          "Reading progress and badges",
+          "Story completion celebration screen"
+        ]
+      },
+      "chatbot": {
+        "name": "AI Chatbot",
+        "title": "AI Tutor,",
+        "accent": "Powered by Gemini",
+        "tech": "Gemini 3 Flash + RAG",
+        "desc": "A study buddy that actually knows the syllabus. Built on Google Gemini 3 Flash and grounded by a retrieval system trained on official Ministry of Education textbooks, so every answer stays accurate and age-appropriate.",
+        "bullets": [
+          "Answers grounded in real Ministry of Education materials",
+          "Switches naturally between Arabic and English mid-chat",
+          "Guardrails keep every reply on-topic, kind, and educational"
+        ],
+        "stat1": {
+          "v": "Gemini 3",
+          "l": "Flash powered"
+        },
+        "stat2": {
+          "v": "RAG",
+          "l": "Curriculum grounded"
+        },
+        "shotAlts": [
+          "AI chatbot conversation"
+        ]
+      },
+      "drawing": {
+        "name": "Drawing Detection",
+        "title": "A CNN That",
+        "accent": "Reads Drawings",
+        "tech": "Custom CNN Model",
+        "desc": "Kids draw, and a custom-trained neural network looks. Trained on thousands of real children's sketches, it recognises what was drawn with over 90% accuracy and turns it into encouraging feedback.",
+        "bullets": [
+          "Trained on thousands of real children's drawings",
+          "Over 90% recognition accuracy across 100+ categories",
+          "Feedback arrives instantly, written to motivate, not correct"
+        ],
+        "stat1": {
+          "v": "90%+",
+          "l": "Recognition accuracy"
+        },
+        "stat2": {
+          "v": "100+",
+          "l": "Drawing categories"
+        },
+        "shotAlts": [
+          "Drawing detection screen"
+        ]
+      },
+      "games": {
+        "name": "Educational Games",
+        "title": "A Game Library",
+        "accent": "Built to Cooperate",
+        "tech": "Cooperative Game Design",
+        "desc": "A set of curriculum-aligned games designed around cooperative play, so children are rewarded for teamwork and persistence rather than only for winning. Maths, science, Arabic, and English all become something to play, not just study.",
+        "bullets": [
+          "Games covering maths, science, Arabic, English, and social studies",
+          "Cooperative mechanics that favour teamwork over rivalry",
+          "Difficulty that adapts quietly to each child's pace"
+        ],
+        "stat1": {
+          "v": "10",
+          "l": "Educational games"
+        },
+        "stat2": {
+          "v": "5",
+          "l": "Subject areas"
+        },
+        "shotAlts": [
+          "Educational game 1",
+          "Educational game 2",
+          "Educational game 3",
+          "Educational game 4",
+          "Educational game 5",
+          "Educational game 6",
+          "Educational game 7",
+          "Educational game 8",
+          "Educational game 9",
+          "Educational game 10"
+        ]
+      },
+      "flashcards": {
+        "name": "Flashcards",
+        "title": "Cards That",
+        "accent": "Know When to Repeat",
+        "tech": "Spaced Repetition",
+        "desc": "A spaced-repetition system built for young memories. Cards resurface exactly when a child is about to forget them, so every short session counts.",
+        "bullets": [
+          "Spaced repetition tuned for the 6 to 12 age group",
+          "Voice-over support so pre-readers can use every set",
+          "Cards generated from the curriculum, or written by parents"
+        ],
+        "stat1": {
+          "v": "500+",
+          "l": "Ready-made sets"
+        },
+        "stat2": {
+          "v": "2×",
+          "l": "Faster recall"
+        },
+        "shotAlts": [
+          "Flashcard set 1",
+          "Flashcard set 2",
+          "Flashcard set 3"
+        ]
+      },
+      "mindmaps": {
+        "name": "Mind Maps",
+        "title": "Thinking,",
+        "accent": "Mapped Visually",
+        "tech": "Visual Learning",
+        "desc": "Some children think in pictures, not paragraphs. The mind-map builder lets kids connect ideas, colour-code topics, and see how concepts relate to one another.",
+        "bullets": [
+          "A drag-and-drop builder made for small fingers on a screen",
+          "Suggests related concepts automatically as a map grows",
+          "Exports as an image or PDF to share with a teacher"
+        ],
+        "stat1": {
+          "v": "∞",
+          "l": "Maps to build"
+        },
+        "stat2": {
+          "v": "40%",
+          "l": "Better recall"
+        },
+        "shotAlts": [
+          "Mind map 1",
+          "Mind map 2",
+          "Mind map 3",
+          "Mind map 4"
+        ]
+      },
+      "models3d": {
+        "name": "3D Models",
+        "title": "Spin It.",
+        "accent": "Understand It.",
+        "tech": "Flutter 3D Engine",
+        "desc": "Some ideas are easier to grasp in three dimensions. Children can rotate, zoom, and explore curriculum objects directly, turning a static diagram into something they can actually examine.",
+        "bullets": [
+          "Fully interactive — rotate and zoom any curriculum model",
+          "Covers biology, geography, physics, and history",
+          "Every model links back to its matching textbook chapter"
+        ],
+        "stat1": {
+          "v": "60+",
+          "l": "3D models"
+        },
+        "stat2": {
+          "v": "360°",
+          "l": "Fully interactive"
+        },
+        "shotAlts": [
+          "3D model viewer",
+          "3D model example"
+        ]
+      },
+      "hero_module": {
+  "name": "I'm My Own Hero",
+  "title": "Safety, Habits &",
+  "accent": "Good Values",
+  "tech": "Safety & Values",
+  "desc": "Six interactive sections that teach children how to stay safe, build healthy habits, and grow with strong values — through lessons, quizzes, and short videos they'll actually enjoy.",
+  "bullets": [
+    "6 sections covering safety, healthy habits, and Islamic values",
+    "Educational videos that make every lesson stick",
+    "Quizzes after each lesson to lock in the learning",
+    "Stars and badges that reward progress through every section",
+    "Simple language built for ages 6 to 12",
+    "Parent view to follow which sections the child has finished"
+  ],
+  "stat1": { "v": "6", "l": "Learning Sections" },
+  "stat2": { "v": "36+", "l": "Lessons & Quizzes" },
+  "shotAlts": [
+    "I'm My Own Hero home screen showing all 6 sections",
+    "Lesson screen with educational video player",
+    "Interactive quiz with animated characters",
+    "Section completion screen with badge reward"
+  ]
+},
+      "progress": {
+        "name": "Progress Tracking",
+        "title": "One View.",
+        "accent": "Every Feature.",
+        "tech": "Unified Analytics",
+        "desc": "A single dashboard for parents and children to see growth across all 13 features, from quiz scores and game levels to drawings submitted and flashcard streaks kept alive.",
+        "bullets": [
+          "Live analytics unified across every feature of the app",
+          "A weekly progress summary sent to parents by email",
+          "Goal-setting tools so children can track their own wins"
+        ],
+        "stat1": {
+          "v": "13",
+          "l": "Features tracked"
+        },
+        "stat2": {
+          "v": "Weekly",
+          "l": "Parent reports"
+        },
+        "shotAlts": [
+          "Progress tracking dashboard"
+        ]
+      },
+      "leaderboard": {
+        "name": "Leaderboard",
+        "title": "Ranked by",
+        "accent": "Effort, Not Luck",
+        "tech": "Gamification Engine",
+        "desc": "The leaderboard rewards consistency over raw scores. A child who shows up every day climbs faster than one who plays once and scores high, so every position is genuinely earned.",
+        "bullets": [
+          "Rankings driven by streaks, effort, and collaboration",
+          "Class, school, and national boards for healthy competition",
+          "Anti-cheat design that keeps the ranking honest"
+        ],
+        "stat1": {
+          "v": "Top 3",
+          "l": "Featured weekly"
+        },
+        "stat2": {
+          "v": "85%",
+          "l": "Higher return rate"
+        },
+        "shotAlts": [
+          "Leaderboard screen"
+        ]
+      },
+      "settings": {
+        "name": "Parent Settings",
+        "title": "Full Control,",
+        "accent": "For Parents",
+        "tech": "Parental Controls",
+        "desc": "Screen-time limits, content filters, and subscription management, all in one clean panel built for parents who don't have time to dig through menus.",
+        "bullets": [
+          "Daily screen-time limits that lock automatically at the cap",
+          "Content filters by age band: 6–8, 9–10, and 11–12",
+          "Multiple child profiles under a single parent account"
+        ],
+        "stat1": {
+          "v": "100%",
+          "l": "Parent controlled"
+        },
+        "stat2": {
+          "v": "COPPA",
+          "l": "Privacy compliant"
+        },
+        "shotAlts": [
+          "Parental settings screen"
+        ]
+      },
+      "homewidget": {
+        "name": "Home Screen Widget",
+        "title": "Learning,",
+        "accent": "Before You Even Open It",
+        "tech": "Native Flutter Widget",
+        "desc": "A native widget puts today's challenge, the current streak, and the next lesson right on the home screen, so there's no need to open the app to know what's next.",
+        "bullets": [
+          "A native widget for both Android and iOS home screens",
+          "Shows today's challenge, current streak, and next lesson",
+          "Updates live as the child finishes activities through the day"
+        ],
+        "stat1": {
+          "v": "Live",
+          "l": "Home screen widget"
+        },
+        "stat2": {
+          "v": "iOS + Android",
+          "l": "Both platforms"
+        },
+        "shotAlts": [
+          "Home screen widget"
+        ]
+      }
+    },
+    "stats": {
+      "label": "By the Numbers",
+      "heading": "Built with Purpose,",
+      "headingLine2": "Measured by Impact",
+      "subheading": "Every number here reflects a deliberate design decision: curriculum alignment, AI precision, cooperative game mechanics, and genuine engagement built for Egyptian primary school children.",
+      "downloadBtn": "Download Free",
+      "cards": [
+        {
+          "raw": "13",
+          "label": "Learning Features"
+        },
+        {
+          "raw": "90",
+          "label": "AI Drawing Accuracy %"
+        },
+        {
+          "raw": "10",
+          "label": "Educational Games"
+        },
+        {
+          "raw": "4",
+          "label": "App Store Rating ★"
+        }
+      ]
+    },
+    "faq": {
+      "label": "Common Questions",
+      "heading": "Everything parents ",
+      "headingHighlight": "want to know",
+      "subheading": "From curriculum alignment and child safety to offline access and AI accuracy, here are the questions parents ask most.",
+      "boxText": "Still have a question? Our team typically replies within 24 hours.",
+      "contactBtn": "Contact Us",
+      "items": [
+        {
+          "q": "What age group is KidVenture designed for?",
+          "a": "KidVenture is built specifically for primary school children aged 6 to 12. Every feature, from font sizes and layout to the complexity of games and stories, is calibrated for this age band. Parents can fine-tune content further using the three age filters inside Settings: 6–8, 9–10, and 11–12."
+        },
+        {
+          "q": "Is the content aligned with the Egyptian school curriculum?",
+          "a": "Yes. Every piece of content, from flashcards and mind maps to game questions and chatbot answers, is aligned with the Egyptian Ministry of Education curriculum for Grades 1 through 6. The chatbot's RAG system is trained directly on official Ministry textbooks."
+        },
+        {
+          "q": "How does the AI Drawing Detection work?",
+          "a": "A custom Convolutional Neural Network was trained on thousands of real children's drawings across more than 100 categories. When a child draws, the model analyses the sketch in under two seconds and returns encouraging, educational feedback, with over 90% recognition accuracy."
+        },
+        {
+          "q": "What is the I'm My Own Hero module?",
+          "a": "I'm My Own Hero is a dedicated safety and values module made up of 6 sections. Each section contains lessons, quizzes, and short educational videos that teach children good personal habits, safety awareness, and positive religious values — all presented in a gamified, age-appropriate way."
+        },
+        {
+          "q": "Is KidVenture safe for children to use unsupervised?",
+          "a": "Yes. The AI chatbot has strict guardrails that prevent off-topic responses, and all content is reviewed before it reaches the app. There are no ads, no in-app purchases visible to children, and no social features that expose children to strangers."
+        },
+        {
+          "q": "Can I use KidVenture offline?",
+          "a": "Core features like downloaded stories, saved flashcard sets, and stored mind maps work offline. AI-powered features such as the chatbot and drawing detection need an internet connection. Offline support is expanding with each release."
+        },
+        {
+          "q": "How does the Leaderboard encourage healthy competition?",
+          "a": "The leaderboard ranks children on effort, consistency, and collaboration rather than raw scores alone. A child who completes daily tasks every day climbs faster than one who plays once and scores high, because persistence is worth more than luck here."
+        },
+        {
+          "q": "Is KidVenture available on both Android and iOS?",
+          "a": "Yes. KidVenture is a Flutter application available on both platforms. Download links for Android and iOS are on the Download page. The current release is a public beta, and feedback from parents, teachers, and schools is genuinely welcome."
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Start Your Child's ",
+      "headingEm": "Learning Adventure",
+      "paragraph": "Download KidVenture today and unlock AI-powered learning, 10 curriculum-aligned games, CNN drawing detection, interactive 3D models, the I'm My Own Hero safety module, and much more — all in one app, free to start.",
+      "getAppBtn": "Get The App",
+      "signInBtn": "Sign In",
+      "pills": [
+        "Free to Start",
+        "No Ads for Children",
+        "Ministry Aligned"
+      ],
+      "phoneAlt": "KidVenture"
+    },
+    "buttons": {
+      "nextFeature": "Next Feature",
+      "getKidVentureFree": "Get KidVenture Free"
+    },
+    "videos": {
+      "label": "See It In Action",
+      "heading": "Watch KidVenture Come to Life",
+      "subheading": "Real gameplay, real lessons, real moments — four quick looks at how children learn and play inside KidVenture.",
+      "items": [
+        {
+          "id": "gameplay",
+          "title": "Cooperative Game Demo",
+          "desc": "A live look at one of the 10 curriculum-aligned games, built around teamwork instead of rivalry.",
+          "tag": "Gameplay",
+          "thumbAlt": "Cooperative game demo video thumbnail"
+        },
+        {
+          "id": "drawing-ai",
+          "title": "AI Drawing Detection in Action",
+          "desc": "Watch the custom CNN recognise a child's sketch in real time and respond with encouraging feedback.",
+          "tag": "AI Demo",
+          "thumbAlt": "AI drawing detection demo video thumbnail"
+        },
+        {
+          "id": "chatbot-demo",
+          "title": "Chatting with the AI Tutor",
+          "desc": "A short conversation showing how the Gemini-powered chatbot answers curriculum questions in Arabic and English.",
+          "tag": "AI Demo",
+          "thumbAlt": "AI chatbot demo video thumbnail"
+        },
+        {
+          "id": "app-marketing",
+          "title": "KidVenture — App Overview",
+          "desc": "A quick marketing tour through all 13 features, from the home dashboard to the I'm My Own Hero safety module.",
+          "tag": "Marketing",
+          "thumbAlt": "KidVenture app marketing video thumbnail"
+        }
+      ]
+    }
+  },
+    "pricing": {
+      "hero": {
+        "eyebrow": "Simple, Transparent Pricing",
+        "titleA": "Invest in Your",
+        "titleB": "Child's Future",
+        "desc": "Start free, upgrade when ready. Every plan unlocks a world of AI-powered learning adventures built for children aged 6–8.",
+        "currency": "💵 All prices in Egyptian Pounds (EGP)"
+      },
+      "toggle": {
+        "monthly": "Monthly",
+        "yearly": "Yearly",
+        "saveLabel": "Save up to 24%",
+        "savePill": "Best Value"
+      },
+      "plans": {
+        "free": {
+          "name": "Explorer",
+          "tagline": "Try the adventure — no card needed",
+          "pricePeriod": "forever free",
+          "cta": "Start for Free",
+          "f1": "Access to 5 interactive stories",
+          "f2": "Basic drawing canvas",
+          "f3": "3 educational mini-games",
+          "f4": "10 flashcard sets",
+          "f5": "AI Chatbot tutor (limited)",
+          "f6": "Parental dashboard",
+          "f7": "3D model explorer",
+          "f8": "Mind map generator",
+          "f9": "Progress reports"
+        },
+        "premium": {
+          "name": "Adventurer",
+          "tagline": "The full learning experience, unleashed",
+          "pricePeriod": "/ month",
+          "yearlyNote": "Billed annually — save 92 EGP",
+          "badge": "Most Popular",
+          "cta": "Start 7-Day Free Trial",
+          "f1": "Unlimited interactive stories",
+          "f2": "Full creative studio + coloring pages",
+          "f3": "All 20+ educational games",
+          "f4": "Unlimited flashcard sets",
+          "f5": "AI Chatbot tutor — no limits",
+          "f6": "Parental monitoring dashboard",
+          "f7": "3D model explorer",
+          "f8": "Mind map generator",
+          "f9": "Weekly progress reports"
+        },
+        "school": {
+          "name": "School",
+          "tagline": "Empower entire classrooms with AI",
+          "priceLabel": "Custom",
+          "priceNote": "Per school · based on student count",
+          "cta": "Contact Sales",
+          "f1": "Everything in Adventurer",
+          "f2": "Bulk student accounts",
+          "f3": "Teacher & admin panel",
+          "f4": "Curriculum-aligned content",
+          "f5": "Class-level analytics",
+          "f6": "Dedicated onboarding support",
+          "f7": "Custom branding options",
+          "f8": "Priority 24/7 support",
+          "f9": "SLA & data compliance"
+        }
+      },
+      "compare": {
+        "eyebrow": "Feature Comparison",
+        "titleA": "Everything You Get",
+        "titleB": "at a Glance",
+        "sub": "Compare plans side-by-side to find the perfect fit for your child or school.",
+        "featureCol": "Features",
+        "r1": "Interactive Stories", "r1_free": "5 stories", "r1_premium": "Unlimited", "r1_school": "Unlimited + custom",
+        "r2": "AI Chatbot Tutor", "r2_free": "10 msgs/day", "r2_premium": "Unlimited", "r2_school": "Unlimited",
+        "r3": "Educational Games", "r3_free": "3 games", "r3_premium": "20+ games", "r3_school": "20+ games",
+        "r4": "Creative Drawing Studio", "r4_free": "Basic", "r4_premium": "Full", "r4_school": "Full",
+        "r5": "Flashcard Sets", "r5_free": "10 sets", "r5_premium": "Unlimited", "r5_school": "Unlimited",
+        "r6": "Mind Map Generator",
+        "r7": "3D Model Explorer",
+        "r8": "Parental Dashboard",
+        "r9": "Progress Reports", "r9_premium": "Weekly", "r9_school": "Real-time",
+        "r10": "Teacher / Admin Panel",
+        "r11": "Priority Support", "r11_school": "24/7 SLA"
+      },
+      "how": {
+        "eyebrow": "Getting Started",
+        "titleA": "Up & Running",
+        "titleB": "in 4 Steps",
+        "sub": "From sign-up to your child's first adventure in under 2 minutes.",
+        "n1": "01", "t1": "Create Your Account", "d1": "Sign up as a parent in seconds — no credit card required for the free plan.",
+        "n2": "02", "t2": "Set Up Child's Profile", "d2": "Enter your child's grade and interests. Kidventure adapts the content automatically.",
+        "n3": "03", "t3": "Choose Your Plan", "d3": "Start free or unlock the full adventure with our Adventurer plan — cancel anytime.",
+        "n4": "04", "t4": "Start Learning & Playing", "d4": "Your child dives into stories, games, and AI-guided lessons — instantly."
+      },
+      "stats": {
+        "val1": "3,200+", "lbl1": "Free Users",
+        "val2": "49 EGP", "lbl2": "Monthly Plan",
+        "val3": "449 EGP", "lbl3": "Yearly Plan",
+        "val4": "Month 9", "lbl4": "Break-Even Point"
+      },
+      "test": {
+        "eyebrow": "What Families Say",
+        "titleA": "Loved by",
+        "titleB": "Parents & Educators",
+        "t1": "My daughter asks to use Kidventure every day. The AI tutor explains things in a way she actually understands. Worth every piaster.",
+        "n1": "Nour El-Sayed", "r1": "Parent of a Grade 2 student", "p1": "Adventurer",
+        "t2": "We integrated Kidventure into our classroom and the difference in engagement was immediate. The dashboard makes tracking progress effortless.",
+        "n2": "Mr. Ahmed Kamal", "r2": "Grade 1 Teacher, Cairo", "p2": "School",
+        "t3": "Finally an app that combines creativity and education. My son built his first mind map at age 7 — I was blown away.",
+        "n3": "Rania Mostafa", "r3": "Parent of a Grade 3 student", "p3": "Adventurer"
+      },
+      "faq": {
+        "eyebrow": "FAQ",
+        "titleA": "Common",
+        "titleB": "Questions",
+        "sub": "Have more questions? Reach out — we respond within 24 hours.",
+        "stillQuestion": "Still have a question? We'd love to help.",
+        "contactUs": "Contact Support",
+        "q1": "Is the free plan really free, forever?", "a1": "Yes! The Explorer plan is completely free with no credit card required. You get access to 5 stories, 3 games, and limited AI tutoring with no time limit.",
+        "q2": "Can I cancel my subscription at any time?", "a2": "Absolutely. You can cancel your monthly or yearly subscription at any time from your account settings. No penalties, no questions asked.",
+        "q3": "Is Kidventure safe for my child?", "a3": "Child safety is our top priority. All content is age-appropriate (6–8 years), the AI chatbot is filtered and monitored, and we never share your child's data with third parties.",
+        "q4": "What devices does Kidventure work on?", "a4": "Kidventure is available on iOS and Android smartphones and tablets. The parental dashboard is accessible from any web browser on desktop or mobile.",
+        "q5": "How does the yearly plan save me money?", "a5": "The yearly plan is priced at 449 EGP — equivalent to about 37 EGP/month — saving you 92 EGP compared to paying monthly (49 EGP × 12 = 588 EGP).",
+        "q6": "How does school pricing work?", "a6": "School pricing is customized based on the number of students and required features. Contact our sales team and we will create a tailored proposal, typically within 48 hours.",
+        "q7": "Does my child need internet to use Kidventure?", "a7": "An internet connection is required for the AI chatbot and syncing progress. Core games and some stories can be accessed offline after initial download."
+      },
+      "cta": {
+        "titleA": "Ready to Start",
+        "titleB": "the Adventure?",
+        "desc": "Join thousands of Egyptian families giving their children the gift of joyful, AI-powered learning.",
+        "btnPrimary": "Download Free Now",
+        "btnSecondary": "View Plans",
+        "pill1": "No credit card required",
+        "pill2": "Cancel anytime",
+        "pill3": "Safe & child-approved"
+      },
+      "stripe": {
+        "publicKey": "pk_test_REPLACE_WITH_YOUR_STRIPE_PUBLIC_KEY",
+        "monthlyPriceId": "price_REPLACE_WITH_MONTHLY_PRICE_ID",
+        "yearlyPriceId": "price_REPLACE_WITH_YEARLY_PRICE_ID",
+        "checkoutEndpoint": "/api/create-checkout-session"
+      }
+    },
+    "parentGuide": {
+      "nav": {
+        "s1": "Hero",
+        "s2": "Reality",
+        "s3": "Pain Points",
+        "s4": "Dashboard",
+        "s5": "Get Started",
+        "s6": "Curriculum",
+        "s7": "Safety",
+        "s8": "FAQ"
+      },
+      "hero": {
+        "eyebrow": "FOR PARENTS",
+        "titleA": "You Handed Them the Screen.",
+        "rotating": [
+          "Now See What It's Actually Doing.",
+          "Live Progress. Every Single Step.",
+          "Real Learning. Real Visibility.",
+          "No More Guessing. Just Clarity."
+        ],
+        "desc": "Your child goes on their learning adventure on the mobile app. You follow every step of it — live — on your own Parent Dashboard. No hovering. No interrupting. Just complete clarity, finally.",
+        "chip1": "Real-Time Updates",
+        "chip2": "Progress Tracking",
+        "chip3": "100% Safe"
+      },
+      "reality": {
+        "eyebrow": "THE REALITY",
+        "stat1": "Hours daily on screens",
+        "stat1sub": "Average Egyptian child",
+        "stat2": "Meaningful learning",
+        "stat2sub": "Fraction of that time",
+        "body": "The average Egyptian child spends hours daily on a screen. Less than a fraction of that is learning anything meaningful. Kidventure is the solution — for the child and for you."
+      },
+      "pain": {
+        "eyebrow": "WE HEARD YOU",
+        "titleA": "Every Parent We Talked to Said",
+        "titleB": "the Same Three Things",
+        "sub": "These aren't complaints. They're signals that something needed to change.",
+        "cards": [
+          {
+            "label": "THE BLACK HOLE PROBLEM",
+            "quote": "My child spends an hour on their phone. I ask what they did — they say 'stuff.' And I just… move on.",
+            "headline": "When they say 'stuff' — Kidventure shows you exactly what that stuff was.",
+            "body": "Every story your child reads, every game they play, every quiz they answer — it all appears instantly on your Parent Dashboard. You'll see the name of the activity, the subject it covered, how long it took, and what score they got. \"Stuff\" becomes a detailed, real-time feed of real learning."
+          },
+          {
+            "label": "THE EMPTY PROMISE PROBLEM",
+            "quote": "We downloaded four 'educational' apps. They were fun for three days. Then nothing. Zero actual learning.",
+            "headline": "Kidventure follows the exact curriculum your child studies at school. Not random content — real subjects.",
+            "body": "Arabic Language. Mathematics. The same topics their teacher covers every week. Every story, every game, every quiz inside Kidventure is built around the Egyptian national curriculum. So when your child finishes a Kidventure session, they haven't just been entertained — they've genuinely covered ground that matters for school."
+          },
+          {
+            "label": "THE GUILT PROBLEM",
+            "quote": "Every time I hand them the phone, I feel like I'm giving up on them. Like I should be doing something better.",
+            "headline": "That guilt comes from not knowing. Kidventure replaces the not-knowing with complete confidence.",
+            "body": "When you can open your dashboard and see that your child just finished an Arabic comprehension story, improved their math score, and earned a badge — handing them the phone stops feeling like a compromise. It starts feeling like a genuinely good parenting decision. The guilt doesn't go away because you stop caring. It goes away because you finally have proof."
+          }
+        ]
+      },
+      "dashboard": {
+        "eyebrow": "YOUR PARENT DASHBOARD",
+        "titleA": "Everything You Want to Know About",
+        "titleB": "Your Child's Day — In One Clean Place",
+        "sub": "Built around one question: what does a parent actually need to see?",
+        "videoTag": "SEE IT IN ACTION",
+        "videoTitle": "Stop Imagining What They're Doing.",
+        "videoSub": "Watch the Dashboard Work — Live.",
+        "videoDesc": "One real parent. One real dashboard. Everything you need to see.",
+        "features": [
+          {
+            "tag": "DAILY SUMMARY",
+            "headline": "The three numbers every parent needs to see — before they even ask.",
+            "body": "The moment you open your dashboard, you're greeted by your child's day in three clear numbers. How many minutes they spent learning. How many activities they actually completed — not just opened. And how many new badges they earned. The most important information is always the very first thing you see."
+          },
+          {
+            "tag": "SUBJECT TRACKING",
+            "headline": "Not a general score. A subject-by-subject breakdown — exactly like school.",
+            "body": "Arabic Language has its own bar. Mathematics has its own bar. Each one shows exactly how far your child has come in that specific subject. Watch the bars grow week over week. See which subject needs more attention. Have conversations with your child based on real data, not assumptions."
+          },
+          {
+            "tag": "LIVE ACTIVITY FEED",
+            "headline": "A real-time record of everything they did — in the exact order they did it.",
+            "body": "\"Completed Arabic Story — a few minutes ago.\" \"Answered Math Questions — correct — moments ago.\" \"Earned a new Badge.\" This is what your child's screen time actually looks like, written out in plain language. Not a summary. A live feed — updating as they learn."
+          },
+          {
+            "tag": "ACHIEVEMENTS",
+            "headline": "When they come running to show you what they earned — you'll already be celebrating.",
+            "body": "Every badge your child unlocks on their mobile app appears on your dashboard instantly. You'll know the moment they earn it. And when they burst through the door to tell you — you'll be ready. Because you were watching the whole time."
+          },
+          {
+            "tag": "MULTI-CHILD",
+            "headline": "Two children? Three? Every profile is completely separate — and switching takes one tap.",
+            "body": "Each child has their own dashboard, their own progress bars, their own activity feed, their own badges. Nothing gets mixed together. Select which child you're viewing from the top of the screen and everything updates instantly."
+          }
+        ]
+      },
+      "getStarted": {
+        "eyebrow": "UP & RUNNING IN MINUTES",
+        "titleA": "Four Steps Between You and",
+        "titleB": "Complete Visibility",
+        "steps": [
+          {
+            "num": "01",
+            "title": "Create Your Parent Account",
+            "body": "Name, email, password. No credit card needed to start."
+          },
+          {
+            "num": "02",
+            "title": "Set Up Your Child's Profile",
+            "body": "Add their name, age, and grade. Kidventure adjusts the level automatically."
+          },
+          {
+            "num": "03",
+            "title": "They Download the App",
+            "body": "Your child starts their adventure. You stay on the dashboard."
+          },
+          {
+            "num": "04",
+            "title": "Watch Their Progress — Live",
+            "body": "Every learning action they take appears on your screen in real time."
+          }
+        ],
+        "cta": "Start Free — Create My Account",
+        "note": "No credit card required · Cancel anytime · Setup takes under two minutes"
+      },
+      "curriculum": {
+        "eyebrow": "SCHOOL-ALIGNED",
+        "titleA": "What They Learn on Kidventure Is",
+        "titleB": "What They're Tested on at School",
+        "body": "We didn't pick random topics. We didn't make up a curriculum. We followed the Egyptian national curriculum — the exact program your child's teacher uses, the exact subjects they'll be examined on, the exact material that shows up in their school grades.",
+        "body2": "Arabic Language comprehension and vocabulary. Mathematics reasoning and problem solving. Every piece of content inside Kidventure was built to reinforce what's already being taught in the classroom.",
+        "body3": "This means two things for you as a parent. First: the time your child spends on Kidventure is never wasted time — it's revision and extra practice in disguise. Second: when you see their school grades improve, you'll know exactly why.",
+        "pills": [
+          "Arabic Language",
+          "Mathematics",
+          "Critical Thinking"
+        ]
+      },
+      "safety": {
+        "eyebrow": "BUILT FOR FAMILIES",
+        "titleA": "Your Child's Safety Isn't a Feature.",
+        "titleB": "It's the Foundation.",
+        "sub": "Before we wrote a single line of code, we answered one question: would we trust this with our own children?",
+        "cards": [
+          {
+            "icon": "🤖",
+            "title": "AI Content Filtering",
+            "body": "Every conversation with the Kidventure AI is filtered in real-time. Only learning topics are allowed. If a question goes outside safe educational content, the AI redirects — every single time."
+          },
+          {
+            "icon": "🚫",
+            "title": "Zero Ads — Ever",
+            "body": "No advertisements. No sponsored content. No external links. No pop-ups. The only things on your child's screen are the things we put there — deliberately, for learning and growth."
+          },
+          {
+            "icon": "📚",
+            "title": "Egyptian Curriculum Only",
+            "body": "Every story, every game, every quiz is built around the official Egyptian national curriculum. Everything is curated, reviewed, and appropriate for the age group."
+          },
+          {
+            "icon": "🔒",
+            "title": "Parent Gate",
+            "body": "A PIN-protected section that only you control. Your child cannot change settings, access restricted features, or exit the learning environment without your permission."
+          },
+          {
+            "icon": "🛡",
+            "title": "Data Privacy — Always",
+            "body": "Your child's personal information is never sold, never shared with advertisers, never used for anything other than improving their learning experience. Yours to delete at any time."
+          },
+          {
+            "icon": "👁",
+            "title": "Full Parent Visibility",
+            "body": "You always know what your child is doing, what they've done, and what they're learning. Complete transparency — by design, not as an afterthought."
+          }
+        ]
+      },
+      "testimonials": {
+        "eyebrow": "FROM OTHER PARENTS",
+        "titleA": "What Happens When Parents",
+        "titleB": "Actually See What's Going On",
+        "items": [
+          {
+            "quote": "My son used to spend hours on his phone and I had no idea what he was doing. Now I open the dashboard every evening like I'm checking my own work email. I know exactly what he learned, what he struggled with, and what badge he's chasing next. It completely changed how I talk to him about school.",
+            "name": "Nour El Sayed",
+            "role": "Mother · Cairo"
+          },
+          {
+            "quote": "We tried other learning apps. They all lasted about a week before my daughter lost interest. Kidventure has been running for months now. She genuinely looks forward to it — and I genuinely trust it. The dashboard is what sold me. I can see her Arabic improving with my own eyes.",
+            "name": "Mona Farouk",
+            "role": "Mother · Alexandria"
+          },
+          {
+            "quote": "As a father, I always felt like the screen was my competition. Like I was losing my son to YouTube. Kidventure made me feel like I was part of it. I can see what he's learning. We talk about his badges at dinner. It's the first app that made us closer, not further apart.",
+            "name": "Tarek Mansour",
+            "role": "Father · Mansoura"
+          }
+        ]
+      },
+      "faq": {
+        "eyebrow": "COMMON QUESTIONS",
+        "titleA": "Have more questions?",
+        "titleB": "We're here — we respond fast.",
+        "stillQ": "Still have questions? We're here — we respond fast.",
+        "items": [
+          {
+            "q": "Can I track more than one child on the same account?",
+            "a": "Yes — completely. Each child has their own separate profile, dashboard, progress bars, activity feed, and badges. Switching between them takes one tap."
+          },
+          {
+            "q": "Is the Parent Dashboard available on my phone, or only on a computer?",
+            "a": "The dashboard works on any browser — desktop, laptop, tablet, or phone."
+          },
+          {
+            "q": "How quickly does the dashboard update after my child does something?",
+            "a": "In real-time. The moment your child completes an activity, earns a badge, or finishes a story — it appears on your dashboard within seconds. It updates automatically."
+          },
+          {
+            "q": "What exactly does \"Progress by Subject\" show me?",
+            "a": "A visual progress bar for each subject — Arabic Language, Mathematics, and others — showing how much of the curriculum your child has covered and how much remains."
+          },
+          {
+            "q": "Can my child access the parent dashboard?",
+            "a": "No. The Parent Dashboard is a completely separate web platform, accessible only with your parent account credentials."
+          },
+          {
+            "q": "What if my child doesn't use the app for a few days?",
+            "a": "The dashboard will show no new activity for those days. There are no automated notifications. You're in control."
+          },
+          {
+            "q": "Do I need to pay to see the Parent Dashboard?",
+            "a": "Basic access is included with any plan. You can start free and explore before committing."
+          }
+        ]
+      },
+      "closing": {
+        "eyebrow": "START TONIGHT",
+        "titleA": "The Next Time They Pick Up the Screen —",
+        "titleB": "You'll Know Exactly What They're Learning.",
+        "sub": "Join Egyptian families who replaced screen-time guilt with screen-time confidence.",
+        "body": "It takes less than two minutes to create your account. By tonight, every story, every game, every badge — appears on your screen in real time. No more wondering. No more guessing. No more guilt. Just a parent who finally knows.",
+        "cta1": "Start Free — Create My Account",
+        "cta2": "Watch How It Works",
+        "cta3": "Already have an account? Open Dashboard",
+        "notes": [
+          "No credit card required to start",
+          "Cancel your subscription anytime",
+          "Your child's data is always protected"
+        ]
+      }
+    }
+  },
+    "support": {
+     "eyebrow": "Help Center",
+"titleStart": "How can we",
+"titleAccent": "help you today?",
+"subtitle": "Find quick answers about setting up Kidventure, managing subscriptions, using the mobile app, and keeping your child safe.",
+"searchPlaceholder": "Search for answers...",
+"clearSearch": "Clear search",
+"categoriesLabel": "Help categories",
+"resultsFound": "{{count}} results found",
+"noResults": "No results found. Try a different search term.",
+
+"contactEmailTitle": "Email Support",
+"contactEmailValue": "support@kidventure.app",
+"contactChatTitle": "Live Chat",
+"contactChatValue": "Available 9am - 6pm",
+"contactGuideTitle": "Getting Started Guide",
+"contactGuideValue": "Read the full guide",
+
+"ctaTitle": "Still need help?",
+"ctaSubtitle": "Our support team typically replies within 24 hours.",
+"ctaButton": "Contact Support",
+
+"gettingStarted": {
+  "title": "Getting Started",
+  "q1": "How do I create a parent account?",
+  "a1": "Visit the Kidventure website and click Sign Up. Enter your name, email, and password, then agree to the Terms of Service and Privacy Policy to create your account.",
+  "q2": "How do I add my child's profile?",
+  "a2": "After logging in to your dashboard, go to Profiles and select Add Child. Enter your child's name, age, and choose an avatar to create their learning profile.",
+  "q3": "How do I download the mobile app?",
+  "a3": "Download Kidventure for Android from Google Play or for iOS from the App Store. You can also scan the QR code on our download page.",
+  "q4": "Do I need an internet connection to use the app?",
+  "a4": "Most features require an internet connection. Flashcards and mind maps can be used offline, while quizzes, the AI chatbot, and drawing detection need an active connection."
+},
+
+"subscriptions": {
+  "title": "Subscriptions & Billing",
+  "q1": "What subscription plans are available?",
+  "a1": "Kidventure offers Monthly and Annual plans. The Annual plan includes a discount compared to paying month to month.",
+  "q2": "How do I change or cancel my subscription?",
+  "a2": "Go to your Parental Dashboard, open the Subscription page, and select Manage Plan. From there you can upgrade, downgrade, or cancel at any time.",
+  "q3": "Is my payment information secure?",
+  "a3": "Yes. All payments are processed through a PCI-compliant payment gateway. Kidventure never stores your card details on its servers.",
+  "q4": "Will I be charged automatically when my plan renews?",
+  "a4": "Yes, subscriptions renew automatically at the end of each billing cycle unless you cancel beforehand from your dashboard."
+},
+
+"mobileApp": {
+  "title": "Using the Mobile App",
+  "q1": "What can my child do in the app?",
+  "a1": "Children can explore Interactive Stories, play Educational Games, take Quizzes, use Flashcards and Mind Maps, view 3D Models, chat with the AI guide, and try Drawing Detection.",
+  "q2": "How does the Drawing Detection feature work?",
+  "a2": "Your child draws on the digital canvas, then taps Scan Drawing. The AI model identifies the object and shows a card confirming what was drawn along with fun facts.",
+  "q3": "How does the AI Chatbot work?",
+  "a3": "Your child can type or speak a question to the friendly AI guide. Answers are based on approved educational content and are limited to age-appropriate topics.",
+  "q4": "How do I access parental settings inside the app?",
+  "a4": "Tap the small gear icon on the Home Screen, then select Parental Section. You will be asked to solve a simple math question to confirm you are an adult."
+},
+
+"dashboard": {
+  "title": "Parent Dashboard",
+  "q1": "How do I view my child's progress?",
+  "a1": "Log in to the web dashboard and select your child's profile. The Progress by Subject widget shows completion bars for each learning area.",
+  "q2": "What do the badges and stars mean?",
+  "a2": "Stars are earned for completing activities, while badges are awarded for reaching specific milestones such as finishing a story or mastering a topic.",
+  "q3": "Can I see how much time my child spends on the app?",
+  "a3": "Yes. The At a Glance widget shows time spent this week, activities completed, and any new badges earned."
+},
+
+"safety": {
+  "title": "Safety & Privacy",
+  "q1": "Is the content appropriate for young children?",
+  "a1": "Yes. All AI responses are limited to educational topics and avoid sensitive subjects such as politics, religion, or gender, keeping the experience age-appropriate.",
+  "q2": "What is the I Am My Own Hero module?",
+  "a2": "It is a calm, non-gamified module that teaches children about personal safety, body boundaries, and trusted adults through simple lessons.",
+  "q3": "How is my child's data protected?",
+  "a3": "Kidventure follows Privacy by Design principles, requires parental consent for child accounts, and lets parents request deletion of their child's data at any time."
+},
+
+"account": {
+  "title": "Account & Security",
+  "q1": "I forgot my password. What should I do?",
+  "a1": "On the login page, select Forgot Password and follow the instructions sent to your email to reset it securely.",
+  "q2": "Can I log in with my Google account?",
+  "a2": "Yes, you can use Continue with Google on the login or registration page to sign in without a password.",
+  "q3": "How do I update my email or account details?",
+  "a3": "Go to your Dashboard, open Profile Settings, and edit your account information. Confirm changes to save them."
+},
+  "contactHeroBadge": "Kidventure Support",
+  "contactHeroTitle": "Contact",
+  "contactHeroAccent": "Us",
+  "contactHeroSub": "Have a question about Kidventure? Our friendly team replies within 24 hours.",
+  "contactScrollLabel": "Send a Message",
+  "contactInfoEmail": "Email",
+  "contactInfoResponse": "Response Time",
+  "contactInfoLocation": "Location",
+  "contactInfoEmailVal": "hello@kidventure.app",
+  "contactInfoResponseVal": "Within 24 hours",
+  "contactInfoLocationVal": "Mansoura, Egypt",
+  "contactWhyBadge": "Why Kidventure Support?",
+  "contactWhyTitle": "Support built for parents & kids",
+  "contactWhySub": "We understand your time is precious. That's why we built the fastest, friendliest support in the edtech world.",
+  "contactFeat1Title": "Lightning Fast",
+  "contactFeat1Desc": "Get a real answer in under 24 hours — no bots, no templates.",
+  "contactFeat2Title": "Safe & Private",
+  "contactFeat2Desc": "Your family's data is encrypted and never shared with anyone.",
+  "contactFeat3Title": "Human First",
+  "contactFeat3Desc": "Every reply is written by a real person who cares about your child.",
+  "contactFeat4Title": "Always Improving",
+  "contactFeat4Desc": "Your feedback directly shapes the next version of Kidventure.",
+  "contactFormBadge": "Contact Form",
+  "contactFormHeadTitle": "We'd love to hear from you",
+  "contactTitle": "Send a Message",
+  "contactLead": "Tell us your question — we'll get right back to you.",
+  "contactSubmit": "Send Message",
+  "contactSuccess": "Message received. We will reply soon.",
+  "contactSuccessTitle": "Message Sent! 🎉",
+  "contactSuccessBody": "Thanks for reaching out. Our team will reply within 24 hours.",
+  "contactSuccessBadge": "Reply within 24 hours",
+  "contactReset": "Send another message",
+  "contactTopicGeneral": "General Question",
+  "contactTopicSubscription": "Subscription",
+  "contactTopicSafety": "Safety & Privacy",
+  "contactTopicSupport": "Tech Support",
+  "contactTopicFeedback": "Feedback",
+  "contactTopicOther": "Other",
+  "contactFieldName": "Full Name",
+  "contactFieldNamePlaceholder": "Ahmed Mohamed",
+  "contactFieldEmail": "Email",
+  "contactFieldEmailPlaceholder": "parent@example.com",
+  "contactFieldPhone": "Phone (optional)",
+  "contactFieldPhonePlaceholder": "+20 1xx xxx xxxx",
+  "contactFieldTopic": "Topic",
+  "contactFieldTopicPlaceholder": "Select a topic…",
+  "contactFieldMessage": "Your Message",
+  "contactFieldMessagePlaceholder": "Tell us how we can help. Be as detailed as possible…",
+  "contactErrName": "Please enter your name",
+  "contactErrEmail": "Please enter a valid email",
+  "contactErrMessage": "Please write your message",
+  "contactFormNote": "Your information is secure and never shared with third parties.",
+  "contactSending": "Sending…",
+  "contactSidebarReach": "Reach Us",
+  "contactSidebarFollow": "Follow Us",
+  "contactSidebarEmailLbl": "Email us",
+  "contactSidebarResponseLbl": "Response time",
+  "contactSidebarLocationLbl": "Location",
+  "contactHelpTitle": "Help Center",
+  "contactHelpSub": "Answers about Kidventure — setup, learning, safety & subscriptions.",
+  "contactMapTitle": "Our Location",
+  "contactMapBody": "Kidventure is based in <strong>Mansoura, Egypt</strong> and operates fully online. Our team is available Mon–Fri, 9am–6pm EET.",
+  "contactMapTag1": "Mansoura, Dakahlia Governorate",
+  "contactMapTag2": "Arabic & English support",
+  "contactMapTag3": "Mon–Fri · 9am–6pm EET",
+  "contactMapTag4": "hello@kidventure.app",
+  "contactMapBadge": "Mansoura, Egypt",
+  "contactFaqTitle": "Frequently Asked Questions",
+  "contactFaqDesc": "Quick answers about Kidventure — setting up your child's account, managing your subscription, tracking progress & staying safe online.",
+  "contactFaqCta": "Visit Help Center",
+  "termsTitle": "Terms of Service",
+  "termsLead": "A summary of the rules and responsibilities for using Kidventure.",
+  "termsPoint1": "Use the platform responsibly and follow applicable laws.",
+  "termsPoint2": "Keep account access secure and do not share login details.",
+  "termsPoint3": "Subscriptions and billing are managed from the dashboard.",
+  "privacyTitle": "Privacy Policy",
+  "privacyLead": "How we handle data with care and keep the experience secure by default.",
+  "privacyPoint1": "We collect only what is needed to run the platform and provide progress insights.",
+  "privacyPoint2": "We use secure storage practices and protect access to parent accounts.",
+  "privacyPoint3": "Parents remain in control of account preferences and visibility."
+    },
+    "download": {
+      "available": "Now Available · Android & iOS",
+      "heroLine1": "Learn.",
+      "heroLine2": "Explore.",
+      "heroLine3": "Grow.",
+      "lead": "Kidventure brings curriculum-aligned learning to life through 3D models, AI-powered stories, and immersive educational games — built for children aged 6 to 12.",
+      "title": "Get Kidventure",
+      "titleAccent": "Free on Android & iOS.",
+      "androidTitle": "Android",
+      "androidStore": "Google Play · Firebase Distribution",
+      "androidCardTitle": "Kidventure for Android",
+      "iosTitle": "iOS & iPadOS",
+      "iosStore": "Apple App Store",
+      "iosCardTitle": "Kidventure for iOS",
+      "ctaSupAndroid": "GET IT ON",
+      "ctaAndroid": "Google Play",
+      "ctaSupIos": "DOWNLOAD ON THE",
+      "ctaIos": "App Store",
+      "live": "LIVE",
+      "free": "Free",
+      "feat1": "Fast, direct install via Firebase",
+      "feat2": "Verified, tamper-proof build",
+      "feat3": "Silent automatic updates",
+      "feat4": "Android 8.0 and above",
+      "iosFeat1": "Native iOS & iPadOS experience",
+      "iosFeat2": "Face ID & Touch ID support",
+      "iosFeat3": "Optimised for iPhone and iPad",
+      "iosFeat4": "Apple App Store reviewed",
+      "encrypted": "Encrypted",
+      "verified": "Verified",
+      "safe": "Child-Safe",
+      "qr": "Scan to Download",
+      "qrSub": "Point your camera at the code to open the Kidventure download link instantly on your device — no typing required.",
+      "statDownloads": "Downloads",
+      "statRating": "App Rating",
+      "statCountries": "Countries",
+      "statUptime": "Uptime",
+      "bgFeat1Title": "Curriculum-Aligned",
+      "bgFeat1Desc": "Every lesson, game, and story maps directly to Ministry of Education materials for children in grades 1 through 6.",
+      "bgFeat2Title": "AI-Powered Learning",
+      "bgFeat2Desc": "Powered by Google Gemini 3 Flash with a RAG system trained on official curriculum content, delivering accurate and trustworthy answers every time.",
+      "bgFeat3Title": "Drawing Detection",
+      "bgFeat3Desc": "A custom-trained CNN model recognises children's illustrations with over 90% accuracy and converts them into meaningful learning feedback.",
+      "bgFeat4Title": "Safe & Private",
+      "bgFeat4Desc": "Designed from the ground up for children. End-to-end encrypted with strict child-safety standards and full COPPA-aligned privacy practices.",
+      "bgFeat5Title": "Progress Tracking",
+      "bgFeat5Desc": "A unified progress dashboard gives parents and teachers a clear, real-time view of every child's growth across all platform features.",
+      "bgFeat6Title": "Always Up to Date",
+      "bgFeat6Desc": "Silent background updates ensure children always have access to the latest educational content, games, and platform improvements.",
+      "review1": "My daughter asks to open Kidventure every single day. The stories and games make learning feel like play.",
+      "review2": "Finally an educational app that actually follows the school curriculum. The AI chatbot answers my students' questions better than I expected.",
+      "review3": "The drawing feature is incredible. My son drew a cat and the app built an entire lesson around it. He was amazed.",
+      "review1Name": "Nadia H. — Parent",
+      "review2Name": "Ahmed F. — Primary School Teacher",
+      "review3Name": "Sara M. — Parent",
+      "sectionGetApp": "Get the App",
+      "sectionWhyKidventure": "Why Kidventure?",
+      "whySubtitle": "Everything we built, we built for one reason — to make learning genuinely exciting for every child."
+    },
+     "auth": {
+      "signup": {
+        "title": "Create Account",
+        "subtitle": "Join thousands of families unlocking AI-powered education",
+        "socialText": "or use your email for registration",
+        "nameLabel": "Full Name",
+        "namePlaceholder": "Ahmed Mohamed",
+        "emailLabel": "Email Address",
+        "emailPlaceholder": "parent@example.com",
+        "passwordLabel": "Password",
+        "passwordPlaceholder": "Create password",
+        "confirmPasswordLabel": "Confirm Password",
+        "confirmPassword": "Confirm Password",
+        "signUpBtn": "Sign Up",
+        "haveAccount": "Already have an account?",
+        "loginLink": "Sign in",
+        "agreeToTerms": "I agree to the",
+        "googleTitle": "Continue with Google",
+        "facebookTitle": "Continue with Facebook",
+        "verifying": "Verifying...",
+        "nextBtn": "Next"
+      },
+      "login": {
+        "title": "Sign In",
+        "subtitle": "Welcome back! Please enter your credentials",
+        "emailLabel": "Email Address",
+        "passwordLabel": "Password",
+        "rememberMe": "Remember me",
+        "forgotPassword": "Forgot password?",
+        "signInBtn": "Sign In",
+        "signingIn": "Signing in",
+        "noAccount": "Don't have an account?",
+        "signUpLink": "Sign up",
+        "orContinue": "Or continue with",
+        "googleTitle": "Continue with Google",
+        "facebookTitle": "Continue with Facebook"
+      },
+      "forgot": {
+        "title": "Reset Password",
+        "subtitle": "Enter your email and we'll send you a reset link",
+        "emailLabel": "Email Address",
+        "sendLink": "Send Reset Link",
+        "backToLogin": "Back to Sign In",
+        "checkEmail": "Check your email",
+        "emailSent": "We've sent password reset instructions to",
+        "gotIt": "Got it"
+      },
+      "validation": {
+        "required": "This field is required",
+        "invalidEmail": "Please enter a valid email",
+        "passwordMin": "Password must be at least 8 characters",
+        "passwordMatch": "Passwords do not match"
+      }
+    },
+   "dashboard": {
+    "appName": "Kidventure",
+    "signOut": "Sign Out",
+    "switchChild": "Switch Child",
+    "manageProfiles": "Manage profiles",
+    "notifications": "Notifications",
+    "active": "Active",
+    "nav": {
+      "overview": "Overview",
+      "reports": "Reports",
+      "profiles": "Child Profiles",
+      "subscription": "Subscription",
+      "settings": "Settings",
+      "children": "Children"
+    },
+    "sidebar": {
+      "plan": "Plan",
+      "children": "children",
+      "slots": "slots remaining"
+    },
+    "header": {
+      "level": "Lvl"
+    },
+    "overview": {
+      "welcome": "Welcome back",
+      "learningFor": "Learning for",
+      "thisWeek": "this week",
+      "activitiesCompleted": "activities completed",
+      "lastActive": "Last active",
+      "dayStreak": "day streak",
+      "level": "Level",
+      "timeThisWeek": "Time This Week",
+      "activitiesDone": "Activities Done",
+      "badgesEarned": "Badges Earned",
+      "dayStreakLabel": "Day Streak",
+      "avgScore": "Avg Score",
+      "best": "Best",
+      "top": "Top",
+      "vsLastWeek": "+12% vs last week",
+      "thisWeekSuffix": "+8 this week",
+      "newBadges": "+2 new",
+      "learningJourney": "Learning Journey",
+      "xpToLevel": "XP to Level",
+      "minutesLearnedThisWeek": "Minutes learned this week",
+      "learningStreak": "Learning Streak",
+      "days": "days",
+      "amazingKeepGoing": "Amazing! Keep going!",
+      "keepStreakAlive": "Keep the streak alive!",
+      "buildingHabit": "Building a powerful learning habit.",
+      "topSubjects": "Top Subjects",
+      "subjects": "subjects",
+      "recentActivity": "Recent Activity",
+      "viewAll": "View All",
+      "noActivity": "No activity yet — start learning to see progress here!",
+      "latestBadges": "Latest Badges",
+      "allBadges": "All",
+      "badges": "badges",
+      "noBadges": "Complete activities to earn your first badge!",
+      "aiInsights": "AI Learning Insights",
+      "ragPowered": "RAG-Powered"
+    },
+    "reports": {
+      "title": "Reports",
+      "progressReport": "Progress Report",
+      "exportPdf": "Export PDF",
+      "exporting": "Exporting…",
+      "strongestSubject": "Strongest Subject",
+      "needsAttention": "Needs Attention",
+      "lessons": "lessons",
+      "rank": "Rank",
+      "progressBySubject": "Progress by Subject",
+      "activityChart": "Activity Chart",
+      "performanceSummary": "Performance Summary",
+      "averageScore": "Average Score",
+      "quizzesPassed": "Quizzes Passed",
+      "storiesRead": "Stories Read",
+      "gamesPlayed": "Games Played",
+      "hoursLearned": "Hours Learned",
+      "totalActivities": "Total Activities",
+      "firstTry": "first-try",
+      "readingMin": "min reading",
+      "wins": "wins",
+      "thisWeek": "This Week",
+      "weekTotal": "This Week",
+      "pdfHeader": {
+        "title": "Kidventure",
+        "subtitle": "Personalised Learning Dashboard",
+        "reportGenerated": "Report Generated",
+        "subjectProgress": "Subject Progress",
+        "footer": "Generated by Kidventure Dashboard · kidventure.com",
+        "footerSecurity": "All data encrypted · COPPA & GDPR aligned"
+      },
+      "chart": {
+        "thisWeek": "This Week",
+        "twelveMonths": "12 Months",
+        "minutesPerDay": "Minutes per day",
+        "minutesPerMonth": "Minutes per month",
+        "total": "Total"
+      }
+    },
+    "profiles": {
+      "title": "Profiles",
+      "childProfiles": "Child Profiles",
+      "addChild": "Add Child",
+      "familySummary": "Family Summary",
+      "slotsRemaining": "slots remaining",
+      "totalBadges": "Total Badges",
+      "bestStreak": "Best Streak",
+      "totalActivities": "Total Activities",
+      "familyLearning": "Family Learning",
+      "viewing": "Viewing",
+      "age": "Age",
+      "done": "done",
+      "slotsFree": "slots free",
+      "signInRequired": "Sign in required",
+      "addChildProfile": "Add Child Profile",
+      "removeConfirm": "Remove {{name}}'s profile? This cannot be undone.",
+      "authGate": {
+        "title": "Sign In to Add a Child",
+        "subtitle": "Child profiles are private and secure.\nSign in or create an account to get started.",
+        "coppa": "COPPA & GDPR-aligned — children's data is encrypted",
+        "onlyYou": "Only you can see your children's profiles",
+        "upTo5": "Up to 5 child profiles per account",
+        "signIn": "Sign In to My Account",
+        "createAccount": "Create New Account",
+        "success": "You're in! 🎉",
+        "successSub": "Opening the Add Child form…"
+      },
+      "signIn": {
+        "title": "Welcome back",
+        "subtitle": "Sign in to add a child profile",
+        "back": "Back",
+        "email": "Email Address",
+        "password": "Password",
+        "emailPlaceholder": "parent@example.com",
+        "passwordPlaceholder": "••••••••",
+        "submit": "Sign In",
+        "noAccount": "Don't have an account?",
+        "createOne": "Create one",
+        "fillAll": "Please fill in all fields.",
+        "signing": "Signing in…"
+      },
+      "signUp": {
+        "title": "Create Account",
+        "subtitle": "Join Kidventure and start learning",
+        "back": "Back",
+        "fullName": "Full Name",
+        "fullNamePlaceholder": "Your full name",
+        "email": "Email Address",
+        "password": "Password",
+        "passwordPlaceholder": "At least 8 characters",
+        "submit": "Create Account",
+        "haveAccount": "Already have an account?",
+        "signInLink": "Sign in",
+        "fillAll": "Please fill in all fields.",
+        "passwordTooShort": "Password must be at least 8 characters.",
+        "signing": "Creating account…"
+      },
+      "addChildModal": {
+        "title": "Add Child Profile",
+        "subtitle": "Create a personalised learning journey",
+        "childName": "Child Name",
+        "childNamePlaceholder": "e.g. Fatima",
+        "age": "Age",
+        "agePlaceholder": "7",
+        "grade": "Grade",
+        "profileColor": "Profile Color",
+        "pickAvatar": "Pick an Avatar",
+        "cancel": "Cancel",
+        "addButton": "Add {{name}} to Family",
+        "defaultName": "Child"
+      }
+    },
+    "subscription": {
+      "title": "Billing",
+      "heading": "Subscription & Billing",
+      "currentPlan": "Current Plan",
+      "perMonth": "/month",
+      "nextRenewal": "Next renewal:",
+      "manage": "Manage",
+      "comparePlans": "Compare Plans",
+      "billingHistory": "Billing History",
+      "downloadAll": "Download All",
+      "downloadingInvoices": "Downloading invoices…",
+      "paid": "Paid",
+      "downloadInvoice": "Invoice downloaded",
+      "paymentMethod": "Payment Method",
+      "updateCard": "Update Card",
+      "updatingCard": "Opening card update form…",
+      "switchingPlan": "Switching to {{name}}…",
+      "openingManager": "Opening subscription manager…",
+      "visaEnding": "Visa ending in 4242",
+      "visaExpiry": "Expires 08/2028 · 256-bit SSL encrypted",
+      "method": "Visa ending 4242",
+      "planFeatures": {
+        "free": {
+          "name": "Kidventure Free",
+          "price": "Free",
+          "features": [
+            "1 child profile",
+            "3 subjects (limited)",
+            "10 activities/month",
+            "Basic progress view",
+            "Ads included"
+          ]
+        },
+        "pro": {
+          "name": "Kidventure Pro",
+          "price": "EGP 49",
+          "period": "/month",
+          "features": [
+            "5 child profiles",
+            "All 6 subjects (full)",
+            "Unlimited activities",
+            "AI Chatbot + Drawing Detection",
+            "Weekly reports",
+            "No ads",
+            "Priority support"
+          ]
+        },
+        "plus": {
+          "name": "Kidventure Plus",
+          "price": "EGP 449",
+          "period": "/year",
+          "features": [
+            "Everything in Pro",
+            "Save 23% vs monthly",
+            "Annual activity recap",
+            "Exclusive yearly badges",
+            "No ads",
+            "Early access"
+          ]
+        }
+      },
+      "proFeatures": [
+        "Up to 5 child profiles",
+        "All 6 Egyptian curriculum subjects",
+        "500+ activities (quizzes, games, stories)",
+        "AI Chatbot Tutor powered by RAG",
+        "CNN Drawing Detection with live feedback",
+        "Weekly progress reports & AI insights",
+        "Priority parent support within 24h",
+        "Adaptive personalised learning paths"
+      ],
+      "downgrade": "Downgrade",
+      "upgrade": "Upgrade",
+      "yourPlan": "Your Plan",
+      "billingHistoryItems": [
+        {
+          "date": "Jun 15, 2026",
+          "amount": "EGP 49",
+          "method": "Visa ending 4242",
+          "txId": "TXN-2026-06-001"
+        },
+        {
+          "date": "May 15, 2026",
+          "amount": "EGP 49",
+          "method": "Visa ending 4242",
+          "txId": "TXN-2026-05-001"
+        },
+        {
+          "date": "Apr 15, 2026",
+          "amount": "EGP 49",
+          "method": "Visa ending 4242",
+          "txId": "TXN-2026-04-001"
+        },
+        {
+          "date": "Mar 15, 2026",
+          "amount": "EGP 49",
+          "method": "Visa ending 4242",
+          "txId": "TXN-2026-03-001"
+        }
+      ]
+    },
+    "settings": {
+      "title": "Account",
+      "heading": "Settings",
+      "editProfile": "Edit Profile",
+      "cancelEdit": "Cancel",
+      "memberSince": "Member since",
+      "familyStats": {
+        "children": "Children",
+        "totalXP": "Total XP",
+        "totalBadges": "Total Badges",
+        "bestStreak": "Best Streak"
+      },
+      "accountDetails": {
+        "title": "Account Details",
+        "fullName": "Full Name",
+        "fullNamePlaceholder": "Your full name",
+        "language": "Preferred Language",
+        "email": "Email Address",
+        "emailPlaceholder": "parent@example.com",
+        "emailHint": "Used for billing receipts and weekly learning reports",
+        "phone": "Phone Number",
+        "phonePlaceholder": "+20 100 000 0000",
+        "phoneHint": "Optional — for SMS streak reminders",
+        "city": "City",
+        "cityPlaceholder": "Cairo",
+        "newPassword": "New Password",
+        "passwordPlaceholder": "Leave blank to keep current",
+        "saveChanges": "Save Changes",
+        "saved": "Saved!",
+        "savedToast": "Account details saved successfully!"
+      },
+      "myChildren": {
+        "title": "My Children",
+        "profiles": "profiles",
+        "moreAvailable": "more child profiles available on your plan"
+      },
+      "notifications": {
+        "title": "Notification Preferences",
+        "items": [
+          {
+            "label": "Weekly family progress report",
+            "desc": "Sent every Sunday with a full summary"
+          },
+          {
+            "label": "Badge & level-up alerts",
+            "desc": "Instant notification when a badge is earned"
+          },
+          {
+            "label": "Inactivity reminders",
+            "desc": "Alert after 2 days without learning"
+          },
+          {
+            "label": "New content announcements",
+            "desc": "When fresh lessons, games, or stories are added"
+          },
+          {
+            "label": "Streak at-risk alerts",
+            "desc": "Notified 2 hours before a streak expires"
+          },
+          {
+            "label": "SMS reminders",
+            "desc": "Text alerts for urgent streaks and reports"
+          },
+          {
+            "label": "AI insight reports",
+            "desc": "Weekly RAG-generated learning insights per child"
+          }
+        ]
+      },
+      "privacy": {
+        "title": "Privacy & Security",
+        "description": "COPPA & GDPR-aligned. All child data is end-to-end encrypted and never shared with third parties. Parents retain full data control. Data can be permanently deleted on request within 30 days.",
+        "exportData": "Export My Data",
+        "privacyPolicy": "Privacy Policy",
+        "securitySettings": "Security Settings",
+        "twoFA": "2FA Setup",
+        "exportToast": "Preparing your data export…",
+        "securityToast": "Opening security settings…",
+        "twoFAToast": "Opening 2FA setup…"
+      },
+      "accountInfo": {
+        "title": "Account Information",
+        "memberSince": "Member Since",
+        "plan": "Plan",
+        "children": "Children",
+        "accountId": "Account ID",
+        "country": "Country",
+        "language": "Language",
+        "profiles": "profiles",
+        "egypt": "Egypt",
+        "accountIdValue": "KV-00482"
+      },
+      "dangerZone": {
+        "title": "Danger Zone",
+        "deleteTitle": "Delete My Account",
+        "deleteDescription": "Permanently deletes all child profiles ({{names}}), progress data, badges, and history. This cannot be undone. All data will be erased within 30 days.",
+        "deleteButton": "Delete My Account"
+      }
+    },
+    "deleteModal": {
+      "title": "Delete Account",
+      "description": "This will permanently delete {{name}}'s account, all {{count}} child profiles, every badge, streak, and learning history.",
+      "cannotUndo": "This cannot be undone.",
+      "whatDeleted": "What will be deleted:",
+      "items": [
+        "Parent account & login credentials",
+        "4 child profiles (Sara, Omar, Layla, Youssef)",
+        "All badges, streaks, and XP history",
+        "Progress data and activity logs",
+        "Subscription — no further charges after this month"
+      ],
+      "typePrompt": "Type",
+      "typeKeyword": "delete my account",
+      "typeToConfirm": "to confirm:",
+      "typePlaceholder": "delete my account",
+      "cancel": "Cancel",
+      "deleteForever": "Delete Forever",
+      "deletingTitle": "Deleting your account…",
+      "deletingDesc": "Removing all data securely. This may take a moment.",
+      "doneTitle": "Account Deleted",
+      "doneDesc": "Your account and all associated data have been permanently removed. We're sorry to see you go.",
+      "returnHome": "Return to Homepage"
+    },
+    "signOutModal": {
+      "title": "Sign Out?",
+      "description": "Your data is safely saved. You can sign back in anytime.",
+      "stayHere": "Stay Here",
+      "signOut": "Sign Out"
+    },
+    "invoice": {
+      "title": "Kidventure — Payment Receipt",
+      "subtitle": "Official Payment Receipt",
+      "receiptNumber": "Receipt No.",
+      "date": "Date",
+      "billedTo": "Billed To",
+      "plan": "Plan",
+      "period": "Billing Period",
+      "description": "Description",
+      "amount": "Amount",
+      "status": "Status",
+      "paid": "PAID",
+      "proMonthly": "Kidventure Pro — Monthly Subscription",
+      "monthlyAccess": "Monthly access to all Pro features",
+      "subtotal": "Subtotal",
+      "tax": "Tax (0%)",
+      "total": "Total",
+      "paymentMethod": "Payment Method",
+      "transactionId": "Transaction ID",
+      "thankYou": "Thank you for your continued support!",
+      "footerNote": "This is an official receipt generated by Kidventure. For support: support@kidventure.com",
+      "security": "All payments secured · COPPA & GDPR aligned · kidventure.com"
+    },
+    "common": {
+      "grade": "Grade",
+      "age": "Age",
+      "level": "Level",
+      "today": "Today",
+      "yesterday": "Yesterday",
+      "loading": "Loading…",
+      "cancel": "Cancel",
+      "save": "Save",
+      "delete": "Delete",
+      "edit": "Edit",
+      "close": "Close",
+      "back": "Back",
+      "viewAll": "View All",
+      "monday": "Mon",
+      "tuesday": "Tue",
+      "wednesday": "Wed",
+      "thursday": "Thu",
+      "friday": "Fri",
+      "saturday": "Sat",
+      "sunday": "Sun",
+      "january": "Jan",
+      "february": "Feb",
+      "march": "Mar",
+      "april": "Apr",
+      "may": "May",
+      "june": "Jun",
+      "july": "Jul",
+      "august": "Aug",
+      "september": "Sep",
+      "october": "Oct",
+      "november": "Nov",
+      "december": "Dec"
+    },
+    "seed": {
+      "children": [
+        {
+          "id": "c1",
+          "name": "Sara",
+          "age": 8,
+          "grade": "Grade 3",
+          "avatarIcon": "flower2",
+          "color": "#ec4899",
+          "level": 12,
+          "xp": 3840,
+          "xpNext": 4200,
+          "streak": 7,
+          "badges": 14,
+          "timeThisWeek": 312,
+          "activitiesCompleted": 48,
+          "averageScore": 88,
+          "quizzesTotal": 23,
+          "storiesRead": 11,
+          "gamesPlayed": 18,
+          "lastActive": "Today, 3:45 PM",
+          "subjects": [
+            {
+              "name": "Arabic Language",
+              "pct": 78,
+              "color": "#6366f1",
+              "icon": "arabic",
+              "trend": 5,
+              "lessons": 24,
+              "rank": 8
+            },
+            {
+              "name": "Mathematics",
+              "pct": 65,
+              "color": "#ec4899",
+              "icon": "math",
+              "trend": 3,
+              "lessons": 18,
+              "rank": 14
+            },
+            {
+              "name": "Science",
+              "pct": 91,
+              "color": "#10b981",
+              "icon": "science",
+              "trend": 8,
+              "lessons": 31,
+              "rank": 3
+            },
+            {
+              "name": "Social Studies",
+              "pct": 55,
+              "color": "#f59e0b",
+              "icon": "social",
+              "trend": -2,
+              "lessons": 12,
+              "rank": 22
+            },
+            {
+              "name": "English",
+              "pct": 82,
+              "color": "#06b6d4",
+              "icon": "english",
+              "trend": 6,
+              "lessons": 27,
+              "rank": 6
+            },
+            {
+              "name": "Art & Drawing",
+              "pct": 94,
+              "color": "#8b5cf6",
+              "icon": "art",
+              "trend": 4,
+              "lessons": 19,
+              "rank": 2
+            }
+          ],
+          "recentActivity": [
+            {
+              "id": "a1",
+              "type": "quiz",
+              "title": "Fractions Quiz",
+              "subject": "Mathematics",
+              "time": "2h ago",
+              "score": "9/10",
+              "icon": "math",
+              "xpGained": 120,
+              "duration": "8 min"
+            },
+            {
+              "id": "a2",
+              "type": "story",
+              "title": "The Brave Astronaut",
+              "subject": "Science",
+              "time": "5h ago",
+              "score": null,
+              "icon": "science",
+              "xpGained": 80,
+              "duration": "12 min"
+            },
+            {
+              "id": "a3",
+              "type": "drawing",
+              "title": "Desert Animals",
+              "subject": "Art & Drawing",
+              "time": "Yesterday",
+              "score": "4/5",
+              "icon": "art",
+              "xpGained": 95,
+              "duration": "20 min"
+            },
+            {
+              "id": "a4",
+              "type": "quiz",
+              "title": "Arabic Letters Practice",
+              "subject": "Arabic Language",
+              "time": "Yesterday",
+              "score": "10/10",
+              "icon": "arabic",
+              "xpGained": 150,
+              "duration": "6 min"
+            },
+            {
+              "id": "a5",
+              "type": "game",
+              "title": "Math Race",
+              "subject": "Mathematics",
+              "time": "2d ago",
+              "score": "#1",
+              "icon": "gamepad",
+              "xpGained": 200,
+              "duration": "15 min"
+            }
+          ],
+          "latestBadges": [
+            {
+              "id": "b1",
+              "name": "Quiz Master",
+              "iconType": "trophy",
+              "color": "#f59e0b",
+              "earned": "Today",
+              "desc": "Scored 90%+ on 5 quizzes",
+              "rarity": "Rare"
+            },
+            {
+              "id": "b2",
+              "name": "Streak King",
+              "iconType": "flame",
+              "color": "#ef4444",
+              "earned": "Yesterday",
+              "desc": "7-day streak",
+              "rarity": "Common"
+            },
+            {
+              "id": "b3",
+              "name": "Science Star",
+              "iconType": "atom",
+              "color": "#6366f1",
+              "earned": "3d ago",
+              "desc": "All Science modules done",
+              "rarity": "Epic"
+            },
+            {
+              "id": "b4",
+              "name": "Artist Elite",
+              "iconType": "art",
+              "color": "#8b5cf6",
+              "earned": "1w ago",
+              "desc": "5 drawings top rated",
+              "rarity": "Rare"
+            }
+          ],
+          "weeklyData": [
+            45,
+            62,
+            30,
+            78,
+            55,
+            90,
+            52
+          ],
+          "monthlyData": [
+            200,
+            280,
+            240,
+            320,
+            290,
+            380,
+            350,
+            420,
+            310,
+            390,
+            440,
+            312
+          ],
+          "insights": [
+            {
+              "type": "strength",
+              "iconType": "atom",
+              "bg": "rgba(16,185,129,0.1)",
+              "title": "Science Superstar",
+              "text": "Sara excels in Science with 91% mastery — top 10% of her grade."
+            },
+            {
+              "type": "focus",
+              "iconType": "globe",
+              "bg": "rgba(245,158,11,0.1)",
+              "title": "Social Studies needs attention",
+              "text": "Progress slipped 2% this week. Try the Egypt Ancient Kingdoms module."
+            },
+            {
+              "type": "streak",
+              "iconType": "flame",
+              "bg": "rgba(239,68,68,0.1)",
+              "title": "7-Day Streak!",
+              "text": "Sara has been learning every day this week. Celebrate!"
+            },
+            {
+              "type": "tip",
+              "iconType": "brain",
+              "bg": "rgba(99,102,241,0.1)",
+              "title": "Study Tip",
+              "text": "Sessions between 3–5 PM show 23% better retention."
+            }
+          ]
+        },
+        {
+          "id": "c2",
+          "name": "Omar",
+          "age": 10,
+          "grade": "Grade 5",
+          "avatarIcon": "zap",
+          "color": "#6366f1",
+          "level": 18,
+          "xp": 6200,
+          "xpNext": 7000,
+          "streak": 3,
+          "badges": 22,
+          "timeThisWeek": 480,
+          "activitiesCompleted": 67,
+          "averageScore": 93,
+          "quizzesTotal": 41,
+          "storiesRead": 18,
+          "gamesPlayed": 30,
+          "lastActive": "Today, 1:20 PM",
+          "subjects": [
+            {
+              "name": "Arabic Language",
+              "pct": 88,
+              "color": "#6366f1",
+              "icon": "arabic",
+              "trend": 2,
+              "lessons": 38,
+              "rank": 4
+            },
+            {
+              "name": "Mathematics",
+              "pct": 95,
+              "color": "#ec4899",
+              "icon": "math",
+              "trend": 7,
+              "lessons": 45,
+              "rank": 1
+            },
+            {
+              "name": "Science",
+              "pct": 72,
+              "color": "#10b981",
+              "icon": "science",
+              "trend": -3,
+              "lessons": 28,
+              "rank": 12
+            },
+            {
+              "name": "Social Studies",
+              "pct": 61,
+              "color": "#f59e0b",
+              "icon": "social",
+              "trend": 4,
+              "lessons": 20,
+              "rank": 18
+            },
+            {
+              "name": "English",
+              "pct": 79,
+              "color": "#06b6d4",
+              "icon": "english",
+              "trend": 5,
+              "lessons": 32,
+              "rank": 7
+            },
+            {
+              "name": "Art & Drawing",
+              "pct": 45,
+              "color": "#8b5cf6",
+              "icon": "art",
+              "trend": -1,
+              "lessons": 10,
+              "rank": 29
+            }
+          ],
+          "recentActivity": [
+            {
+              "id": "a1",
+              "type": "quiz",
+              "title": "Algebra Basics",
+              "subject": "Mathematics",
+              "time": "1h ago",
+              "score": "10/10",
+              "icon": "math",
+              "xpGained": 200,
+              "duration": "10 min"
+            },
+            {
+              "id": "a2",
+              "type": "mindmap",
+              "title": "The Solar System",
+              "subject": "Science",
+              "time": "3h ago",
+              "score": null,
+              "icon": "orbit",
+              "xpGained": 70,
+              "duration": "18 min"
+            },
+            {
+              "id": "a3",
+              "type": "game",
+              "title": "Word Builder",
+              "subject": "Arabic Language",
+              "time": "Yesterday",
+              "score": "#3",
+              "icon": "arabic",
+              "xpGained": 140,
+              "duration": "20 min"
+            }
+          ],
+          "latestBadges": [
+            {
+              "id": "b1",
+              "name": "Math Wizard",
+              "iconType": "math",
+              "color": "#6366f1",
+              "earned": "Today",
+              "desc": "20 advanced algebra problems",
+              "rarity": "Epic"
+            },
+            {
+              "id": "b2",
+              "name": "Top Scorer",
+              "iconType": "trophy",
+              "color": "#f59e0b",
+              "earned": "2d ago",
+              "desc": "#1 in weekly leaderboard",
+              "rarity": "Legendary"
+            },
+            {
+              "id": "b3",
+              "name": "Fast Learner",
+              "iconType": "zap",
+              "color": "#ec4899",
+              "earned": "6d ago",
+              "desc": "3 modules in a single day",
+              "rarity": "Rare"
+            }
+          ],
+          "weeklyData": [
+            80,
+            95,
+            60,
+            88,
+            72,
+            100,
+            85
+          ],
+          "monthlyData": [
+            300,
+            350,
+            280,
+            420,
+            380,
+            460,
+            440,
+            520,
+            490,
+            580,
+            540,
+            480
+          ],
+          "insights": [
+            {
+              "type": "strength",
+              "iconType": "math",
+              "bg": "rgba(16,185,129,0.1)",
+              "title": "Mathematics Champion",
+              "text": "Omar is performing exceptionally — 95% mastery, top 5% nationally."
+            },
+            {
+              "type": "celebrate",
+              "iconType": "trophy",
+              "bg": "rgba(99,102,241,0.1)",
+              "title": "Level 18 achieved!",
+              "text": "Only 800 XP away from the legendary Level 20 badge!"
+            }
+          ]
+        },
+        {
+          "id": "c3",
+          "name": "Layla",
+          "age": 6,
+          "grade": "Grade 1",
+          "avatarIcon": "baby",
+          "color": "#10b981",
+          "level": 5,
+          "xp": 890,
+          "xpNext": 1200,
+          "streak": 12,
+          "badges": 7,
+          "timeThisWeek": 198,
+          "activitiesCompleted": 29,
+          "averageScore": 75,
+          "quizzesTotal": 12,
+          "storiesRead": 22,
+          "gamesPlayed": 14,
+          "lastActive": "Today, 10:30 AM",
+          "subjects": [
+            {
+              "name": "Arabic Language",
+              "pct": 62,
+              "color": "#6366f1",
+              "icon": "arabic",
+              "trend": 8,
+              "lessons": 15,
+              "rank": 11
+            },
+            {
+              "name": "Mathematics",
+              "pct": 55,
+              "color": "#ec4899",
+              "icon": "math",
+              "trend": 4,
+              "lessons": 12,
+              "rank": 16
+            },
+            {
+              "name": "Science",
+              "pct": 70,
+              "color": "#10b981",
+              "icon": "science",
+              "trend": 6,
+              "lessons": 18,
+              "rank": 9
+            },
+            {
+              "name": "Social Studies",
+              "pct": 48,
+              "color": "#f59e0b",
+              "icon": "social",
+              "trend": 3,
+              "lessons": 10,
+              "rank": 24
+            },
+            {
+              "name": "English",
+              "pct": 60,
+              "color": "#06b6d4",
+              "icon": "english",
+              "trend": 9,
+              "lessons": 14,
+              "rank": 13
+            },
+            {
+              "name": "Art & Drawing",
+              "pct": 88,
+              "color": "#8b5cf6",
+              "icon": "art",
+              "trend": 5,
+              "lessons": 21,
+              "rank": 4
+            }
+          ],
+          "recentActivity": [
+            {
+              "id": "a1",
+              "type": "story",
+              "title": "The Magic Garden",
+              "subject": "Arabic Language",
+              "time": "1h ago",
+              "score": null,
+              "icon": "scroll",
+              "xpGained": 50,
+              "duration": "9 min"
+            },
+            {
+              "id": "a2",
+              "type": "game",
+              "title": "Number Bubbles",
+              "subject": "Mathematics",
+              "time": "3h ago",
+              "score": "#2",
+              "icon": "gamepad",
+              "xpGained": 110,
+              "duration": "12 min"
+            },
+            {
+              "id": "a3",
+              "type": "drawing",
+              "title": "My Family Drawing",
+              "subject": "Art & Drawing",
+              "time": "Yesterday",
+              "score": "5/5",
+              "icon": "art",
+              "xpGained": 90,
+              "duration": "18 min"
+            }
+          ],
+          "latestBadges": [
+            {
+              "id": "b1",
+              "name": "Streak Star",
+              "iconType": "flame",
+              "color": "#10b981",
+              "earned": "Today",
+              "desc": "12 days in a row!",
+              "rarity": "Epic"
+            },
+            {
+              "id": "b2",
+              "name": "Story Lover",
+              "iconType": "scroll",
+              "color": "#f59e0b",
+              "earned": "3d ago",
+              "desc": "Read 20 stories",
+              "rarity": "Common"
+            },
+            {
+              "id": "b3",
+              "name": "Creative Kid",
+              "iconType": "art",
+              "color": "#8b5cf6",
+              "earned": "5d ago",
+              "desc": "5-star drawings",
+              "rarity": "Rare"
+            }
+          ],
+          "weeklyData": [
+            20,
+            38,
+            25,
+            45,
+            30,
+            55,
+            28
+          ],
+          "monthlyData": [
+            80,
+            120,
+            100,
+            150,
+            130,
+            180,
+            160,
+            200,
+            140,
+            190,
+            210,
+            198
+          ],
+          "insights": [
+            {
+              "type": "strength",
+              "iconType": "star",
+              "bg": "rgba(16,185,129,0.1)",
+              "title": "12-Day Streak Record!",
+              "text": "Layla has the longest streak in your family!"
+            },
+            {
+              "type": "celebrate",
+              "iconType": "art",
+              "bg": "rgba(139,92,246,0.1)",
+              "title": "Art talent emerging",
+              "text": "Top 3% for Grade 1. Consider the advanced Art module!"
+            }
+          ]
+        },
+        {
+          "id": "c4",
+          "name": "Youssef",
+          "age": 12,
+          "grade": "Grade 6",
+          "avatarIcon": "rocket",
+          "color": "#f59e0b",
+          "level": 24,
+          "xp": 9400,
+          "xpNext": 10000,
+          "streak": 5,
+          "badges": 31,
+          "timeThisWeek": 560,
+          "activitiesCompleted": 89,
+          "averageScore": 91,
+          "quizzesTotal": 58,
+          "storiesRead": 25,
+          "gamesPlayed": 45,
+          "lastActive": "Yesterday, 9:00 PM",
+          "subjects": [
+            {
+              "name": "Arabic Language",
+              "pct": 92,
+              "color": "#6366f1",
+              "icon": "arabic",
+              "trend": 3,
+              "lessons": 52,
+              "rank": 2
+            },
+            {
+              "name": "Mathematics",
+              "pct": 88,
+              "color": "#ec4899",
+              "icon": "math",
+              "trend": 2,
+              "lessons": 48,
+              "rank": 5
+            },
+            {
+              "name": "Science",
+              "pct": 96,
+              "color": "#10b981",
+              "icon": "science",
+              "trend": 5,
+              "lessons": 61,
+              "rank": 1
+            },
+            {
+              "name": "Social Studies",
+              "pct": 79,
+              "color": "#f59e0b",
+              "icon": "social",
+              "trend": -1,
+              "lessons": 38,
+              "rank": 9
+            },
+            {
+              "name": "English",
+              "pct": 94,
+              "color": "#06b6d4",
+              "icon": "english",
+              "trend": 4,
+              "lessons": 55,
+              "rank": 3
+            },
+            {
+              "name": "Art & Drawing",
+              "pct": 58,
+              "color": "#8b5cf6",
+              "icon": "art",
+              "trend": 2,
+              "lessons": 22,
+              "rank": 20
+            }
+          ],
+          "recentActivity": [
+            {
+              "id": "a1",
+              "type": "quiz",
+              "title": "Advanced Algebra",
+              "subject": "Mathematics",
+              "time": "4h ago",
+              "score": "10/10",
+              "icon": "math",
+              "xpGained": 250,
+              "duration": "12 min"
+            },
+            {
+              "id": "a2",
+              "type": "essay",
+              "title": "The Future of AI",
+              "subject": "English",
+              "time": "1d ago",
+              "score": "5/5",
+              "icon": "pen",
+              "xpGained": 180,
+              "duration": "35 min"
+            },
+            {
+              "id": "a3",
+              "type": "quiz",
+              "title": "Human Body Systems",
+              "subject": "Science",
+              "time": "1d ago",
+              "score": "9/10",
+              "icon": "science",
+              "xpGained": 190,
+              "duration": "15 min"
+            }
+          ],
+          "latestBadges": [
+            {
+              "id": "b1",
+              "name": "Legend",
+              "iconType": "crown",
+              "color": "#f59e0b",
+              "earned": "Today",
+              "desc": "Level 24 — only 7 students!",
+              "rarity": "Legendary"
+            },
+            {
+              "id": "b2",
+              "name": "Science God",
+              "iconType": "science",
+              "color": "#10b981",
+              "earned": "1d ago",
+              "desc": "96% mastery in Science",
+              "rarity": "Legendary"
+            },
+            {
+              "id": "b3",
+              "name": "Polyglot",
+              "iconType": "globe",
+              "color": "#06b6d4",
+              "earned": "3d ago",
+              "desc": "Top in Arabic and English",
+              "rarity": "Epic"
+            }
+          ],
+          "weeklyData": [
+            90,
+            110,
+            75,
+            105,
+            88,
+            120,
+            95
+          ],
+          "monthlyData": [
+            380,
+            420,
+            360,
+            500,
+            460,
+            540,
+            510,
+            620,
+            580,
+            660,
+            630,
+            560
+          ],
+          "insights": [
+            {
+              "type": "strength",
+              "iconType": "crown",
+              "bg": "rgba(245,158,11,0.1)",
+              "title": "Top 1% Learner",
+              "text": "Youssef is in the top 1% of all Kidventure learners."
+            },
+            {
+              "type": "celebrate",
+              "iconType": "target",
+              "bg": "rgba(16,185,129,0.1)",
+              "title": "Level 25 incoming",
+              "text": "Only 600 XP away from Level 25 and the Grandmaster badge."
+            }
+          ]
+        }
+      ],
+      "parent": {
+        "name": "Ahmed Hassan",
+        "email": "ahmed@example.com",
+        "phone": "+20 100 000 0000",
+        "plan": "Kidventure Pro",
+        "joinedDate": "January 2025",
+        "language": "Arabic",
+        "city": "Cairo",
+        "country": "Egypt"
+      },
+      "notifications": [
+        {
+          "id": "n1",
+          "text": "Sara completed Fractions Quiz with 90% improvement!",
+          "time": "2h ago",
+          "read": false,
+          "type": "achievement"
+        },
+        {
+          "id": "n2",
+          "text": "Omar earned the Math Wizard badge!",
+          "time": "5h ago",
+          "read": false,
+          "type": "badge"
+        },
+        {
+          "id": "n3",
+          "text": "Layla has a 12-day streak — her longest ever!",
+          "time": "8h ago",
+          "read": false,
+          "type": "streak"
+        },
+        {
+          "id": "n4",
+          "text": "Youssef reached Level 24 and unlocked a new reward!",
+          "time": "1d ago",
+          "read": true,
+          "type": "level"
+        },
+        {
+          "id": "n5",
+          "text": "Your weekly family progress report is ready.",
+          "time": "1d ago",
+          "read": true,
+          "type": "report"
+        },
+        {
+          "id": "n6",
+          "text": "New Science content: 'Deep Ocean Mysteries'",
+          "time": "2d ago",
+          "read": true,
+          "type": "content"
+        }
+      ]
+    }
+  },
+    "notFound": {
+      "title": "Page not found",
+      "lead": "The page you're looking for doesn't exist.",
+      "backHome": "Back to Home"
+    }
+  }

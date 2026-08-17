@@ -1,0 +1,9 @@
+.kv-shell {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.kv-main {
+    flex: 1;
+}

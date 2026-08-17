@@ -1,0 +1,31 @@
+:root {
+    --kv-bg: #f7fbff;
+    --kv-surface: #ffffff;
+    --kv-text: #141a33;
+    --kv-muted: rgba(20, 26, 51, 0.72);
+    --kv-border: rgba(20, 26, 51, 0.14);
+    --kv-primary: #ff8a00;
+    --kv-primary-contrast: #ffffff;
+    --kv-accent: #5b55e6;
+    --kv-accent-contrast: #ffffff;
+    --kv-soft: #e9f7ff;
+    --kv-soft-2: #fff3e3;
+    --kv-shadow: 0 16px 40px rgba(20, 26, 51, 0.08);
+    --kv-radius: 14px;
+    --kv-maxw: 1120px;
+}
+
+html[data-theme='dark'] {
+    --kv-bg: #0b1020;
+    --kv-surface: rgba(255, 255, 255, 0.07);
+    --kv-text: rgba(255, 255, 255, 0.92);
+    --kv-muted: rgba(255, 255, 255, 0.72);
+    --kv-border: rgba(255, 255, 255, 0.14);
+    --kv-primary: #ff9a1f;
+    --kv-primary-contrast: #0b1020;
+    --kv-accent: #8a7dff;
+    --kv-accent-contrast: #0b1020;
+    --kv-soft: rgba(78, 195, 255, 0.12);
+    --kv-soft-2: rgba(255, 154, 31, 0.12);
+    --kv-shadow: 0 18px 50px rgba(0, 0, 0, 0.35);
+}

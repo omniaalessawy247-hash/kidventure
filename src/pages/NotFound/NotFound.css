@@ -1,0 +1,5 @@
+.nf-wrap {
+    display: grid;
+    gap: 12px;
+    justify-items: start;
+}
