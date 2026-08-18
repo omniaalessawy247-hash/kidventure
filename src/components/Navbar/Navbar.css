@@ -6,7 +6,7 @@
     backdrop-filter: blur(10px);
     border-bottom: 1px solid var(--kv-border);
     box-shadow: 0 10px 24px rgba(20, 26, 51, 0.06);
-    overflow-x: hidden;
+    overflow: visible;
 }
 
 .kv-nav {

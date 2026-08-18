@@ -375,6 +375,7 @@
   stroke-dasharray: 220; stroke-dashoffset: 220;
 }
 [dir="rtl"] .kv-arrow-from-text { right: auto; left: -30px; transform: scaleX(-1); }
+[dir="rtl"] .kv-arrow-bot { left: auto; right: 0%; }
 
 /* ══════════════════════════════
    HERO
@@ -1073,6 +1074,9 @@
   .kv-hero { min-height:auto; }
   .kv-hero-h1 { font-size:2.25rem; }
   .kv-hero-desc { max-width:none; }
+  .kv-arrow-from-text,
+  .kv-arrow-top,
+  .kv-arrow-bot { display:none !important; }
   .kv-feat-grid  { grid-template-columns:1fr 1fr; }
   .kv-trust-grid { grid-template-columns:1fr 1fr; }
   .kv-trans-grid { grid-template-columns:1fr; }

@@ -14,6 +14,51 @@ import {
 import './WhyKidventure.css';
 
 /* ================================================================
+   ✅ IMAGE / VIDEO IMPORTS
+   ------------------------------------------------------------------
+   THIS is the fix. Previously these files were referenced as raw
+   strings like  src="src/assets/whykidventure/logo.jpeg" .
+   That only ever works while running `npm run dev`, because some
+   dev servers happen to resolve paths under /src. The moment you
+   run a production build (which is what Vercel deploys), there is
+   NO /src folder in the output at all — everything gets bundled
+   into hashed files inside /dist/assets. A raw string path is
+   never picked up by the bundler, so the browser requests a file
+   that simply doesn't exist on the server -> broken image icon.
+
+   By importing the files like this, Vite/Webpack:
+   1. Detects the reference at build time
+   2. Copies + hashes the file into the build output
+   3. Rewrites `src` to the correct final URL automatically
+
+   This is exactly the pattern already used correctly in
+   NewHome.jsx (mobileScreensImg, phoneImg, etc.) — we're just
+   applying the same fix here.
+   ================================================================ */
+import logoImg        from '../../assets/whykidventure/logo.jpeg';
+import problemImg     from '../../assets/whykidventure/image2.jpg';
+import insideAppImg   from '../../assets/whykidventure/image3.png';
+import intentionImg   from '../../assets/whykidventure/image4.png';
+import parentsImg     from '../../assets/whykidventure/image5.png';
+import beliefImg1     from '../../assets/whykidventure/image6.png';
+import beliefImg2     from '../../assets/whykidventure/image7.png';
+import beliefImg3     from '../../assets/whykidventure/image8.png';
+import storyImg       from '../../assets/whykidventure/image9.png';
+import experienceVideo from '../../assets/whykidventure/video.mp4';
+
+/* NOTE: adjust the relative path ('../../assets/...') above so it
+   matches WHERE this file actually lives relative to /src/assets.
+   If this component sits at src/pages/WhyKidventure.jsx and images
+   live at src/assets/whykidventure/, then '../../assets/...' is
+   wrong and it should be '../assets/whykidventure/...' — count the
+   folder levels from this file to /src/assets and adjust '../' count
+   to match. Vite will throw a clear "failed to resolve import"
+   error at build time if the path is off, which is much easier to
+   debug than a silently-broken <img> in production. */
+
+const beliefImages = [beliefImg1, beliefImg2, beliefImg3];
+
+/* ================================================================
    PAGE DATA
    ================================================================ */
 const PAGE_DATA = {
@@ -265,8 +310,6 @@ function FlipEngine({ pages, current, direction, isFlipping, onDone }) {
 
 /* ================================================================
    PAGE 0 — COVER
-   ✦ FIX: removed duplicate BrandName + LogoEmblem from inside cover
-   ✦ FIX: wk-cover-chapter now uses t('brand.premiumLabel')
    ================================================================ */
 function PageCover({ t, onOpen }) {
   const d = PAGE_DATA.cover;
@@ -274,22 +317,19 @@ function PageCover({ t, onOpen }) {
     <div className="wk-page wk-page--cover">
       <div className="wk-cover-frame" />
 
-      {/* ── REMOVED duplicate logo row — already shown in <header> above ── */}
-
       <div className="wk-cover-art">
         <div className="wk-cover-art-glow"  aria-hidden="true" />
         <div className="wk-cover-art-ring"  aria-hidden="true" />
         <div className="wk-cover-art-ring2" aria-hidden="true" />
         <div className="wk-cover-art-circle">
           <img
-            src="src/assets/whykidventure/logo.jpeg"
+            src={logoImg}
             alt="Kidventure"
             style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' }}
           />
         </div>
       </div>
 
-      {/* ✦ FIX: was hardcoded "A Premium Learning Experience" */}
       <div className="wk-cover-chapter">{t('brand.premiumLabel')}</div>
 
       <h1 className="wk-cover-title">{t(d.title)}</h1>
@@ -332,9 +372,15 @@ function PageProblem({ t }) {
       <div className="wk-pane-r">
         <div style={{ gridColumn: '1 / -1' }}>
           <img
-            src="src/assets/whykidventure/image2.jpg"
+            src={problemImg}
             alt="The Problem"
-            style={{ width: '90%', height: '310px', objectFit: 'cover', borderRadius: 4 }}
+            style={{
+              width: '90%',
+              height: 'clamp(160px, 32vw, 310px)',
+              objectFit: 'cover',
+              borderRadius: 4,
+              display: 'block',
+            }}
           />
         </div>
         <div style={{ overflow: 'auto' }}>
@@ -433,13 +479,13 @@ function PageInsideApp({ t }) {
         padding: '16px 0',
       }}>
         <img
-          src="src/assets/whykidventure/image3.png"
+          src={insideAppImg}
           alt="Inside App"
           style={{
             width: '70%',
-            height: '80%',
+            height: 'clamp(180px, 40vw, 320px)',
             maxWidth: '80%',
-            maxHeight: 'calc(100% - 32px)',
+            objectFit: 'cover',
             borderRadius: 12,
             boxShadow: '0 8px 24px rgba(0,0,0,0.2)',
           }}
@@ -497,12 +543,13 @@ function PageParents({ t, navigate }) {
       </div>
       <div className="wk-pane-r" style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
         <img
-          src="src/assets/whykidventure/image5.png"
+          src={parentsImg}
           alt="Parents Dashboard"
           style={{
             width: '75%',
-            height: '55%',
+            height: 'clamp(150px, 28vw, 220px)',
             display: 'block',
+            objectFit: 'cover',
             borderRadius: 12,
             boxShadow: '0 8px 24px rgba(0,0,0,0.15)',
           }}
@@ -643,31 +690,32 @@ function SectionExperience({ t }) {
           </div>
         </div>
 
-        <div className="wk-exp-visual" style={{
-          margin: '0 20px',
-          height: 'auto',
-          overflow: 'visible',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          padding: '40px 0',
-        }}>
+        <div
+          className="wk-exp-visual"
+          style={{
+            margin: '0 20px',
+            height: 'auto',
+            overflow: 'visible',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            padding: 'clamp(16px, 4vw, 40px) 0',
+          }}
+        >
           <div className="wk-exp-visual-glow" aria-hidden="true" />
           <div className="wk-exp-mediabox">
-            <div className="wk-exp-visual" style={{ margin: '40px 20px 0 20px', height: 'auto', overflow: 'visible' }}>
-              <div className="wk-exp-visual-glow" aria-hidden="true" />
-              <video
-                src="src/assets/whykidventure/video.mp4"
-                autoPlay loop muted playsInline
-                style={{
-                  width: '90%',
-                  height: 'auto',
-                  display: 'block',
-                  borderRadius: 16,
-                  boxShadow: '0 8px 24px rgba(0,0,0,0.15)',
-                }}
-              />
-            </div>
+            <video
+              src={experienceVideo}
+              autoPlay loop muted playsInline
+              style={{
+                width: '90%',
+                maxWidth: 420,
+                height: 'auto',
+                display: 'block',
+                borderRadius: 16,
+                boxShadow: '0 8px 24px rgba(0,0,0,0.15)',
+              }}
+            />
           </div>
         </div>
       </div>
@@ -710,9 +758,9 @@ function SectionIntention({ t }) {
           ))}
         </div>
 
-        <div className="wk-intent-media" style={{ maxWidth: '400px', margin: '0 auto' }}>
+        <div className="wk-intent-media" style={{ maxWidth: '400px', width: '90%', margin: '0 auto' }}>
           <img
-            src="src/assets/whykidventure/image4.png"
+            src={intentionImg}
             alt="Technology with Intention"
             style={{ width: '100%', height: 'auto', display: 'block', borderRadius: 16 }}
           />
@@ -801,15 +849,11 @@ function SectionBelief({ t }) {
 
               <div className="wk-belief-item-media">
                 <img
-                  src={[
-                    'src/assets/whykidventure/image6.png',
-                    'src/assets/whykidventure/image7.png',
-                    'src/assets/whykidventure/image8.png',
-                  ][i]}
+                  src={beliefImages[i]}
                   alt={item.title}
                   style={{
                     width: '60%',
-                    height: '350px',
+                    height: 'clamp(200px, 45vw, 350px)',
                     display: 'block',
                     borderRadius: 20,
                     objectFit: 'cover',
@@ -854,7 +898,7 @@ function SectionStory({ t, navigate }) {
             <div className="wk-story-head-ring" aria-hidden="true" />
             <div className="wk-story-head-mediabox">
               <img
-                src="src/assets/whykidventure/image9.png"
+                src={storyImg}
                 alt="Why we built Kidventure"
                 style={{
                   width: '99%', height: '90%',
@@ -969,17 +1013,11 @@ export default function WhyKidventure({ theme = 'dark', isLoggedIn = false }) {
         {Array.from({ length: 12 }).map((_, i) => <div key={i} className="wk-bubble" />)}
       </div>
 
-      {/* ================================================================
-          HEADER
-          ✦ FIX 1: header tagline now uses t('brand.headerTagline')
-          ✦ FIX 2: removed duplicate logo/brand from PageCover
-          ================================================================ */}
       <header className="wk-header">
         <div className="wk-header-inner">
           <LogoEmblem size="lg" />
           <BrandName className="wk-brand-name--xl" />
         </div>
-        {/* ✦ was hardcoded "Learning · Adventure · Wonder" */}
         <p className="wk-header-tagline">{t('brand.headerTagline')}</p>
       </header>
 
@@ -992,7 +1030,6 @@ export default function WhyKidventure({ theme = 'dark', isLoggedIn = false }) {
             {[...Array(12)].map((_, i) => <div key={i} className="wk-stack-leaf" />)}
           </div>
 
-          {/* ✦ FIX 3: spine text uses t('brand.name') */}
           <div className="wk-book-spine" aria-hidden="true">
             <div className="wk-spine-ornament"><Star size={8} /></div>
             <span className="wk-spine-text">{t('brand.name')}</span>

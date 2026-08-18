@@ -47,14 +47,64 @@
   from { opacity:0; transform:translateY(20px); }
   to   { opacity:1; transform:translateY(0); }
 }
+/* ✨ new decorative keyframes */
+@keyframes cuBgDrift {
+  0%,100% { transform:translate(0,0) rotate(0deg); }
+  50%     { transform:translate(24px,-18px) rotate(8deg); }
+}
+@keyframes cuBgPulse {
+  0%,100% { opacity:.5; transform:scale(1); }
+  50%     { opacity:.85; transform:scale(1.08); }
+}
+@keyframes cuDashMove {
+  to { stroke-dashoffset:-200; }
+}
 
 /* ── page ── */
-.cu-page { min-height:100vh; background:var(--kv-bg); overflow-x:hidden; }
+.cu-page { min-height:100vh; background:var(--kv-bg); overflow-x:hidden; position:relative; }
 
 /* ════════════════════════════════════════════════════════
-   HERO  ✅  الصورة تبان كاملة من فوق وتحت
-            — object-position:center top  →  يحافظ على الجزء السفلي
-            — max-height يضغطها بشكل معقول بدون تشويه
+   ✨ GLOBAL PAGE BACKGROUND DECORATION
+   طبقة زخرفة عامة خلف الصفحة كلها — شبكة نقط خفيفة + توهجات لونية
+   ثابتة أثناء السكرول (fixed) عشان تديلك إحساس "بروفيشنال" موحّد
+   ════════════════════════════════════════════════════════ */
+.cu-page-deco {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+.cu-page-deco::before {
+  content:'';
+  position:absolute; inset:0;
+  background-image:
+    radial-gradient(circle, rgba(255,107,53,.08) 1px, transparent 1px),
+    radial-gradient(circle, rgba(139,92,246,.06) 1px, transparent 1px);
+  background-size: 34px 34px, 54px 54px;
+  background-position: 0 0, 17px 17px;
+  mask-image: radial-gradient(ellipse 85% 70% at 50% 20%, #000 0%, transparent 85%);
+}
+[data-theme='dark'] .cu-page-deco::before,.theme-dark .cu-page-deco::before {
+  background-image:
+    radial-gradient(circle, rgba(255,107,53,.12) 1px, transparent 1px),
+    radial-gradient(circle, rgba(139,92,246,.1) 1px, transparent 1px);
+}
+.cu-page-blob {
+  position:absolute; border-radius:50%; filter:blur(120px);
+  animation: cuBgDrift 22s ease-in-out infinite;
+}
+.cu-page-blob-a { width:520px; height:520px; top:6%;  left:-12%; background:rgba(255,107,53,.10); }
+.cu-page-blob-b { width:480px; height:480px; top:38%; right:-14%; background:rgba(139,92,246,.10); animation-delay:5s; animation-duration:26s; }
+.cu-page-blob-c { width:420px; height:420px; bottom:2%; left:8%;  background:rgba(6,182,212,.09);  animation-delay:9s; animation-duration:19s; }
+[data-theme='dark'] .cu-page-blob,.theme-dark .cu-page-blob { filter:blur(140px); opacity:1.3; }
+
+/* content sits above the decoration */
+.cu-hero-sec,.cu-info-strip,.cu-stats-section,.cu-feat-section,
+.cu-grid-label,.cu-grid,.cu-map-wrap,.cu-faq-strip { position:relative; z-index:1; }
+
+/* ════════════════════════════════════════════════════════
+   HERO
    ════════════════════════════════════════════════════════ */
 .cu-hero-sec {
   position: relative;
@@ -62,24 +112,21 @@
   overflow: hidden;
 }
 
-/* ✅ الـ wrapper يتحكم في الارتفاع */
 .cu-hero-img-wrap {
   position: relative;
   width: 100%;
-  /* ارتفاع ثابت كافي  —  الصورة تتمدد جوّاه */
-  height: clamp(300px, 52vw, 520px);
+  max-width: 100%;
+  height: clamp(350px, 45vw, 600px);
   overflow: hidden;
 }
 
-/* ✅ الصورة: cover + object-position:center 70%
-   → الجزء التحتاني يظهر دائماً، القص من الأعلى فقط لو فيه */
 .cu-hero-img {
   display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center 70%;   /* ← يحافظ على الجزء السفلي */
-  transform-origin: center 70%;
+  object-position: center 50%;
+  transform-origin: center 50%;
   animation: cuZoom 18s ease-in-out infinite alternate;
   position: relative;
   z-index: 0;
@@ -110,6 +157,23 @@
 .cu-orb-1 { width:280px; height:280px; background:rgba(255,107,53,.35); top:-60px;  left:-80px;  animation: cuOrbDrift 12s ease-in-out infinite; }
 .cu-orb-2 { width:220px; height:220px; background:rgba(139,92,246,.3);  top:20px;   right:-60px; animation: cuOrbDrift 16s ease-in-out infinite reverse; }
 .cu-orb-3 { width:160px; height:160px; background:rgba(6,182,212,.25);  bottom:0;   left:40%;    animation: cuOrbDrift 10s ease-in-out infinite 3s; }
+
+/* ✨ decorative dashed ring + sparkle shapes over the hero (professional touch) */
+.cu-hero-shape { position:absolute; z-index:1; pointer-events:none; opacity:.5; }
+.cu-hero-ring {
+  width:120px; height:120px; top:14%; right:8%;
+  border:1.5px dashed rgba(255,255,255,.35); border-radius:50%;
+  animation: cuBgDrift 16s ease-in-out infinite;
+}
+.cu-hero-ring-sm {
+  width:56px; height:56px; bottom:16%; left:6%;
+  border:1.5px dashed rgba(255,255,255,.3); border-radius:50%;
+  animation: cuBgDrift 12s ease-in-out infinite reverse;
+}
+.cu-hero-plus {
+  width:18px; height:18px; top:30%; left:12%;
+  color:rgba(255,255,255,.4);
+}
 
 /* ── hero content ── */
 .cu-hero-center {
@@ -191,18 +255,24 @@
 .cu-info-val  { font-size:.8rem;  font-weight:800; color:var(--kv-txt1); }
 
 /* ════════════════════════════════════════════════════════
-   STATS SECTION  — new
+   STATS SECTION
    ════════════════════════════════════════════════════════ */
 .cu-stats-section {
+  position: relative;
   padding: clamp(40px,6vw,72px) 0;
   background: linear-gradient(135deg, rgba(255,107,53,.04) 0%, rgba(139,92,246,.05) 50%, rgba(6,182,212,.04) 100%);
   border-bottom: 1.5px solid var(--kv-border);
+  overflow: hidden;
 }
-.cu-stats-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: clamp(12px, 2vw, 22px);
+/* ✨ soft drifting blobs behind the stat cards */
+.cu-stats-section::before,
+.cu-stats-section::after {
+  content:''; position:absolute; border-radius:50%; filter:blur(90px); pointer-events:none; z-index:0;
+  animation: cuBgPulse 9s ease-in-out infinite;
 }
+.cu-stats-section::before { width:260px; height:260px; top:-80px; left:-60px; background:rgba(255,107,53,.14); }
+.cu-stats-section::after  { width:220px; height:220px; bottom:-70px; right:-40px; background:rgba(139,92,246,.14); animation-delay:3s; }
+.cu-stats-grid { position:relative; z-index:1; display: grid; grid-template-columns: repeat(4, 1fr); gap: clamp(12px, 2vw, 22px); }
 
 .cu-stat-card {
   background: var(--kv-surface);
@@ -225,13 +295,11 @@
 .cu-stats-section.cu-vis .cu-stat-card:nth-child(3) { animation-delay: .2s; }
 .cu-stats-section.cu-vis .cu-stat-card:nth-child(4) { animation-delay: .3s; }
 .cu-stat-card:hover { transform:translateY(-6px); box-shadow:var(--kv-sh-xl); }
-/* top bar */
 .cu-stat-card::before {
   content:''; position:absolute; top:0; left:0; right:0; height:3px;
   background: var(--sc, #FF6B35);
   border-radius: 4px 4px 0 0;
 }
-/* bg glow */
 .cu-stat-card::after {
   content:''; position:absolute; width:100px; height:100px; border-radius:50%;
   background: var(--sc, #FF6B35); opacity:.06; filter:blur(30px);
@@ -255,14 +323,31 @@
 .cu-stat-label { font-size: .74rem; font-weight: 700; color: var(--kv-txt3); letter-spacing: .03em; }
 
 /* ════════════════════════════════════════════════════════
-   FEATURES SECTION  — new
+   FEATURES SECTION
    ════════════════════════════════════════════════════════ */
 .cu-feat-section {
+  position: relative;
   padding: clamp(48px,7vw,88px) 0;
   opacity: 0; transform: translateY(20px);
   transition: opacity .6s, transform .6s;
+  overflow: hidden;
 }
 .cu-feat-section.cu-vis { opacity:1; transform:translateY(0); }
+/* ✨ subtle grid + corner glow for a "professional" feel */
+.cu-feat-section::before {
+  content:''; position:absolute; inset:0; z-index:0; pointer-events:none;
+  background-image:
+    linear-gradient(rgba(139,92,246,.05) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(139,92,246,.05) 1px,transparent 1px);
+  background-size: 40px 40px;
+  mask-image: radial-gradient(ellipse 70% 60% at 50% 40%, #000 0%, transparent 80%);
+}
+.cu-feat-section::after {
+  content:''; position:absolute; width:300px; height:300px; border-radius:50%;
+  background:rgba(6,182,212,.10); filter:blur(100px); top:-60px; right:-80px; z-index:0;
+  animation: cuBgPulse 10s ease-in-out infinite;
+}
+.cu-section-head,.cu-feat-grid { position:relative; z-index:1; }
 
 .cu-section-head { text-align:center; margin-bottom:clamp(28px,4vw,48px); }
 .cu-section-badge {
@@ -328,6 +413,7 @@
    MAIN GRID
    ════════════════════════════════════════════════════════ */
 .cu-grid {
+  position: relative;
   display: grid; grid-template-columns: 248px 1fr;
   gap: clamp(14px,2.8vw,28px);
   padding-bottom: clamp(14px,2.5vw,28px);
@@ -335,6 +421,11 @@
   transition: opacity .65s cubic-bezier(.4,0,.2,1), transform .65s cubic-bezier(.4,0,.2,1);
 }
 .cu-grid.cu-vis { opacity:1; transform:translateY(0); }
+/* ✨ faint glow anchoring the form area */
+.cu-grid::before {
+  content:''; position:absolute; z-index:-1; width:360px; height:360px; border-radius:50%;
+  background:rgba(255,107,53,.08); filter:blur(110px); top:-40px; right:-60px; pointer-events:none;
+}
 
 /* ════════════════════════════════════════════════════════
    SIDEBAR
@@ -478,20 +569,23 @@ a.cu-channel-row:hover .cu-channel-arr { transform:translateX(3px); color:var(--
 .cu-char-count{ font-size:.66rem; font-weight:600; color:var(--kv-muted); transition:color .2s; }
 .cu-char-count.warn { color:#EF4444; }
 
-/* submit button */
+/* ✅ submit button — colors forced with !important so no global rule
+   (theme reset, generic `button{color:...}`, etc.) can turn the text
+   or background invisible in light mode again */
 .cu-submit-btn {
   display:flex; align-items:center; justify-content:center; gap:9px;
   width:100%; padding:12px 22px; border-radius:var(--kv-r-full);
   border:none; cursor:pointer; font-size:.9rem; font-weight:800; font-family:inherit;
   position:relative; overflow:hidden;
-  background:linear-gradient(135deg,#059669 0%,#0891B2 100%);
+  background:linear-gradient(135deg,#059669 0%,#0891B2 100%) !important;
   animation:cuBtnGlow 3s ease-in-out infinite;
   transition:transform .22s,box-shadow .22s;
   box-shadow:0 4px 16px rgba(5,150,105,.45),inset 0 1px 0 rgba(255,255,255,.18);
-  color:#fff;
 }
-.cu-submit-btn svg { color:#fff; }
-.cu-submit-btn span { color:#fff; position:relative; z-index:1; }
+.cu-submit-btn,
+.cu-submit-btn span,
+.cu-submit-btn svg { color:#ffffff !important; }
+.cu-submit-btn span { position:relative; z-index:1; }
 .cu-btn-bg {
   position:absolute; inset:0; z-index:0;
   background:linear-gradient(105deg,transparent 25%,rgba(255,255,255,.18) 50%,transparent 75%);
@@ -651,10 +745,22 @@ a.cu-channel-row:hover .cu-channel-arr { transform:translateX(3px); color:var(--
   .cu-faq-inner     { flex-direction:column; align-items:flex-start; }
   .cu-soc-grid      { grid-template-columns:1fr 1fr; }
   .cu-faq-cta       { width:100%; justify-content:center; }
+  .cu-page-blob     { filter:blur(80px); }
 }
 @media (max-width:400px) {
   .cu-stats-grid { grid-template-columns:1fr; }
   .cu-soc-grid   { grid-template-columns:1fr; }
+}
+@media (max-width: 768px) {
+  .cu-hero-img-wrap { height: clamp(280px, 55vw, 420px); }
+}
+@media (max-width: 480px) {
+  .cu-hero-img-wrap { height: clamp(240px, 60vw, 380px); }
+}
+@media (prefers-reduced-motion:reduce) {
+  .cu-page *,.cu-page *::before,.cu-page *::after {
+    animation-duration:.01ms !important; animation-iteration-count:1 !important; transition-duration:.01ms !important;
+  }
 }
 
 /* ════════════════════════════════════════════════════════
@@ -688,54 +794,3 @@ a.cu-channel-row:hover .cu-channel-arr { transform:translateX(3px); color:var(--
 [data-theme='dark'] .cu-map-body,
 [data-theme='dark'] .cu-mini-row,
 .theme-dark .cu-map-body,.theme-dark .cu-mini-row { color:#94A3B8; }
-
-.cu-hero-img-wrap {
-  position: relative;
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  height: clamp(350px, 45vw, 600px); /* ارتفاع متوازن */
-  overflow: hidden;
-}
-
-.cu-hero-img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;           /* ✅ يملأ المساحة من غير تشويه */
-  object-position: center 50%; /* ✅ يركز على منتصف الصورة */
-  transform-origin: center 50%;
-  animation: cuZoom 18s ease-in-out infinite alternate;
-}
-
-.cu-hero-img-wrap {
-  position: relative;
-  width: 100%;           /* ✅ واخد العرض كامل */
-  max-width: 100%;       /* ✅ مش هيقلل العرض */
-  height: clamp(350px, 45vw, 600px);
-  overflow: hidden;
-  /* ❌ حذفنا margin: 0 auto عشان متتوسطش */
-}
-
-.cu-hero-img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center 50%;
-  transform-origin: center 50%;
-  animation: cuZoom 18s ease-in-out infinite alternate;
-}
-
-/* للموبايل والتابلت */
-@media (max-width: 768px) {
-  .cu-hero-img-wrap {
-    height: clamp(280px, 55vw, 420px);
-  }
-}
-
-@media (max-width: 480px) {
-  .cu-hero-img-wrap {
-    height: clamp(240px, 60vw, 380px);
-  }
-}

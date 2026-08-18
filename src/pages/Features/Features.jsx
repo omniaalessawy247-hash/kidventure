@@ -29,13 +29,38 @@ function useIsDark() {
   return dark;
 }
 
-function TImg({ light, dark, alt, className }) {
-  const isDark = useIsDark();
-  return <img src={isDark ? dark : light} alt={alt} className={className} loading="lazy" />;
+const featureImageModules = import.meta.glob(
+  '../../assets/features/kidventure-*.png',
+  { eager: true, import: 'default' }
+);
+
+function img(name) {
+  const fileName = `kidventure-${name}.png`;
+  const match = Object.keys(featureImageModules).find((p) => p.endsWith(`/${fileName}`));
+  if (!match) {
+    if (import.meta.env?.DEV) {
+      // eslint-disable-next-line no-console
+      console.warn(`[Features] image not found in assets/features: ${fileName}`);
+    }
+    return '';
+  }
+  return featureImageModules[match];
 }
 
-const ASSET_DIR = 'src/assets/features';
-const img = (name) => `${ASSET_DIR}/kidventure-${name}.png`;
+const RESPONSIVE_IMG_STYLE = { maxWidth: '100%', height: 'auto', display: 'block' };
+
+function TImg({ light, dark, alt, className, style }) {
+  const isDark = useIsDark();
+  return (
+    <img
+      src={isDark ? dark : light}
+      alt={alt}
+      className={className}
+      loading="lazy"
+      style={{ ...RESPONSIVE_IMG_STYLE, ...style }}
+    />
+  );
+}
 
 const FEATURES_CONFIG = [
   {
@@ -213,7 +238,7 @@ function FeatureCluster({ feat }) {
       <div className="fp-cluster-ring" aria-hidden="true" />
       <div className="fp-cluster-main">
         {hero.fixed
-          ? <img src={hero.light} alt={hero.alt} className="fp-cluster-img" />
+          ? <img src={hero.light} alt={hero.alt} className="fp-cluster-img" style={RESPONSIVE_IMG_STYLE} />
           : <TImg light={hero.light} dark={hero.dark} alt={hero.alt} className="fp-cluster-img" />}
         <div className="fp-cluster-shine" />
       </div>
@@ -225,7 +250,7 @@ function FeatureCluster({ feat }) {
               <button key={realIdx} className="fp-cluster-thumb" style={{ '--ti': i }}
                 onClick={() => setActive(realIdx)} aria-label={`Show ${s.alt}`}>
                 {s.fixed
-                  ? <img src={s.light} alt={s.alt} />
+                  ? <img src={s.light} alt={s.alt} style={RESPONSIVE_IMG_STYLE} />
                   : <TImg light={s.light} dark={s.dark} alt={s.alt} />}
               </button>
             );
@@ -529,7 +554,7 @@ export default function FeaturesPage() {
                 <div className="fp-phone-glow"/>
                 <div className="fp-hero-frame">
                   <TImg light={img('home-light')} dark={img('home-dark')}
-                    alt={t(`${NS}.hero.heroAlt`, 'App screenshot')} className="fp-hero-pimg"/>
+                    alt={t(`${NS}.hero.heroAlt`, 'App screenshot')} className="fp-hero-pimg" />
                   <div className="fp-hero-shine"/>
                   <div className="fp-hero-shimmer"/>
                 </div>
@@ -700,7 +725,7 @@ export default function FeaturesPage() {
             <div className="fp-cta-r">
               <div className="fp-cta-phone">
                 <TImg light={img('home-light')} dark={img('home-dark')}
-                  alt={t(`${NS}.cta.phoneAlt`, 'App')} className="fp-cta-pimg"/>
+                  alt={t(`${NS}.cta.phoneAlt`, 'App')} className="fp-cta-pimg" />
                 <div className="fp-cta-pglow"/>
               </div>
               <div className="fp-cta-cards">

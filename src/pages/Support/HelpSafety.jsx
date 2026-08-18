@@ -10,12 +10,12 @@ import './HelpSafety.css';
 const NS = 'pages.support';
 
 const CATEGORIES = [
-  { key: 'gettingStarted', accent: '#F4831F', icon: Rocket,     count: 6 },
-  { key: 'subscriptions',  accent: '#FFC94A', icon: CreditCard, count: 6 },
-  { key: 'mobileApp',      accent: '#9A7BD9', icon: Smartphone, count: 6 },
-  { key: 'dashboard',      accent: '#1C92A8', icon: BarChart3,  count: 5 },
-  { key: 'safety',         accent: '#21B6CC', icon: ShieldCheck,count: 5 },
-  { key: 'account',        accent: '#F0608C', icon: KeyRound,   count: 5 },
+  { key: 'gettingStarted', accent: '#F4831F', icon: Rocket,     count: 4 },
+  { key: 'subscriptions',  accent: '#FFC94A', icon: CreditCard, count: 4 },
+  { key: 'mobileApp',      accent: '#9A7BD9', icon: Smartphone, count: 4 },
+  { key: 'dashboard',      accent: '#1C92A8', icon: BarChart3,  count: 3 },
+  { key: 'safety',         accent: '#21B6CC', icon: ShieldCheck,count: 3 },
+  { key: 'account',        accent: '#F0608C', icon: KeyRound,   count: 3 },
 ];
 
 function useReveal(threshold = 0.1) {

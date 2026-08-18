@@ -150,8 +150,17 @@ export default function KidventureHomeRedesign() {
     { num: '03', icon: Globe,      title: t('pages.home.v2.howItWorks.steps.3.title'), body: t('pages.home.v2.howItWorks.steps.3.body') },
   ];
 
+  /* ✅ الأيقونات دي بترجع تتبدل تلقائي حسب اللغة (RTL/LTR) — دي كانت شغالة صح أصلاً */
   const Arr = isRTL ? ChevronLeft : ChevronRight;
   const FlowA = isRTL ? ArrowLeft : ArrowRight;
+
+  /*
+    ✅ الفرق هنا: الـ SVGs اللي تحت دي مرسومة يدوي بمسار (path) ثابت الاتجاه،
+    مش أيقونة بتتبدل زي Arr/FlowA فوق. عشان كده في العربي كانت بتفضل
+    بتشاور بنفس الاتجاه اللي في الإنجليزي وتبان "مبوظة"/معكوسة بصريًا.
+    الحل: نعمل لها Mirror أفقي (scaleX(-1)) لما اللغة تبقى RTL.
+  */
+  const decorativeArrowStyle = { transform: isRTL ? 'scaleX(-1)' : 'none' };
 
   return (
     <div className="kv-home" dir={isRTL ? 'rtl' : 'ltr'}>
@@ -229,7 +238,15 @@ export default function KidventureHomeRedesign() {
                 <div className="kv-htrust-item"><Users size={14}/><span>25k+ families</span></div>
               </div>
 
-              <svg className="kv-arrow-from-text" viewBox="0 0 160 90" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              {/* ✅ FIX: mirror للعربي عشان السهم يشاور صح */}
+              <svg
+                className="kv-arrow-from-text"
+                viewBox="0 0 160 90"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
+                style={decorativeArrowStyle}
+              >
                 <path d="M10 75 Q80 5 150 30" stroke="#FF6B35" strokeWidth="3.5" fill="none" strokeLinecap="round" strokeDasharray="7 5"/>
                 <polygon points="146,22 158,34 143,36" fill="#FF6B35"/>
               </svg>
@@ -240,7 +257,14 @@ export default function KidventureHomeRedesign() {
               <div className="kv-hero-circle">
                 <div className="kv-hero-circle-inner" />
               </div>
-              <svg className="kv-arrow-bot" viewBox="0 0 120 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+              {/* ✅ FIX: mirror للعربي عشان السهم يشاور صح */}
+              <svg
+                className="kv-arrow-bot"
+                viewBox="0 0 120 80"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                style={decorativeArrowStyle}
+              >
                 <path d="M110 10 Q60 70 10 55" stroke="#06B6D4" strokeWidth="3" fill="none" strokeLinecap="round" strokeDasharray="6 4"/>
                 <polygon points="14,62 2,52 17,48" fill="#06B6D4"/>
               </svg>
@@ -373,6 +397,7 @@ export default function KidventureHomeRedesign() {
               </div>
 
               <div className="kv-sc-arrow">
+                {/* ✅ الاتنين دول (Right/Left) بيتبدلوا بالـ CSS classes، خليناهم زي ما هما لأن ده منطقي أصلاً */}
                 <div className="kv-sc-arrow-inner">
                   <ArrowRight size={16} className="kv-a-r"/>
                   <ArrowLeft  size={16} className="kv-a-l"/>
@@ -431,6 +456,7 @@ export default function KidventureHomeRedesign() {
             </div>
 
             <div className="kv-trans-center">
+              {/* ✅ ده بيتبدل صح أصلاً لأنه بيستخدم FlowA */}
               <div className="kv-trans-arrow"><FlowA size={24}/></div>
               <span>{t('pages.home.transformation.arrow')}</span>
             </div>

@@ -59,8 +59,18 @@ function Dropdown({ label, items, onNavigate }) {
       setOpen(false);
     };
 
+    // Close on outside click AND on Escape, and close automatically
+    // if the window loses focus / resizes past mobile breakpoints.
+    const onKeyDown = (e) => {
+      if (e.key === 'Escape') setOpen(false);
+    };
+
     document.addEventListener('pointerdown', onDocPointerDown);
-    return () => document.removeEventListener('pointerdown', onDocPointerDown);
+    document.addEventListener('keydown', onKeyDown);
+    return () => {
+      document.removeEventListener('pointerdown', onDocPointerDown);
+      document.removeEventListener('keydown', onKeyDown);
+    };
   }, [open]);
 
   return (
@@ -79,22 +89,28 @@ function Dropdown({ label, items, onNavigate }) {
         </span>
       </button>
 
-      <div className="kv-dropdown-menu" role="menu" hidden={!open}>
-        {items.map((item) => (
-          <Link
-            key={item.to}
-            to={item.to}
-            role="menuitem"
-            className="kv-dropdown-item"
-            onClick={() => {
-              onNavigate();
-              setOpen(false);
-            }}
-          >
-            {item.label}
-          </Link>
-        ))}
-      </div>
+      {/* Render the menu only while open instead of relying solely on the
+          `hidden` attribute — a `.kv-dropdown-menu { display: ... }` rule
+          in CSS can out-specificity the browser's `[hidden]` default and
+          keep the menu invisible (or visible) regardless of state. */}
+      {open && (
+        <div className="kv-dropdown-menu" role="menu">
+          {items.map((item) => (
+            <Link
+              key={item.to}
+              to={item.to}
+              role="menuitem"
+              className="kv-dropdown-item"
+              onClick={() => {
+                onNavigate();
+                setOpen(false);
+              }}
+            >
+              {item.label}
+            </Link>
+          ))}
+        </div>
+      )}
     </div>
   );
 }
@@ -125,9 +141,12 @@ export default function Navbar() {
 
   const onNavigate = () => setMobileOpen(false);
 
+  // Translated via i18n so these follow the language toggle just like the
+  // rest of the nav. Add these keys to your en.json / ar.json:
+  //   nav.support.helpSafety, nav.support.contact
   const supportItems = [
-    { to: '/support/help-safety', label: 'Help & Safety' },
-    { to: '/support/contact', label: 'Contact Us' }
+    { to: '/support/help-safety', label: t('nav.support.helpSafety') },
+    { to: '/support/contact', label: t('nav.support.contact') }
   ];
 
   const onLogout = () => {

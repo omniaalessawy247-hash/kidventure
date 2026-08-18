@@ -50,7 +50,10 @@
     "reports": "Reports",
     "children": "Child Profiles",
     "subscription": "Subscription",
-    "settings": "Settings"
+    "settings": "Settings",
+    "helpSafety": "Help & Safety",
+    "support.helpSafety": "Help & Safety",
+    "support.contact": "Contact Us"
   },
   "footer": {
     "tagline": "Helping families turn everyday curiosity into meaningful learning.",
@@ -219,18 +222,36 @@
         "ctaSecondary": "Watch Demo",
         "statsAria": "Key benefits",
         "stats": {
-          "1": { "title": "Purposeful screen time", "body": "Active learning with real outcomes" },
-          "2": { "title": "Parent visibility", "body": "See progress without interrupting" },
-          "3": { "title": "Safe by design", "body": "Calm, structured, age-appropriate" }
+          "1": {
+            "title": "Purposeful screen time",
+            "body": "Active learning with real outcomes"
+          },
+          "2": {
+            "title": "Parent visibility",
+            "body": "See progress without interrupting"
+          },
+          "3": {
+            "title": "Safe by design",
+            "body": "Calm, structured, age-appropriate"
+          }
         },
         "mockup": {
           "time": "9:41",
           "welcomeTitle": "Let's Explore!",
           "welcomeSubtitle": "Choose your adventure",
           "cards": {
-            "1": { "title": "Interactive Stories", "body": "New story missions" },
-            "2": { "title": "Learning Games", "body": "Play-and-learn challenges" },
-            "3": { "title": "Creative Studio", "body": "Draw, build, express" }
+            "1": {
+              "title": "Interactive Stories",
+              "body": "New story missions"
+            },
+            "2": {
+              "title": "Learning Games",
+              "body": "Play-and-learn challenges"
+            },
+            "3": {
+              "title": "Creative Studio",
+              "body": "Draw, build, express"
+            }
           },
           "progress": {
             "title": "Today's Progress",
@@ -243,10 +264,22 @@
         "title": "Stay connected to your child's learning",
         "subtitle": "Get a calm, organized view of progress—so you can support learning without turning it into a daily fight.",
         "bullets": {
-          "1": { "title": "Clear progress reports", "body": "See milestones, growth, and improvements over time." },
-          "2": { "title": "Activity history", "body": "Know what your child explored and when." },
-          "3": { "title": "Learning insights", "body": "Spot strengths, gaps, and engagement patterns early." },
-          "4": { "title": "Safe and guided", "body": "You stay in control of the learning journey—always." }
+          "1": {
+            "title": "Clear progress reports",
+            "body": "See milestones, growth, and improvements over time."
+          },
+          "2": {
+            "title": "Activity history",
+            "body": "Know what your child explored and when."
+          },
+          "3": {
+            "title": "Learning insights",
+            "body": "Spot strengths, gaps, and engagement patterns early."
+          },
+          "4": {
+            "title": "Safe and guided",
+            "body": "You stay in control of the learning journey—always."
+          }
         },
         "cta": "Log in to Dashboard",
         "mockup": {
@@ -297,9 +330,18 @@
           ]
         },
         "stats": {
-          "attention": { "value": "Less arguing", "label": "because it feels fun" },
-          "learning": { "value": "Measurable growth", "label": "not just time spent" },
-          "parents": { "value": "Parent clarity", "label": "without interrupting" }
+          "attention": {
+            "value": "Less arguing",
+            "label": "because it feels fun"
+          },
+          "learning": {
+            "value": "Measurable growth",
+            "label": "not just time spent"
+          },
+          "parents": {
+            "value": "Parent clarity",
+            "label": "without interrupting"
+          }
         }
       },
       "whatKidsDo": {
@@ -307,10 +349,26 @@
         "title": "What kids actually do in Kidventure",
         "subtitle": "Every section is built around one idea: if it doesn't create engagement + learning together, it doesn't belong here.",
         "cards": {
-          "1": { "title": "Interactive Stories", "body": "Kids don't just read—they choose, respond, and unlock meaning. Stories quietly build reading fluency, vocabulary, and comprehension.", "detail": "Hooked by fun. Powered by skills." },
-          "2": { "title": "Learning Games", "body": "Fast missions that train problem-solving, logic, and focus—without the child feeling like they're studying.", "detail": "Tiny wins → stronger habits." },
-          "3": { "title": "Creative Studio", "body": "A space to draw and express. Creativity supports language, confidence, and emotional expression—while keeping engagement meaningful.", "detail": "Creation beats consumption." },
-          "4": { "title": "Rewards & Milestones", "body": "Badges, XP, levels, milestones—kids feel progress. Parents see progress. Motivation becomes a routine.", "detail": "Reward effort, build confidence." }
+          "1": {
+            "title": "Interactive Stories",
+            "body": "Kids don't just read—they choose, respond, and unlock meaning. Stories quietly build reading fluency, vocabulary, and comprehension.",
+            "detail": "Hooked by fun. Powered by skills."
+          },
+          "2": {
+            "title": "Learning Games",
+            "body": "Fast missions that train problem-solving, logic, and focus—without the child feeling like they're studying.",
+            "detail": "Tiny wins → stronger habits."
+          },
+          "3": {
+            "title": "Creative Studio",
+            "body": "A space to draw and express. Creativity supports language, confidence, and emotional expression—while keeping engagement meaningful.",
+            "detail": "Creation beats consumption."
+          },
+          "4": {
+            "title": "Rewards & Milestones",
+            "body": "Badges, XP, levels, milestones—kids feel progress. Parents see progress. Motivation becomes a routine.",
+            "detail": "Reward effort, build confidence."
+          }
         }
       },
       "emotionalAnchor": {
@@ -319,10 +377,22 @@
         "subtitle": "Kidventure is built to reduce daily tension: no guilt, no guessing, no chaos—just a safe learning habit kids enjoy.",
         "quote": "When your child asks for one more mission—and you say yes with confidence—that's the Kidventure difference.",
         "features": [
-          { "icon": "brain", "text": "Focus-friendly design that trains thinking over time" },
-          { "icon": "heart", "text": "Positive reinforcement that builds confidence daily" },
-          { "icon": "star", "text": "Small wins that keep motivation high without pressure" },
-          { "icon": "target", "text": "Clear goals and progress so learning feels meaningful" }
+          {
+            "icon": "brain",
+            "text": "Focus-friendly design that trains thinking over time"
+          },
+          {
+            "icon": "heart",
+            "text": "Positive reinforcement that builds confidence daily"
+          },
+          {
+            "icon": "star",
+            "text": "Small wins that keep motivation high without pressure"
+          },
+          {
+            "icon": "target",
+            "text": "Clear goals and progress so learning feels meaningful"
+          }
         ]
       },
       "aiSection": {
@@ -330,14 +400,25 @@
         "title": "Smarter learning, personalized for every child",
         "subtitle": "Our AI keeps kids in the sweet spot: not bored, not frustrated—just engaged. And everything stays learning-first, safe, and age-appropriate.",
         "cards": {
-          "1": { "title": "Adaptive difficulty", "body": "Activities adjust naturally to the child's level so they stay motivated and confident." },
-          "2": { "title": "Guided curiosity", "body": "Kids get nudges that encourage questions, thinking, and exploration—without distracting noise." },
-          "3": { "title": "Progress you can measure", "body": "AI turns interaction into insights: patterns, strengths, weak spots, and growth over time." }
+          "1": {
+            "title": "Adaptive difficulty",
+            "body": "Activities adjust naturally to the child's level so they stay motivated and confident."
+          },
+          "2": {
+            "title": "Guided curiosity",
+            "body": "Kids get nudges that encourage questions, thinking, and exploration—without distracting noise."
+          },
+          "3": {
+            "title": "Progress you can measure",
+            "body": "AI turns interaction into insights: patterns, strengths, weak spots, and growth over time."
+          }
         },
         "note": "Built for families: safe by design, learning-first by default."
       },
       "v2": {
-        "aria": { "home": "Home page" },
+        "aria": {
+          "home": "Home page"
+        },
         "hero": {
           "badge": "AI-Powered Learning Platform",
           "titleA": "Where Learning Becomes an",
@@ -347,20 +428,41 @@
           "ctaSecondary": "Watch Demo",
           "statsAria": "Key benefits",
           "stats": {
-            "1": { "title": "Purposeful screen time", "body": "Learning with real outcomes" },
-            "2": { "title": "Parent visibility", "body": "Stay informed without interrupting" },
-            "3": { "title": "Safe by design", "body": "Structured, age-appropriate, guided" }
+            "1": {
+              "title": "Purposeful screen time",
+              "body": "Learning with real outcomes"
+            },
+            "2": {
+              "title": "Parent visibility",
+              "body": "Stay informed without interrupting"
+            },
+            "3": {
+              "title": "Safe by design",
+              "body": "Structured, age-appropriate, guided"
+            }
           },
           "mockup": {
             "time": "9:41",
             "welcomeTitle": "Let's Explore!",
             "welcomeSubtitle": "Choose your adventure",
             "cards": {
-              "1": { "title": "Interactive Stories", "body": "New stories to explore" },
-              "2": { "title": "Learning Games", "body": "Play-and-learn challenges" },
-              "3": { "title": "Creative Studio", "body": "Draw, build, express" }
+              "1": {
+                "title": "Interactive Stories",
+                "body": "New stories to explore"
+              },
+              "2": {
+                "title": "Learning Games",
+                "body": "Play-and-learn challenges"
+              },
+              "3": {
+                "title": "Creative Studio",
+                "body": "Draw, build, express"
+              }
             },
-            "progress": { "title": "Today's Progress", "body": "3 of 5 activities completed" }
+            "progress": {
+              "title": "Today's Progress",
+              "body": "3 of 5 activities completed"
+            }
           }
         },
         "parentDashboard": {
@@ -368,10 +470,22 @@
           "title": "Stay connected to your child's learning",
           "subtitle": "Get a clear, organized view of progress—without interrupting your child's experience.",
           "bullets": {
-            "1": { "title": "Clear progress reports", "body": "See milestones and improvement over time." },
-            "2": { "title": "Activity history", "body": "Understand what your child explored and when." },
-            "3": { "title": "Learning insights", "body": "Spot strengths, gaps, and engagement patterns." },
-            "4": { "title": "Safe and guided", "body": "You stay in control of the learning journey." }
+            "1": {
+              "title": "Clear progress reports",
+              "body": "See milestones and improvement over time."
+            },
+            "2": {
+              "title": "Activity history",
+              "body": "Understand what your child explored and when."
+            },
+            "3": {
+              "title": "Learning insights",
+              "body": "Spot strengths, gaps, and engagement patterns."
+            },
+            "4": {
+              "title": "Safe and guided",
+              "body": "You stay in control of the learning journey."
+            }
           },
           "cta": "Log in to Dashboard",
           "mockup": {
@@ -387,16 +501,34 @@
           },
           "underNote": "Already set up? Log in to your Parent Dashboard →"
         },
-        "days": { "mon": "Mon", "tue": "Tue", "wed": "Wed", "thu": "Thu", "fri": "Fri" },
+        "days": {
+          "mon": "Mon",
+          "tue": "Tue",
+          "wed": "Wed",
+          "thu": "Thu",
+          "fri": "Fri"
+        },
         "whyDownload": {
           "badge": "Why download",
           "title": "Why parents download Kidventure",
           "intro": "Turn screen time into meaningful learning—while staying in control.",
           "cards": {
-            "purpose": { "title": "Purposeful screen time", "body": "Learning with real outcomes—no guilt." },
-            "visibility": { "title": "Parent visibility", "body": "Stay informed without interrupting the child." },
-            "fun": { "title": "Fun meets learning", "body": "Playful experiences that build real skills." },
-            "safe": { "title": "Safe by design", "body": "Structured, age-appropriate, guided learning." }
+            "purpose": {
+              "title": "Purposeful screen time",
+              "body": "Learning with real outcomes—no guilt."
+            },
+            "visibility": {
+              "title": "Parent visibility",
+              "body": "Stay informed without interrupting the child."
+            },
+            "fun": {
+              "title": "Fun meets learning",
+              "body": "Playful experiences that build real skills."
+            },
+            "safe": {
+              "title": "Safe by design",
+              "body": "Structured, age-appropriate, guided learning."
+            }
           }
         },
         "childLearn": {
@@ -405,12 +537,30 @@
           "subtitle": "Not just activities—measurable growth.",
           "note": "Not just activities—measurable growth.",
           "skills": {
-            "reading": { "title": "Reading & storytelling", "body": "Build language skills through interactive stories." },
-            "critical": { "title": "Critical thinking", "body": "Practice reasoning and making smart choices." },
-            "problem": { "title": "Problem solving", "body": "Tackle challenges with logic and persistence." },
-            "curiosity": { "title": "Curiosity & exploration", "body": "Stay curious through guided discovery." },
-            "creativity": { "title": "Creativity & expression", "body": "Express ideas through playful creation." },
-            "confidence": { "title": "Confidence & motivation", "body": "Feel proud, stay motivated, keep going." }
+            "reading": {
+              "title": "Reading & storytelling",
+              "body": "Build language skills through interactive stories."
+            },
+            "critical": {
+              "title": "Critical thinking",
+              "body": "Practice reasoning and making smart choices."
+            },
+            "problem": {
+              "title": "Problem solving",
+              "body": "Tackle challenges with logic and persistence."
+            },
+            "curiosity": {
+              "title": "Curiosity & exploration",
+              "body": "Stay curious through guided discovery."
+            },
+            "creativity": {
+              "title": "Creativity & expression",
+              "body": "Express ideas through playful creation."
+            },
+            "confidence": {
+              "title": "Confidence & motivation",
+              "body": "Feel proud, stay motivated, keep going."
+            }
           }
         },
         "howFeels": {
@@ -419,10 +569,22 @@
           "subtitle": "Safe, fun, pressure-free learning for every child.",
           "highlight": "Designed to keep children engaged—without burnout.",
           "cards": {
-            "play": { "title": "Learning feels like play", "body": "Gamified, interactive learning loops." },
-            "reward": { "title": "Curiosity is rewarded", "body": "Positive reinforcement builds confidence." },
-            "noPressure": { "title": "No pressure, no exams", "body": "Stress-free learning that feels natural." },
-            "atPace": { "title": "Progress at their pace", "body": "Supports different speeds and styles." }
+            "play": {
+              "title": "Learning feels like play",
+              "body": "Gamified, interactive learning loops."
+            },
+            "reward": {
+              "title": "Curiosity is rewarded",
+              "body": "Positive reinforcement builds confidence."
+            },
+            "noPressure": {
+              "title": "No pressure, no exams",
+              "body": "Stress-free learning that feels natural."
+            },
+            "atPace": {
+              "title": "Progress at their pace",
+              "body": "Supports different speeds and styles."
+            }
           }
         },
         "howItWorks": {
@@ -430,9 +592,18 @@
           "title": "How it works — start in minutes",
           "subtitle": "A simple flow for busy families.",
           "steps": {
-            "1": { "title": "Download Kidventure on mobile", "body": "Create the child account inside the mobile app." },
-            "2": { "title": "Your child learns on mobile", "body": "Stories, games, and activities in a daily learning loop." },
-            "3": { "title": "Parents log in on the website", "body": "Use the same account to view the dashboard and progress." }
+            "1": {
+              "title": "Download Kidventure on mobile",
+              "body": "Create the child account inside the mobile app."
+            },
+            "2": {
+              "title": "Your child learns on mobile",
+              "body": "Stories, games, and activities in a daily learning loop."
+            },
+            "3": {
+              "title": "Parents log in on the website",
+              "body": "Use the same account to view the dashboard and progress."
+            }
           },
           "noteTitle": "One account. Two experiences.",
           "noteBody": "Your child learns independently while you stay informed.",
@@ -456,10 +627,22 @@
           "title": "Trust & Safety",
           "subtitle": "Peace of mind built in—simple, clear, and parent-friendly.",
           "cards": {
-            "childFirst": { "title": "Child-first experience", "body": "Designed to be safe, clear, and age-appropriate." },
-            "visibility": { "title": "Parent visibility & monitoring", "body": "Stay informed through progress and activity history." },
-            "privacy": { "title": "Privacy protected", "body": "Your data is handled with care and clear defaults." },
-            "secureAccess": { "title": "Secure account access", "body": "Login and access designed to stay protected." }
+            "childFirst": {
+              "title": "Child-first experience",
+              "body": "Designed to be safe, clear, and age-appropriate."
+            },
+            "visibility": {
+              "title": "Parent visibility & monitoring",
+              "body": "Stay informed through progress and activity history."
+            },
+            "privacy": {
+              "title": "Privacy protected",
+              "body": "Your data is handled with care and clear defaults."
+            },
+            "secureAccess": {
+              "title": "Secure account access",
+              "body": "Login and access designed to stay protected."
+            }
           }
         },
         "preview": {
@@ -472,7 +655,11 @@
             "dashboard": "Parent Dashboard"
           },
           "mobile": {
-            "tiles": { "stories": "Stories", "games": "Games", "drawing": "Drawing" }
+            "tiles": {
+              "stories": "Stories",
+              "games": "Games",
+              "drawing": "Drawing"
+            }
           },
           "dashboard": {
             "tiles": {
@@ -502,9 +689,18 @@
           "badge": "FAQ",
           "title": "Quick questions",
           "subtitle": "Short answers for parents.",
-          "q1": { "q": "How do parents track progress?", "a": "Parents log in to the website using the same account, then view progress summaries and activity history." },
-          "q2": { "q": "Is Kidventure safe for kids?", "a": "Yes. It's built child-first, with parent visibility for real peace of mind." },
-          "q3": { "q": "Can I use the same account on mobile and web?", "a": "Yes—create the child account in the app, then use the same login on the website." }
+          "q1": {
+            "q": "How do parents track progress?",
+            "a": "Parents log in to the website using the same account, then view progress summaries and activity history."
+          },
+          "q2": {
+            "q": "Is Kidventure safe for kids?",
+            "a": "Yes. It's built child-first, with parent visibility for real peace of mind."
+          },
+          "q3": {
+            "q": "Can I use the same account on mobile and web?",
+            "a": "Yes—create the child account in the app, then use the same login on the website."
+          }
         },
         "final": {
           "title": "Start your child's learning adventure today",
@@ -523,7 +719,16 @@
         "tagline": "Fun for kids. Peace of mind for parents.",
         "cta": "Open the Story",
         "ctaSub": "Discover why families choose Kidventure",
-        "stars": ["🏆", "⭐", "🌟", "🎯", "💎", "🚀", "🎖️", "✨"]
+        "stars": [
+          "🏆",
+          "⭐",
+          "🌟",
+          "🎯",
+          "💎",
+          "🚀",
+          "🎖️",
+          "✨"
+        ]
       },
       "problem": {
         "chapterTag": "Chapter One",
@@ -670,13 +875,29 @@
         "subtitle": "Because screen time should help children grow.",
         "imgAlt": "Happy child holding a tablet",
         "points": {
-          "1": { "key": "Learning", "val": "Children build real skills through fun and active experiences." },
-          "2": { "key": "Fun", "val": "Kids enjoy coming back because learning feels exciting." },
-          "3": { "key": "Progress", "val": "Parents can clearly see growth and improvement over time." },
-          "4": { "key": "Trust", "val": "Families feel better about the time children spend on screens." }
+          "1": {
+            "key": "Learning",
+            "val": "Children build real skills through fun and active experiences."
+          },
+          "2": {
+            "key": "Fun",
+            "val": "Kids enjoy coming back because learning feels exciting."
+          },
+          "3": {
+            "key": "Progress",
+            "val": "Parents can clearly see growth and improvement over time."
+          },
+          "4": {
+            "key": "Trust",
+            "val": "Families feel better about the time children spend on screens."
+          }
         }
       },
-      "nav": { "prev": "Previous Page", "next": "Next Page", "pageOf": "Page" },
+      "nav": {
+        "prev": "Previous Page",
+        "next": "Next Page",
+        "pageOf": "Page"
+      },
       "exp": {
         "title": "What children actually experience",
         "sub": "Kidventure replaces passive watching with active learning that feels fun from the child's side and meaningful from the parent's side.",
@@ -747,516 +968,544 @@
         "n4Body": "Our goal is simple: better habits, stronger skills, and more confident families.",
         "ctaTitle": "Ready to start your child's Kidventure journey?"
       },
-      "wingFloaters": ["🏆", "⭐", "🎖️", "🌟", "💎", "🚀", "🎯", "✨", "🥇", "💫"],
-      "particleFloaters": ["⭐", "🌟", "✨", "💫", "⚡", "🔥", "💎", "🎯", "🏆", "🎖️"]
-    },
-"features": {
-    "hero": {
-      "eyebrow": "KidVenture Platform",
-      "live": "LIVE",
-      "titleLine1": "Learning Through",
-      "typewriterText": "Adventure & Play",
-      "paragraph": "KidVenture is a comprehensive, gamified educational platform built for primary school children aged 6 to 12. Twelve features, from curriculum-aligned games and a Gemini-powered chatbot to CNN drawing detection and interactive 3D models, make learning feel like the best part of the day.",
-      "strip": [
-        {
-          "v": "13",
-          "l": "Features"
-        },
-        {
-          "v": "90%",
-          "l": "AI Accuracy"
-        },
-        {
-          "v": "10",
-          "l": "Games"
-        },
-        {
-          "v": "6–12",
-          "l": "Ages"
-        }
+      "wingFloaters": [
+        "🏆",
+        "⭐",
+        "🎖️",
+        "🌟",
+        "💎",
+        "🚀",
+        "🎯",
+        "✨",
+        "🥇",
+        "💫"
       ],
-      "exploreBtn": "Explore Features",
-      "overviewBtn": "Quick Overview",
-      "trustLabel": "Trusted by thousands of families across Egypt",
-      "heroAlt": "KidVenture App",
-      "chips": [
-        {
-          "l": "10 Fun Games"
-        },
-        {
-          "l": "AI Chatbot"
-        },
-        {
-          "l": "CNN Drawing"
-        }
-      ],
-      "badges": [
-        {
-          "label": "AI Powered"
-        },
-        {
-          "label": "Grade 1–6"
-        },
-        {
-          "label": "10 Games"
-        },
-        {
-          "label": "Curriculum"
-        },
-        {
-          "label": "Personalised"
-        }
-      ],
-      "pmsPowered": "AI Powered",
-      "pmsRating": "4.9 ★"
+      "particleFloaters": [
+        "⭐",
+        "🌟",
+        "✨",
+        "💫",
+        "⚡",
+        "🔥",
+        "💎",
+        "🎯",
+        "🏆",
+        "🎖️"
+      ]
     },
-    "ticker": {},
-    "overview": {
-      "label": "All 13 Features",
-      "heading": "Everything Your Child Needs in One App",
-      "subheading": "Tap any feature to jump straight to the full description and screenshots"
-    },
-    "items": {
-      "home": {
-        "name": "Home Dashboard",
-        "title": "Your Child's",
-        "accent": "Learning Home",
-        "tech": "Flutter UI",
-        "desc": "KidVenture opens on a single screen built for children aged 6 to 12. Every game, story, and lesson sits one tap away, inside a colourful dashboard kids genuinely want to open every day.",
-        "bullets": [
-          "A personal welcome with the child's name and current streak",
-          "Quick-access tiles to all 13 learning features in one view",
-          "Progress rings that show how far each module has come"
+    "features": {
+      "hero": {
+        "eyebrow": "KidVenture Platform",
+        "live": "LIVE",
+        "titleLine1": "Learning Through",
+        "typewriterText": "Adventure & Play",
+        "paragraph": "KidVenture is a comprehensive, gamified educational platform built for primary school children aged 6 to 12. Twelve features, from curriculum-aligned games and a Gemini-powered chatbot to CNN drawing detection and interactive 3D models, make learning feel like the best part of the day.",
+        "strip": [
+          {
+            "v": "13",
+            "l": "Features"
+          },
+          {
+            "v": "90%",
+            "l": "AI Accuracy"
+          },
+          {
+            "v": "10",
+            "l": "Games"
+          },
+          {
+            "v": "6–12",
+            "l": "Ages"
+          }
         ],
-        "stat1": {
-          "v": "13",
-          "l": "Features on home"
+        "exploreBtn": "Explore Features",
+        "overviewBtn": "Quick Overview",
+        "trustLabel": "Trusted by thousands of families across Egypt",
+        "heroAlt": "KidVenture App",
+        "chips": [
+          {
+            "l": "10 Fun Games"
+          },
+          {
+            "l": "AI Chatbot"
+          },
+          {
+            "l": "CNN Drawing"
+          }
+        ],
+        "badges": [
+          {
+            "label": "AI Powered"
+          },
+          {
+            "label": "Grade 1–6"
+          },
+          {
+            "label": "10 Games"
+          },
+          {
+            "label": "Curriculum"
+          },
+          {
+            "label": "Personalised"
+          }
+        ],
+        "pmsPowered": "AI Powered",
+        "pmsRating": "4.9 ★"
+      },
+      "ticker": {},
+      "overview": {
+        "label": "All 13 Features",
+        "heading": "Everything Your Child Needs in One App",
+        "subheading": "Tap any feature to jump straight to the full description and screenshots"
+      },
+      "items": {
+        "home": {
+          "name": "Home Dashboard",
+          "title": "Your Child's",
+          "accent": "Learning Home",
+          "tech": "Flutter UI",
+          "desc": "KidVenture opens on a single screen built for children aged 6 to 12. Every game, story, and lesson sits one tap away, inside a colourful dashboard kids genuinely want to open every day.",
+          "bullets": [
+            "A personal welcome with the child's name and current streak",
+            "Quick-access tiles to all 13 learning features in one view",
+            "Progress rings that show how far each module has come"
+          ],
+          "stat1": {
+            "v": "13",
+            "l": "Features on home"
+          },
+          "stat2": {
+            "v": "100%",
+            "l": "Built for kids"
+          },
+          "shotAlts": [
+            "Home dashboard"
+          ]
         },
-        "stat2": {
-          "v": "100%",
-          "l": "Built for kids"
+        "stories": {
+          "name": "Interactive Stories",
+          "title": "Interactive",
+          "accent": "Story World",
+          "tech": "AI Narrative Engine",
+          "desc": "Children don't just read here, they decide what happens next. Branching stories turn every choice into a lesson in reading, empathy, and cause and effect.",
+          "bullets": [
+            "Branching plots with multiple endings that reward curiosity",
+            "Read-aloud narration with clear, native pronunciation",
+            "Every story tied to the Ministry of Education curriculum"
+          ],
+          "stat1": {
+            "v": "50+",
+            "l": "Story adventures"
+          },
+          "stat2": {
+            "v": "3×",
+            "l": "More engaged reading"
+          },
+          "shotAlts": [
+            "Story home screen showing featured tales",
+            "Story reader with illustrated scene",
+            "Character choice screen",
+            "Branching decision moment",
+            "Reading progress and badges",
+            "Story completion celebration screen"
+          ]
         },
-        "shotAlts": [
-          "Home dashboard"
+        "chatbot": {
+          "name": "AI Chatbot",
+          "title": "AI Tutor,",
+          "accent": "Powered by Gemini",
+          "tech": "Gemini 3 Flash + RAG",
+          "desc": "A study buddy that actually knows the syllabus. Built on Google Gemini 3 Flash and grounded by a retrieval system trained on official Ministry of Education textbooks, so every answer stays accurate and age-appropriate.",
+          "bullets": [
+            "Answers grounded in real Ministry of Education materials",
+            "Switches naturally between Arabic and English mid-chat",
+            "Guardrails keep every reply on-topic, kind, and educational"
+          ],
+          "stat1": {
+            "v": "Gemini 3",
+            "l": "Flash powered"
+          },
+          "stat2": {
+            "v": "RAG",
+            "l": "Curriculum grounded"
+          },
+          "shotAlts": [
+            "AI chatbot conversation"
+          ]
+        },
+        "drawing": {
+          "name": "Drawing Detection",
+          "title": "A CNN That",
+          "accent": "Reads Drawings",
+          "tech": "Custom CNN Model",
+          "desc": "Kids draw, and a custom-trained neural network looks. Trained on thousands of real children's sketches, it recognises what was drawn with over 90% accuracy and turns it into encouraging feedback.",
+          "bullets": [
+            "Trained on thousands of real children's drawings",
+            "Over 90% recognition accuracy across 100+ categories",
+            "Feedback arrives instantly, written to motivate, not correct"
+          ],
+          "stat1": {
+            "v": "90%+",
+            "l": "Recognition accuracy"
+          },
+          "stat2": {
+            "v": "100+",
+            "l": "Drawing categories"
+          },
+          "shotAlts": [
+            "Drawing detection screen"
+          ]
+        },
+        "games": {
+          "name": "Educational Games",
+          "title": "A Game Library",
+          "accent": "Built to Cooperate",
+          "tech": "Cooperative Game Design",
+          "desc": "A set of curriculum-aligned games designed around cooperative play, so children are rewarded for teamwork and persistence rather than only for winning. Maths, science, Arabic, and English all become something to play, not just study.",
+          "bullets": [
+            "Games covering maths, science, Arabic, English, and social studies",
+            "Cooperative mechanics that favour teamwork over rivalry",
+            "Difficulty that adapts quietly to each child's pace"
+          ],
+          "stat1": {
+            "v": "10",
+            "l": "Educational games"
+          },
+          "stat2": {
+            "v": "5",
+            "l": "Subject areas"
+          },
+          "shotAlts": [
+            "Educational game 1",
+            "Educational game 2",
+            "Educational game 3",
+            "Educational game 4",
+            "Educational game 5",
+            "Educational game 6",
+            "Educational game 7",
+            "Educational game 8",
+            "Educational game 9",
+            "Educational game 10"
+          ]
+        },
+        "flashcards": {
+          "name": "Flashcards",
+          "title": "Cards That",
+          "accent": "Know When to Repeat",
+          "tech": "Spaced Repetition",
+          "desc": "A spaced-repetition system built for young memories. Cards resurface exactly when a child is about to forget them, so every short session counts.",
+          "bullets": [
+            "Spaced repetition tuned for the 6 to 12 age group",
+            "Voice-over support so pre-readers can use every set",
+            "Cards generated from the curriculum, or written by parents"
+          ],
+          "stat1": {
+            "v": "500+",
+            "l": "Ready-made sets"
+          },
+          "stat2": {
+            "v": "2×",
+            "l": "Faster recall"
+          },
+          "shotAlts": [
+            "Flashcard set 1",
+            "Flashcard set 2",
+            "Flashcard set 3"
+          ]
+        },
+        "mindmaps": {
+          "name": "Mind Maps",
+          "title": "Thinking,",
+          "accent": "Mapped Visually",
+          "tech": "Visual Learning",
+          "desc": "Some children think in pictures, not paragraphs. The mind-map builder lets kids connect ideas, colour-code topics, and see how concepts relate to one another.",
+          "bullets": [
+            "A drag-and-drop builder made for small fingers on a screen",
+            "Suggests related concepts automatically as a map grows",
+            "Exports as an image or PDF to share with a teacher"
+          ],
+          "stat1": {
+            "v": "∞",
+            "l": "Maps to build"
+          },
+          "stat2": {
+            "v": "40%",
+            "l": "Better recall"
+          },
+          "shotAlts": [
+            "Mind map 1",
+            "Mind map 2",
+            "Mind map 3",
+            "Mind map 4"
+          ]
+        },
+        "models3d": {
+          "name": "3D Models",
+          "title": "Spin It.",
+          "accent": "Understand It.",
+          "tech": "Flutter 3D Engine",
+          "desc": "Some ideas are easier to grasp in three dimensions. Children can rotate, zoom, and explore curriculum objects directly, turning a static diagram into something they can actually examine.",
+          "bullets": [
+            "Fully interactive — rotate and zoom any curriculum model",
+            "Covers biology, geography, physics, and history",
+            "Every model links back to its matching textbook chapter"
+          ],
+          "stat1": {
+            "v": "60+",
+            "l": "3D models"
+          },
+          "stat2": {
+            "v": "360°",
+            "l": "Fully interactive"
+          },
+          "shotAlts": [
+            "3D model viewer",
+            "3D model example"
+          ]
+        },
+        "hero_module": {
+          "name": "I'm My Own Hero",
+          "title": "Safety, Habits &",
+          "accent": "Good Values",
+          "tech": "Safety & Values",
+          "desc": "Six interactive sections that teach children how to stay safe, build healthy habits, and grow with strong values — through lessons, quizzes, and short videos they'll actually enjoy.",
+          "bullets": [
+            "6 sections covering safety, healthy habits, and Islamic values",
+            "Educational videos that make every lesson stick",
+            "Quizzes after each lesson to lock in the learning",
+            "Stars and badges that reward progress through every section",
+            "Simple language built for ages 6 to 12",
+            "Parent view to follow which sections the child has finished"
+          ],
+          "stat1": {
+            "v": "6",
+            "l": "Learning Sections"
+          },
+          "stat2": {
+            "v": "36+",
+            "l": "Lessons & Quizzes"
+          },
+          "shotAlts": [
+            "I'm My Own Hero home screen showing all 6 sections",
+            "Lesson screen with educational video player",
+            "Interactive quiz with animated characters",
+            "Section completion screen with badge reward"
+          ]
+        },
+        "progress": {
+          "name": "Progress Tracking",
+          "title": "One View.",
+          "accent": "Every Feature.",
+          "tech": "Unified Analytics",
+          "desc": "A single dashboard for parents and children to see growth across all 13 features, from quiz scores and game levels to drawings submitted and flashcard streaks kept alive.",
+          "bullets": [
+            "Live analytics unified across every feature of the app",
+            "A weekly progress summary sent to parents by email",
+            "Goal-setting tools so children can track their own wins"
+          ],
+          "stat1": {
+            "v": "13",
+            "l": "Features tracked"
+          },
+          "stat2": {
+            "v": "Weekly",
+            "l": "Parent reports"
+          },
+          "shotAlts": [
+            "Progress tracking dashboard"
+          ]
+        },
+        "leaderboard": {
+          "name": "Leaderboard",
+          "title": "Ranked by",
+          "accent": "Effort, Not Luck",
+          "tech": "Gamification Engine",
+          "desc": "The leaderboard rewards consistency over raw scores. A child who shows up every day climbs faster than one who plays once and scores high, so every position is genuinely earned.",
+          "bullets": [
+            "Rankings driven by streaks, effort, and collaboration",
+            "Class, school, and national boards for healthy competition",
+            "Anti-cheat design that keeps the ranking honest"
+          ],
+          "stat1": {
+            "v": "Top 3",
+            "l": "Featured weekly"
+          },
+          "stat2": {
+            "v": "85%",
+            "l": "Higher return rate"
+          },
+          "shotAlts": [
+            "Leaderboard screen"
+          ]
+        },
+        "settings": {
+          "name": "Parent Settings",
+          "title": "Full Control,",
+          "accent": "For Parents",
+          "tech": "Parental Controls",
+          "desc": "Screen-time limits, content filters, and subscription management, all in one clean panel built for parents who don't have time to dig through menus.",
+          "bullets": [
+            "Daily screen-time limits that lock automatically at the cap",
+            "Content filters by age band: 6–8, 9–10, and 11–12",
+            "Multiple child profiles under a single parent account"
+          ],
+          "stat1": {
+            "v": "100%",
+            "l": "Parent controlled"
+          },
+          "stat2": {
+            "v": "COPPA",
+            "l": "Privacy compliant"
+          },
+          "shotAlts": [
+            "Parental settings screen"
+          ]
+        },
+        "homewidget": {
+          "name": "Home Screen Widget",
+          "title": "Learning,",
+          "accent": "Before You Even Open It",
+          "tech": "Native Flutter Widget",
+          "desc": "A native widget puts today's challenge, the current streak, and the next lesson right on the home screen, so there's no need to open the app to know what's next.",
+          "bullets": [
+            "A native widget for both Android and iOS home screens",
+            "Shows today's challenge, current streak, and next lesson",
+            "Updates live as the child finishes activities through the day"
+          ],
+          "stat1": {
+            "v": "Live",
+            "l": "Home screen widget"
+          },
+          "stat2": {
+            "v": "iOS + Android",
+            "l": "Both platforms"
+          },
+          "shotAlts": [
+            "Home screen widget"
+          ]
+        }
+      },
+      "stats": {
+        "label": "By the Numbers",
+        "heading": "Built with Purpose,",
+        "headingLine2": "Measured by Impact",
+        "subheading": "Every number here reflects a deliberate design decision: curriculum alignment, AI precision, cooperative game mechanics, and genuine engagement built for Egyptian primary school children.",
+        "downloadBtn": "Download Free",
+        "cards": [
+          {
+            "raw": "13",
+            "label": "Learning Features"
+          },
+          {
+            "raw": "90",
+            "label": "AI Drawing Accuracy %"
+          },
+          {
+            "raw": "10",
+            "label": "Educational Games"
+          },
+          {
+            "raw": "4",
+            "label": "App Store Rating ★"
+          }
         ]
       },
-      "stories": {
-        "name": "Interactive Stories",
-        "title": "Interactive",
-        "accent": "Story World",
-        "tech": "AI Narrative Engine",
-        "desc": "Children don't just read here, they decide what happens next. Branching stories turn every choice into a lesson in reading, empathy, and cause and effect.",
-        "bullets": [
-          "Branching plots with multiple endings that reward curiosity",
-          "Read-aloud narration with clear, native pronunciation",
-          "Every story tied to the Ministry of Education curriculum"
-        ],
-        "stat1": {
-          "v": "50+",
-          "l": "Story adventures"
-        },
-        "stat2": {
-          "v": "3×",
-          "l": "More engaged reading"
-        },
-        "shotAlts": [
-          "Story home screen showing featured tales",
-          "Story reader with illustrated scene",
-          "Character choice screen",
-          "Branching decision moment",
-          "Reading progress and badges",
-          "Story completion celebration screen"
+      "faq": {
+        "label": "Common Questions",
+        "heading": "Everything parents ",
+        "headingHighlight": "want to know",
+        "subheading": "From curriculum alignment and child safety to offline access and AI accuracy, here are the questions parents ask most.",
+        "boxText": "Still have a question? Our team typically replies within 24 hours.",
+        "contactBtn": "Contact Us",
+        "items": [
+          {
+            "q": "What age group is KidVenture designed for?",
+            "a": "KidVenture is built specifically for primary school children aged 6 to 12. Every feature, from font sizes and layout to the complexity of games and stories, is calibrated for this age band. Parents can fine-tune content further using the three age filters inside Settings: 6–8, 9–10, and 11–12."
+          },
+          {
+            "q": "Is the content aligned with the Egyptian school curriculum?",
+            "a": "Yes. Every piece of content, from flashcards and mind maps to game questions and chatbot answers, is aligned with the Egyptian Ministry of Education curriculum for Grades 1 through 6. The chatbot's RAG system is trained directly on official Ministry textbooks."
+          },
+          {
+            "q": "How does the AI Drawing Detection work?",
+            "a": "A custom Convolutional Neural Network was trained on thousands of real children's drawings across more than 100 categories. When a child draws, the model analyses the sketch in under two seconds and returns encouraging, educational feedback, with over 90% recognition accuracy."
+          },
+          {
+            "q": "What is the I'm My Own Hero module?",
+            "a": "I'm My Own Hero is a dedicated safety and values module made up of 6 sections. Each section contains lessons, quizzes, and short educational videos that teach children good personal habits, safety awareness, and positive religious values — all presented in a gamified, age-appropriate way."
+          },
+          {
+            "q": "Is KidVenture safe for children to use unsupervised?",
+            "a": "Yes. The AI chatbot has strict guardrails that prevent off-topic responses, and all content is reviewed before it reaches the app. There are no ads, no in-app purchases visible to children, and no social features that expose children to strangers."
+          },
+          {
+            "q": "Can I use KidVenture offline?",
+            "a": "Core features like downloaded stories, saved flashcard sets, and stored mind maps work offline. AI-powered features such as the chatbot and drawing detection need an internet connection. Offline support is expanding with each release."
+          },
+          {
+            "q": "How does the Leaderboard encourage healthy competition?",
+            "a": "The leaderboard ranks children on effort, consistency, and collaboration rather than raw scores alone. A child who completes daily tasks every day climbs faster than one who plays once and scores high, because persistence is worth more than luck here."
+          },
+          {
+            "q": "Is KidVenture available on both Android and iOS?",
+            "a": "Yes. KidVenture is a Flutter application available on both platforms. Download links for Android and iOS are on the Download page. The current release is a public beta, and feedback from parents, teachers, and schools is genuinely welcome."
+          }
         ]
       },
-      "chatbot": {
-        "name": "AI Chatbot",
-        "title": "AI Tutor,",
-        "accent": "Powered by Gemini",
-        "tech": "Gemini 3 Flash + RAG",
-        "desc": "A study buddy that actually knows the syllabus. Built on Google Gemini 3 Flash and grounded by a retrieval system trained on official Ministry of Education textbooks, so every answer stays accurate and age-appropriate.",
-        "bullets": [
-          "Answers grounded in real Ministry of Education materials",
-          "Switches naturally between Arabic and English mid-chat",
-          "Guardrails keep every reply on-topic, kind, and educational"
+      "cta": {
+        "heading": "Start Your Child's ",
+        "headingEm": "Learning Adventure",
+        "paragraph": "Download KidVenture today and unlock AI-powered learning, 10 curriculum-aligned games, CNN drawing detection, interactive 3D models, the I'm My Own Hero safety module, and much more — all in one app, free to start.",
+        "getAppBtn": "Get The App",
+        "signInBtn": "Sign In",
+        "pills": [
+          "Free to Start",
+          "No Ads for Children",
+          "Ministry Aligned"
         ],
-        "stat1": {
-          "v": "Gemini 3",
-          "l": "Flash powered"
-        },
-        "stat2": {
-          "v": "RAG",
-          "l": "Curriculum grounded"
-        },
-        "shotAlts": [
-          "AI chatbot conversation"
-        ]
+        "phoneAlt": "KidVenture"
       },
-      "drawing": {
-        "name": "Drawing Detection",
-        "title": "A CNN That",
-        "accent": "Reads Drawings",
-        "tech": "Custom CNN Model",
-        "desc": "Kids draw, and a custom-trained neural network looks. Trained on thousands of real children's sketches, it recognises what was drawn with over 90% accuracy and turns it into encouraging feedback.",
-        "bullets": [
-          "Trained on thousands of real children's drawings",
-          "Over 90% recognition accuracy across 100+ categories",
-          "Feedback arrives instantly, written to motivate, not correct"
-        ],
-        "stat1": {
-          "v": "90%+",
-          "l": "Recognition accuracy"
-        },
-        "stat2": {
-          "v": "100+",
-          "l": "Drawing categories"
-        },
-        "shotAlts": [
-          "Drawing detection screen"
-        ]
+      "buttons": {
+        "nextFeature": "Next Feature",
+        "getKidVentureFree": "Get KidVenture Free"
       },
-      "games": {
-        "name": "Educational Games",
-        "title": "A Game Library",
-        "accent": "Built to Cooperate",
-        "tech": "Cooperative Game Design",
-        "desc": "A set of curriculum-aligned games designed around cooperative play, so children are rewarded for teamwork and persistence rather than only for winning. Maths, science, Arabic, and English all become something to play, not just study.",
-        "bullets": [
-          "Games covering maths, science, Arabic, English, and social studies",
-          "Cooperative mechanics that favour teamwork over rivalry",
-          "Difficulty that adapts quietly to each child's pace"
-        ],
-        "stat1": {
-          "v": "10",
-          "l": "Educational games"
-        },
-        "stat2": {
-          "v": "5",
-          "l": "Subject areas"
-        },
-        "shotAlts": [
-          "Educational game 1",
-          "Educational game 2",
-          "Educational game 3",
-          "Educational game 4",
-          "Educational game 5",
-          "Educational game 6",
-          "Educational game 7",
-          "Educational game 8",
-          "Educational game 9",
-          "Educational game 10"
-        ]
-      },
-      "flashcards": {
-        "name": "Flashcards",
-        "title": "Cards That",
-        "accent": "Know When to Repeat",
-        "tech": "Spaced Repetition",
-        "desc": "A spaced-repetition system built for young memories. Cards resurface exactly when a child is about to forget them, so every short session counts.",
-        "bullets": [
-          "Spaced repetition tuned for the 6 to 12 age group",
-          "Voice-over support so pre-readers can use every set",
-          "Cards generated from the curriculum, or written by parents"
-        ],
-        "stat1": {
-          "v": "500+",
-          "l": "Ready-made sets"
-        },
-        "stat2": {
-          "v": "2×",
-          "l": "Faster recall"
-        },
-        "shotAlts": [
-          "Flashcard set 1",
-          "Flashcard set 2",
-          "Flashcard set 3"
-        ]
-      },
-      "mindmaps": {
-        "name": "Mind Maps",
-        "title": "Thinking,",
-        "accent": "Mapped Visually",
-        "tech": "Visual Learning",
-        "desc": "Some children think in pictures, not paragraphs. The mind-map builder lets kids connect ideas, colour-code topics, and see how concepts relate to one another.",
-        "bullets": [
-          "A drag-and-drop builder made for small fingers on a screen",
-          "Suggests related concepts automatically as a map grows",
-          "Exports as an image or PDF to share with a teacher"
-        ],
-        "stat1": {
-          "v": "∞",
-          "l": "Maps to build"
-        },
-        "stat2": {
-          "v": "40%",
-          "l": "Better recall"
-        },
-        "shotAlts": [
-          "Mind map 1",
-          "Mind map 2",
-          "Mind map 3",
-          "Mind map 4"
-        ]
-      },
-      "models3d": {
-        "name": "3D Models",
-        "title": "Spin It.",
-        "accent": "Understand It.",
-        "tech": "Flutter 3D Engine",
-        "desc": "Some ideas are easier to grasp in three dimensions. Children can rotate, zoom, and explore curriculum objects directly, turning a static diagram into something they can actually examine.",
-        "bullets": [
-          "Fully interactive — rotate and zoom any curriculum model",
-          "Covers biology, geography, physics, and history",
-          "Every model links back to its matching textbook chapter"
-        ],
-        "stat1": {
-          "v": "60+",
-          "l": "3D models"
-        },
-        "stat2": {
-          "v": "360°",
-          "l": "Fully interactive"
-        },
-        "shotAlts": [
-          "3D model viewer",
-          "3D model example"
-        ]
-      },
-      "hero_module": {
-  "name": "I'm My Own Hero",
-  "title": "Safety, Habits &",
-  "accent": "Good Values",
-  "tech": "Safety & Values",
-  "desc": "Six interactive sections that teach children how to stay safe, build healthy habits, and grow with strong values — through lessons, quizzes, and short videos they'll actually enjoy.",
-  "bullets": [
-    "6 sections covering safety, healthy habits, and Islamic values",
-    "Educational videos that make every lesson stick",
-    "Quizzes after each lesson to lock in the learning",
-    "Stars and badges that reward progress through every section",
-    "Simple language built for ages 6 to 12",
-    "Parent view to follow which sections the child has finished"
-  ],
-  "stat1": { "v": "6", "l": "Learning Sections" },
-  "stat2": { "v": "36+", "l": "Lessons & Quizzes" },
-  "shotAlts": [
-    "I'm My Own Hero home screen showing all 6 sections",
-    "Lesson screen with educational video player",
-    "Interactive quiz with animated characters",
-    "Section completion screen with badge reward"
-  ]
-},
-      "progress": {
-        "name": "Progress Tracking",
-        "title": "One View.",
-        "accent": "Every Feature.",
-        "tech": "Unified Analytics",
-        "desc": "A single dashboard for parents and children to see growth across all 13 features, from quiz scores and game levels to drawings submitted and flashcard streaks kept alive.",
-        "bullets": [
-          "Live analytics unified across every feature of the app",
-          "A weekly progress summary sent to parents by email",
-          "Goal-setting tools so children can track their own wins"
-        ],
-        "stat1": {
-          "v": "13",
-          "l": "Features tracked"
-        },
-        "stat2": {
-          "v": "Weekly",
-          "l": "Parent reports"
-        },
-        "shotAlts": [
-          "Progress tracking dashboard"
-        ]
-      },
-      "leaderboard": {
-        "name": "Leaderboard",
-        "title": "Ranked by",
-        "accent": "Effort, Not Luck",
-        "tech": "Gamification Engine",
-        "desc": "The leaderboard rewards consistency over raw scores. A child who shows up every day climbs faster than one who plays once and scores high, so every position is genuinely earned.",
-        "bullets": [
-          "Rankings driven by streaks, effort, and collaboration",
-          "Class, school, and national boards for healthy competition",
-          "Anti-cheat design that keeps the ranking honest"
-        ],
-        "stat1": {
-          "v": "Top 3",
-          "l": "Featured weekly"
-        },
-        "stat2": {
-          "v": "85%",
-          "l": "Higher return rate"
-        },
-        "shotAlts": [
-          "Leaderboard screen"
-        ]
-      },
-      "settings": {
-        "name": "Parent Settings",
-        "title": "Full Control,",
-        "accent": "For Parents",
-        "tech": "Parental Controls",
-        "desc": "Screen-time limits, content filters, and subscription management, all in one clean panel built for parents who don't have time to dig through menus.",
-        "bullets": [
-          "Daily screen-time limits that lock automatically at the cap",
-          "Content filters by age band: 6–8, 9–10, and 11–12",
-          "Multiple child profiles under a single parent account"
-        ],
-        "stat1": {
-          "v": "100%",
-          "l": "Parent controlled"
-        },
-        "stat2": {
-          "v": "COPPA",
-          "l": "Privacy compliant"
-        },
-        "shotAlts": [
-          "Parental settings screen"
-        ]
-      },
-      "homewidget": {
-        "name": "Home Screen Widget",
-        "title": "Learning,",
-        "accent": "Before You Even Open It",
-        "tech": "Native Flutter Widget",
-        "desc": "A native widget puts today's challenge, the current streak, and the next lesson right on the home screen, so there's no need to open the app to know what's next.",
-        "bullets": [
-          "A native widget for both Android and iOS home screens",
-          "Shows today's challenge, current streak, and next lesson",
-          "Updates live as the child finishes activities through the day"
-        ],
-        "stat1": {
-          "v": "Live",
-          "l": "Home screen widget"
-        },
-        "stat2": {
-          "v": "iOS + Android",
-          "l": "Both platforms"
-        },
-        "shotAlts": [
-          "Home screen widget"
+      "videos": {
+        "label": "See It In Action",
+        "heading": "Watch KidVenture Come to Life",
+        "subheading": "Real gameplay, real lessons, real moments — four quick looks at how children learn and play inside KidVenture.",
+        "items": [
+          {
+            "id": "gameplay",
+            "title": "Cooperative Game Demo",
+            "desc": "A live look at one of the 10 curriculum-aligned games, built around teamwork instead of rivalry.",
+            "tag": "Gameplay",
+            "thumbAlt": "Cooperative game demo video thumbnail"
+          },
+          {
+            "id": "drawing-ai",
+            "title": "AI Drawing Detection in Action",
+            "desc": "Watch the custom CNN recognise a child's sketch in real time and respond with encouraging feedback.",
+            "tag": "AI Demo",
+            "thumbAlt": "AI drawing detection demo video thumbnail"
+          },
+          {
+            "id": "chatbot-demo",
+            "title": "Chatting with the AI Tutor",
+            "desc": "A short conversation showing how the Gemini-powered chatbot answers curriculum questions in Arabic and English.",
+            "tag": "AI Demo",
+            "thumbAlt": "AI chatbot demo video thumbnail"
+          },
+          {
+            "id": "app-marketing",
+            "title": "KidVenture — App Overview",
+            "desc": "A quick marketing tour through all 13 features, from the home dashboard to the I'm My Own Hero safety module.",
+            "tag": "Marketing",
+            "thumbAlt": "KidVenture app marketing video thumbnail"
+          }
         ]
       }
     },
-    "stats": {
-      "label": "By the Numbers",
-      "heading": "Built with Purpose,",
-      "headingLine2": "Measured by Impact",
-      "subheading": "Every number here reflects a deliberate design decision: curriculum alignment, AI precision, cooperative game mechanics, and genuine engagement built for Egyptian primary school children.",
-      "downloadBtn": "Download Free",
-      "cards": [
-        {
-          "raw": "13",
-          "label": "Learning Features"
-        },
-        {
-          "raw": "90",
-          "label": "AI Drawing Accuracy %"
-        },
-        {
-          "raw": "10",
-          "label": "Educational Games"
-        },
-        {
-          "raw": "4",
-          "label": "App Store Rating ★"
-        }
-      ]
-    },
-    "faq": {
-      "label": "Common Questions",
-      "heading": "Everything parents ",
-      "headingHighlight": "want to know",
-      "subheading": "From curriculum alignment and child safety to offline access and AI accuracy, here are the questions parents ask most.",
-      "boxText": "Still have a question? Our team typically replies within 24 hours.",
-      "contactBtn": "Contact Us",
-      "items": [
-        {
-          "q": "What age group is KidVenture designed for?",
-          "a": "KidVenture is built specifically for primary school children aged 6 to 12. Every feature, from font sizes and layout to the complexity of games and stories, is calibrated for this age band. Parents can fine-tune content further using the three age filters inside Settings: 6–8, 9–10, and 11–12."
-        },
-        {
-          "q": "Is the content aligned with the Egyptian school curriculum?",
-          "a": "Yes. Every piece of content, from flashcards and mind maps to game questions and chatbot answers, is aligned with the Egyptian Ministry of Education curriculum for Grades 1 through 6. The chatbot's RAG system is trained directly on official Ministry textbooks."
-        },
-        {
-          "q": "How does the AI Drawing Detection work?",
-          "a": "A custom Convolutional Neural Network was trained on thousands of real children's drawings across more than 100 categories. When a child draws, the model analyses the sketch in under two seconds and returns encouraging, educational feedback, with over 90% recognition accuracy."
-        },
-        {
-          "q": "What is the I'm My Own Hero module?",
-          "a": "I'm My Own Hero is a dedicated safety and values module made up of 6 sections. Each section contains lessons, quizzes, and short educational videos that teach children good personal habits, safety awareness, and positive religious values — all presented in a gamified, age-appropriate way."
-        },
-        {
-          "q": "Is KidVenture safe for children to use unsupervised?",
-          "a": "Yes. The AI chatbot has strict guardrails that prevent off-topic responses, and all content is reviewed before it reaches the app. There are no ads, no in-app purchases visible to children, and no social features that expose children to strangers."
-        },
-        {
-          "q": "Can I use KidVenture offline?",
-          "a": "Core features like downloaded stories, saved flashcard sets, and stored mind maps work offline. AI-powered features such as the chatbot and drawing detection need an internet connection. Offline support is expanding with each release."
-        },
-        {
-          "q": "How does the Leaderboard encourage healthy competition?",
-          "a": "The leaderboard ranks children on effort, consistency, and collaboration rather than raw scores alone. A child who completes daily tasks every day climbs faster than one who plays once and scores high, because persistence is worth more than luck here."
-        },
-        {
-          "q": "Is KidVenture available on both Android and iOS?",
-          "a": "Yes. KidVenture is a Flutter application available on both platforms. Download links for Android and iOS are on the Download page. The current release is a public beta, and feedback from parents, teachers, and schools is genuinely welcome."
-        }
-      ]
-    },
-    "cta": {
-      "heading": "Start Your Child's ",
-      "headingEm": "Learning Adventure",
-      "paragraph": "Download KidVenture today and unlock AI-powered learning, 10 curriculum-aligned games, CNN drawing detection, interactive 3D models, the I'm My Own Hero safety module, and much more — all in one app, free to start.",
-      "getAppBtn": "Get The App",
-      "signInBtn": "Sign In",
-      "pills": [
-        "Free to Start",
-        "No Ads for Children",
-        "Ministry Aligned"
-      ],
-      "phoneAlt": "KidVenture"
-    },
-    "buttons": {
-      "nextFeature": "Next Feature",
-      "getKidVentureFree": "Get KidVenture Free"
-    },
-    "videos": {
-      "label": "See It In Action",
-      "heading": "Watch KidVenture Come to Life",
-      "subheading": "Real gameplay, real lessons, real moments — four quick looks at how children learn and play inside KidVenture.",
-      "items": [
-        {
-          "id": "gameplay",
-          "title": "Cooperative Game Demo",
-          "desc": "A live look at one of the 10 curriculum-aligned games, built around teamwork instead of rivalry.",
-          "tag": "Gameplay",
-          "thumbAlt": "Cooperative game demo video thumbnail"
-        },
-        {
-          "id": "drawing-ai",
-          "title": "AI Drawing Detection in Action",
-          "desc": "Watch the custom CNN recognise a child's sketch in real time and respond with encouraging feedback.",
-          "tag": "AI Demo",
-          "thumbAlt": "AI drawing detection demo video thumbnail"
-        },
-        {
-          "id": "chatbot-demo",
-          "title": "Chatting with the AI Tutor",
-          "desc": "A short conversation showing how the Gemini-powered chatbot answers curriculum questions in Arabic and English.",
-          "tag": "AI Demo",
-          "thumbAlt": "AI chatbot demo video thumbnail"
-        },
-        {
-          "id": "app-marketing",
-          "title": "KidVenture — App Overview",
-          "desc": "A quick marketing tour through all 13 features, from the home dashboard to the I'm My Own Hero safety module.",
-          "tag": "Marketing",
-          "thumbAlt": "KidVenture app marketing video thumbnail"
-        }
-      ]
-    }
-  },
     "pricing": {
       "hero": {
         "eyebrow": "Simple, Transparent Pricing",
@@ -1327,44 +1576,80 @@
         "titleB": "at a Glance",
         "sub": "Compare plans side-by-side to find the perfect fit for your child or school.",
         "featureCol": "Features",
-        "r1": "Interactive Stories", "r1_free": "5 stories", "r1_premium": "Unlimited", "r1_school": "Unlimited + custom",
-        "r2": "AI Chatbot Tutor", "r2_free": "10 msgs/day", "r2_premium": "Unlimited", "r2_school": "Unlimited",
-        "r3": "Educational Games", "r3_free": "3 games", "r3_premium": "20+ games", "r3_school": "20+ games",
-        "r4": "Creative Drawing Studio", "r4_free": "Basic", "r4_premium": "Full", "r4_school": "Full",
-        "r5": "Flashcard Sets", "r5_free": "10 sets", "r5_premium": "Unlimited", "r5_school": "Unlimited",
+        "r1": "Interactive Stories",
+        "r1_free": "5 stories",
+        "r1_premium": "Unlimited",
+        "r1_school": "Unlimited + custom",
+        "r2": "AI Chatbot Tutor",
+        "r2_free": "10 msgs/day",
+        "r2_premium": "Unlimited",
+        "r2_school": "Unlimited",
+        "r3": "Educational Games",
+        "r3_free": "3 games",
+        "r3_premium": "20+ games",
+        "r3_school": "20+ games",
+        "r4": "Creative Drawing Studio",
+        "r4_free": "Basic",
+        "r4_premium": "Full",
+        "r4_school": "Full",
+        "r5": "Flashcard Sets",
+        "r5_free": "10 sets",
+        "r5_premium": "Unlimited",
+        "r5_school": "Unlimited",
         "r6": "Mind Map Generator",
         "r7": "3D Model Explorer",
         "r8": "Parental Dashboard",
-        "r9": "Progress Reports", "r9_premium": "Weekly", "r9_school": "Real-time",
+        "r9": "Progress Reports",
+        "r9_premium": "Weekly",
+        "r9_school": "Real-time",
         "r10": "Teacher / Admin Panel",
-        "r11": "Priority Support", "r11_school": "24/7 SLA"
+        "r11": "Priority Support",
+        "r11_school": "24/7 SLA"
       },
       "how": {
         "eyebrow": "Getting Started",
         "titleA": "Up & Running",
         "titleB": "in 4 Steps",
         "sub": "From sign-up to your child's first adventure in under 2 minutes.",
-        "n1": "01", "t1": "Create Your Account", "d1": "Sign up as a parent in seconds — no credit card required for the free plan.",
-        "n2": "02", "t2": "Set Up Child's Profile", "d2": "Enter your child's grade and interests. Kidventure adapts the content automatically.",
-        "n3": "03", "t3": "Choose Your Plan", "d3": "Start free or unlock the full adventure with our Adventurer plan — cancel anytime.",
-        "n4": "04", "t4": "Start Learning & Playing", "d4": "Your child dives into stories, games, and AI-guided lessons — instantly."
+        "n1": "01",
+        "t1": "Create Your Account",
+        "d1": "Sign up as a parent in seconds — no credit card required for the free plan.",
+        "n2": "02",
+        "t2": "Set Up Child's Profile",
+        "d2": "Enter your child's grade and interests. Kidventure adapts the content automatically.",
+        "n3": "03",
+        "t3": "Choose Your Plan",
+        "d3": "Start free or unlock the full adventure with our Adventurer plan — cancel anytime.",
+        "n4": "04",
+        "t4": "Start Learning & Playing",
+        "d4": "Your child dives into stories, games, and AI-guided lessons — instantly."
       },
       "stats": {
-        "val1": "3,200+", "lbl1": "Free Users",
-        "val2": "49 EGP", "lbl2": "Monthly Plan",
-        "val3": "449 EGP", "lbl3": "Yearly Plan",
-        "val4": "Month 9", "lbl4": "Break-Even Point"
+        "val1": "3,200+",
+        "lbl1": "Free Users",
+        "val2": "49 EGP",
+        "lbl2": "Monthly Plan",
+        "val3": "449 EGP",
+        "lbl3": "Yearly Plan",
+        "val4": "Month 9",
+        "lbl4": "Break-Even Point"
       },
       "test": {
         "eyebrow": "What Families Say",
         "titleA": "Loved by",
         "titleB": "Parents & Educators",
         "t1": "My daughter asks to use Kidventure every day. The AI tutor explains things in a way she actually understands. Worth every piaster.",
-        "n1": "Nour El-Sayed", "r1": "Parent of a Grade 2 student", "p1": "Adventurer",
+        "n1": "Nour El-Sayed",
+        "r1": "Parent of a Grade 2 student",
+        "p1": "Adventurer",
         "t2": "We integrated Kidventure into our classroom and the difference in engagement was immediate. The dashboard makes tracking progress effortless.",
-        "n2": "Mr. Ahmed Kamal", "r2": "Grade 1 Teacher, Cairo", "p2": "School",
+        "n2": "Mr. Ahmed Kamal",
+        "r2": "Grade 1 Teacher, Cairo",
+        "p2": "School",
         "t3": "Finally an app that combines creativity and education. My son built his first mind map at age 7 — I was blown away.",
-        "n3": "Rania Mostafa", "r3": "Parent of a Grade 3 student", "p3": "Adventurer"
+        "n3": "Rania Mostafa",
+        "r3": "Parent of a Grade 3 student",
+        "p3": "Adventurer"
       },
       "faq": {
         "eyebrow": "FAQ",
@@ -1373,13 +1658,20 @@
         "sub": "Have more questions? Reach out — we respond within 24 hours.",
         "stillQuestion": "Still have a question? We'd love to help.",
         "contactUs": "Contact Support",
-        "q1": "Is the free plan really free, forever?", "a1": "Yes! The Explorer plan is completely free with no credit card required. You get access to 5 stories, 3 games, and limited AI tutoring with no time limit.",
-        "q2": "Can I cancel my subscription at any time?", "a2": "Absolutely. You can cancel your monthly or yearly subscription at any time from your account settings. No penalties, no questions asked.",
-        "q3": "Is Kidventure safe for my child?", "a3": "Child safety is our top priority. All content is age-appropriate (6–8 years), the AI chatbot is filtered and monitored, and we never share your child's data with third parties.",
-        "q4": "What devices does Kidventure work on?", "a4": "Kidventure is available on iOS and Android smartphones and tablets. The parental dashboard is accessible from any web browser on desktop or mobile.",
-        "q5": "How does the yearly plan save me money?", "a5": "The yearly plan is priced at 449 EGP — equivalent to about 37 EGP/month — saving you 92 EGP compared to paying monthly (49 EGP × 12 = 588 EGP).",
-        "q6": "How does school pricing work?", "a6": "School pricing is customized based on the number of students and required features. Contact our sales team and we will create a tailored proposal, typically within 48 hours.",
-        "q7": "Does my child need internet to use Kidventure?", "a7": "An internet connection is required for the AI chatbot and syncing progress. Core games and some stories can be accessed offline after initial download."
+        "q1": "Is the free plan really free, forever?",
+        "a1": "Yes! The Explorer plan is completely free with no credit card required. You get access to 5 stories, 3 games, and limited AI tutoring with no time limit.",
+        "q2": "Can I cancel my subscription at any time?",
+        "a2": "Absolutely. You can cancel your monthly or yearly subscription at any time from your account settings. No penalties, no questions asked.",
+        "q3": "Is Kidventure safe for my child?",
+        "a3": "Child safety is our top priority. All content is age-appropriate (6–8 years), the AI chatbot is filtered and monitored, and we never share your child's data with third parties.",
+        "q4": "What devices does Kidventure work on?",
+        "a4": "Kidventure is available on iOS and Android smartphones and tablets. The parental dashboard is accessible from any web browser on desktop or mobile.",
+        "q5": "How does the yearly plan save me money?",
+        "a5": "The yearly plan is priced at 449 EGP — equivalent to about 37 EGP/month — saving you 92 EGP compared to paying monthly (49 EGP × 12 = 588 EGP).",
+        "q6": "How does school pricing work?",
+        "a6": "School pricing is customized based on the number of students and required features. Contact our sales team and we will create a tailored proposal, typically within 48 hours.",
+        "q7": "Does my child need internet to use Kidventure?",
+        "a7": "An internet connection is required for the AI chatbot and syncing progress. Core games and some stories can be accessed offline after initial download."
       },
       "cta": {
         "titleA": "Ready to Start",
@@ -1649,288 +1941,348 @@
       }
     }
   },
-    "support": {
-     "eyebrow": "Help Center",
-"titleStart": "How can we",
-"titleAccent": "help you today?",
-"subtitle": "Find quick answers about setting up Kidventure, managing subscriptions, using the mobile app, and keeping your child safe.",
-"searchPlaceholder": "Search for answers...",
-"clearSearch": "Clear search",
-"categoriesLabel": "Help categories",
-"resultsFound": "{{count}} results found",
-"noResults": "No results found. Try a different search term.",
-
-"contactEmailTitle": "Email Support",
-"contactEmailValue": "support@kidventure.app",
-"contactChatTitle": "Live Chat",
-"contactChatValue": "Available 9am - 6pm",
-"contactGuideTitle": "Getting Started Guide",
-"contactGuideValue": "Read the full guide",
-
-"ctaTitle": "Still need help?",
-"ctaSubtitle": "Our support team typically replies within 24 hours.",
-"ctaButton": "Contact Support",
-
-"gettingStarted": {
-  "title": "Getting Started",
-  "q1": "How do I create a parent account?",
-  "a1": "Visit the Kidventure website and click Sign Up. Enter your name, email, and password, then agree to the Terms of Service and Privacy Policy to create your account.",
-  "q2": "How do I add my child's profile?",
-  "a2": "After logging in to your dashboard, go to Profiles and select Add Child. Enter your child's name, age, and choose an avatar to create their learning profile.",
-  "q3": "How do I download the mobile app?",
-  "a3": "Download Kidventure for Android from Google Play or for iOS from the App Store. You can also scan the QR code on our download page.",
-  "q4": "Do I need an internet connection to use the app?",
-  "a4": "Most features require an internet connection. Flashcards and mind maps can be used offline, while quizzes, the AI chatbot, and drawing detection need an active connection."
-},
-
-"subscriptions": {
-  "title": "Subscriptions & Billing",
-  "q1": "What subscription plans are available?",
-  "a1": "Kidventure offers Monthly and Annual plans. The Annual plan includes a discount compared to paying month to month.",
-  "q2": "How do I change or cancel my subscription?",
-  "a2": "Go to your Parental Dashboard, open the Subscription page, and select Manage Plan. From there you can upgrade, downgrade, or cancel at any time.",
-  "q3": "Is my payment information secure?",
-  "a3": "Yes. All payments are processed through a PCI-compliant payment gateway. Kidventure never stores your card details on its servers.",
-  "q4": "Will I be charged automatically when my plan renews?",
-  "a4": "Yes, subscriptions renew automatically at the end of each billing cycle unless you cancel beforehand from your dashboard."
-},
-
-"mobileApp": {
-  "title": "Using the Mobile App",
-  "q1": "What can my child do in the app?",
-  "a1": "Children can explore Interactive Stories, play Educational Games, take Quizzes, use Flashcards and Mind Maps, view 3D Models, chat with the AI guide, and try Drawing Detection.",
-  "q2": "How does the Drawing Detection feature work?",
-  "a2": "Your child draws on the digital canvas, then taps Scan Drawing. The AI model identifies the object and shows a card confirming what was drawn along with fun facts.",
-  "q3": "How does the AI Chatbot work?",
-  "a3": "Your child can type or speak a question to the friendly AI guide. Answers are based on approved educational content and are limited to age-appropriate topics.",
-  "q4": "How do I access parental settings inside the app?",
-  "a4": "Tap the small gear icon on the Home Screen, then select Parental Section. You will be asked to solve a simple math question to confirm you are an adult."
-},
-
-"dashboard": {
-  "title": "Parent Dashboard",
-  "q1": "How do I view my child's progress?",
-  "a1": "Log in to the web dashboard and select your child's profile. The Progress by Subject widget shows completion bars for each learning area.",
-  "q2": "What do the badges and stars mean?",
-  "a2": "Stars are earned for completing activities, while badges are awarded for reaching specific milestones such as finishing a story or mastering a topic.",
-  "q3": "Can I see how much time my child spends on the app?",
-  "a3": "Yes. The At a Glance widget shows time spent this week, activities completed, and any new badges earned."
-},
-
-"safety": {
-  "title": "Safety & Privacy",
-  "q1": "Is the content appropriate for young children?",
-  "a1": "Yes. All AI responses are limited to educational topics and avoid sensitive subjects such as politics, religion, or gender, keeping the experience age-appropriate.",
-  "q2": "What is the I Am My Own Hero module?",
-  "a2": "It is a calm, non-gamified module that teaches children about personal safety, body boundaries, and trusted adults through simple lessons.",
-  "q3": "How is my child's data protected?",
-  "a3": "Kidventure follows Privacy by Design principles, requires parental consent for child accounts, and lets parents request deletion of their child's data at any time."
-},
-
-"account": {
-  "title": "Account & Security",
-  "q1": "I forgot my password. What should I do?",
-  "a1": "On the login page, select Forgot Password and follow the instructions sent to your email to reset it securely.",
-  "q2": "Can I log in with my Google account?",
-  "a2": "Yes, you can use Continue with Google on the login or registration page to sign in without a password.",
-  "q3": "How do I update my email or account details?",
-  "a3": "Go to your Dashboard, open Profile Settings, and edit your account information. Confirm changes to save them."
-},
-  "contactHeroBadge": "Kidventure Support",
-  "contactHeroTitle": "Contact",
-  "contactHeroAccent": "Us",
-  "contactHeroSub": "Have a question about Kidventure? Our friendly team replies within 24 hours.",
-  "contactScrollLabel": "Send a Message",
-  "contactInfoEmail": "Email",
-  "contactInfoResponse": "Response Time",
-  "contactInfoLocation": "Location",
-  "contactInfoEmailVal": "hello@kidventure.app",
-  "contactInfoResponseVal": "Within 24 hours",
-  "contactInfoLocationVal": "Mansoura, Egypt",
-  "contactWhyBadge": "Why Kidventure Support?",
-  "contactWhyTitle": "Support built for parents & kids",
-  "contactWhySub": "We understand your time is precious. That's why we built the fastest, friendliest support in the edtech world.",
-  "contactFeat1Title": "Lightning Fast",
-  "contactFeat1Desc": "Get a real answer in under 24 hours — no bots, no templates.",
-  "contactFeat2Title": "Safe & Private",
-  "contactFeat2Desc": "Your family's data is encrypted and never shared with anyone.",
-  "contactFeat3Title": "Human First",
-  "contactFeat3Desc": "Every reply is written by a real person who cares about your child.",
-  "contactFeat4Title": "Always Improving",
-  "contactFeat4Desc": "Your feedback directly shapes the next version of Kidventure.",
-  "contactFormBadge": "Contact Form",
-  "contactFormHeadTitle": "We'd love to hear from you",
-  "contactTitle": "Send a Message",
-  "contactLead": "Tell us your question — we'll get right back to you.",
-  "contactSubmit": "Send Message",
-  "contactSuccess": "Message received. We will reply soon.",
-  "contactSuccessTitle": "Message Sent! 🎉",
-  "contactSuccessBody": "Thanks for reaching out. Our team will reply within 24 hours.",
-  "contactSuccessBadge": "Reply within 24 hours",
-  "contactReset": "Send another message",
-  "contactTopicGeneral": "General Question",
-  "contactTopicSubscription": "Subscription",
-  "contactTopicSafety": "Safety & Privacy",
-  "contactTopicSupport": "Tech Support",
-  "contactTopicFeedback": "Feedback",
-  "contactTopicOther": "Other",
-  "contactFieldName": "Full Name",
-  "contactFieldNamePlaceholder": "Ahmed Mohamed",
-  "contactFieldEmail": "Email",
-  "contactFieldEmailPlaceholder": "parent@example.com",
-  "contactFieldPhone": "Phone (optional)",
-  "contactFieldPhonePlaceholder": "+20 1xx xxx xxxx",
-  "contactFieldTopic": "Topic",
-  "contactFieldTopicPlaceholder": "Select a topic…",
-  "contactFieldMessage": "Your Message",
-  "contactFieldMessagePlaceholder": "Tell us how we can help. Be as detailed as possible…",
-  "contactErrName": "Please enter your name",
-  "contactErrEmail": "Please enter a valid email",
-  "contactErrMessage": "Please write your message",
-  "contactFormNote": "Your information is secure and never shared with third parties.",
-  "contactSending": "Sending…",
-  "contactSidebarReach": "Reach Us",
-  "contactSidebarFollow": "Follow Us",
-  "contactSidebarEmailLbl": "Email us",
-  "contactSidebarResponseLbl": "Response time",
-  "contactSidebarLocationLbl": "Location",
-  "contactHelpTitle": "Help Center",
-  "contactHelpSub": "Answers about Kidventure — setup, learning, safety & subscriptions.",
-  "contactMapTitle": "Our Location",
-  "contactMapBody": "Kidventure is based in <strong>Mansoura, Egypt</strong> and operates fully online. Our team is available Mon–Fri, 9am–6pm EET.",
-  "contactMapTag1": "Mansoura, Dakahlia Governorate",
-  "contactMapTag2": "Arabic & English support",
-  "contactMapTag3": "Mon–Fri · 9am–6pm EET",
-  "contactMapTag4": "hello@kidventure.app",
-  "contactMapBadge": "Mansoura, Egypt",
-  "contactFaqTitle": "Frequently Asked Questions",
-  "contactFaqDesc": "Quick answers about Kidventure — setting up your child's account, managing your subscription, tracking progress & staying safe online.",
-  "contactFaqCta": "Visit Help Center",
-  "termsTitle": "Terms of Service",
-  "termsLead": "A summary of the rules and responsibilities for using Kidventure.",
-  "termsPoint1": "Use the platform responsibly and follow applicable laws.",
-  "termsPoint2": "Keep account access secure and do not share login details.",
-  "termsPoint3": "Subscriptions and billing are managed from the dashboard.",
-  "privacyTitle": "Privacy Policy",
-  "privacyLead": "How we handle data with care and keep the experience secure by default.",
-  "privacyPoint1": "We collect only what is needed to run the platform and provide progress insights.",
-  "privacyPoint2": "We use secure storage practices and protect access to parent accounts.",
-  "privacyPoint3": "Parents remain in control of account preferences and visibility."
+  "support": {
+    "eyebrow": "Help Center",
+    "titleStart": "How can we",
+    "titleAccent": "help you today?",
+    "subtitle": "Find quick answers about setting up Kidventure, managing subscriptions, using the mobile app, and keeping your child safe.",
+    "searchPlaceholder": "Search for answers...",
+    "clearSearch": "Clear search",
+    "categoriesLabel": "Help categories",
+    "resultsFound": "{{count}} results found",
+    "noResults": "No results found. Try a different search term.",
+    "contactEmailTitle": "Email Support",
+    "contactEmailValue": "support@kidventure.app",
+    "contactChatTitle": "Live Chat",
+    "contactChatValue": "Available 9am - 6pm",
+    "contactGuideTitle": "Getting Started Guide",
+    "contactGuideValue": "Read the full guide",
+    "ctaTitle": "Still need help?",
+    "ctaSubtitle": "Our support team typically replies within 24 hours.",
+    "ctaButton": "Contact Support",
+    "gettingStarted": {
+      "title": "Getting Started",
+      "q1": "How do I create a parent account?",
+      "a1": "Visit the Kidventure website and click Sign Up. Enter your name, email, and password, then agree to the Terms of Service and Privacy Policy to create your account.",
+      "q2": "How do I add my child's profile?",
+      "a2": "After logging in to your dashboard, go to Profiles and select Add Child. Enter your child's name, age, and choose an avatar to create their learning profile.",
+      "q3": "How do I download the mobile app?",
+      "a3": "Download Kidventure for Android from Google Play or for iOS from the App Store. You can also scan the QR code on our download page.",
+      "q4": "Do I need an internet connection to use the app?",
+      "a4": "Most features require an internet connection. Flashcards and mind maps can be used offline, while quizzes, the AI chatbot, and drawing detection need an active connection."
     },
-    "download": {
-      "available": "Now Available · Android & iOS",
-      "heroLine1": "Learn.",
-      "heroLine2": "Explore.",
-      "heroLine3": "Grow.",
-      "lead": "Kidventure brings curriculum-aligned learning to life through 3D models, AI-powered stories, and immersive educational games — built for children aged 6 to 12.",
-      "title": "Get Kidventure",
-      "titleAccent": "Free on Android & iOS.",
-      "androidTitle": "Android",
-      "androidStore": "Google Play · Firebase Distribution",
-      "androidCardTitle": "Kidventure for Android",
-      "iosTitle": "iOS & iPadOS",
-      "iosStore": "Apple App Store",
-      "iosCardTitle": "Kidventure for iOS",
-      "ctaSupAndroid": "GET IT ON",
-      "ctaAndroid": "Google Play",
-      "ctaSupIos": "DOWNLOAD ON THE",
-      "ctaIos": "App Store",
-      "live": "LIVE",
-      "free": "Free",
-      "feat1": "Fast, direct install via Firebase",
-      "feat2": "Verified, tamper-proof build",
-      "feat3": "Silent automatic updates",
-      "feat4": "Android 8.0 and above",
-      "iosFeat1": "Native iOS & iPadOS experience",
-      "iosFeat2": "Face ID & Touch ID support",
-      "iosFeat3": "Optimised for iPhone and iPad",
-      "iosFeat4": "Apple App Store reviewed",
-      "encrypted": "Encrypted",
-      "verified": "Verified",
-      "safe": "Child-Safe",
-      "qr": "Scan to Download",
-      "qrSub": "Point your camera at the code to open the Kidventure download link instantly on your device — no typing required.",
-      "statDownloads": "Downloads",
-      "statRating": "App Rating",
-      "statCountries": "Countries",
-      "statUptime": "Uptime",
-      "bgFeat1Title": "Curriculum-Aligned",
-      "bgFeat1Desc": "Every lesson, game, and story maps directly to Ministry of Education materials for children in grades 1 through 6.",
-      "bgFeat2Title": "AI-Powered Learning",
-      "bgFeat2Desc": "Powered by Google Gemini 3 Flash with a RAG system trained on official curriculum content, delivering accurate and trustworthy answers every time.",
-      "bgFeat3Title": "Drawing Detection",
-      "bgFeat3Desc": "A custom-trained CNN model recognises children's illustrations with over 90% accuracy and converts them into meaningful learning feedback.",
-      "bgFeat4Title": "Safe & Private",
-      "bgFeat4Desc": "Designed from the ground up for children. End-to-end encrypted with strict child-safety standards and full COPPA-aligned privacy practices.",
-      "bgFeat5Title": "Progress Tracking",
-      "bgFeat5Desc": "A unified progress dashboard gives parents and teachers a clear, real-time view of every child's growth across all platform features.",
-      "bgFeat6Title": "Always Up to Date",
-      "bgFeat6Desc": "Silent background updates ensure children always have access to the latest educational content, games, and platform improvements.",
-      "review1": "My daughter asks to open Kidventure every single day. The stories and games make learning feel like play.",
-      "review2": "Finally an educational app that actually follows the school curriculum. The AI chatbot answers my students' questions better than I expected.",
-      "review3": "The drawing feature is incredible. My son drew a cat and the app built an entire lesson around it. He was amazed.",
-      "review1Name": "Nadia H. — Parent",
-      "review2Name": "Ahmed F. — Primary School Teacher",
-      "review3Name": "Sara M. — Parent",
-      "sectionGetApp": "Get the App",
-      "sectionWhyKidventure": "Why Kidventure?",
-      "whySubtitle": "Everything we built, we built for one reason — to make learning genuinely exciting for every child."
+    "subscriptions": {
+      "title": "Subscriptions & Billing",
+      "q1": "What subscription plans are available?",
+      "a1": "Kidventure offers Monthly and Annual plans. The Annual plan includes a discount compared to paying month to month.",
+      "q2": "How do I change or cancel my subscription?",
+      "a2": "Go to your Parental Dashboard, open the Subscription page, and select Manage Plan. From there you can upgrade, downgrade, or cancel at any time.",
+      "q3": "Is my payment information secure?",
+      "a3": "Yes. All payments are processed through a PCI-compliant payment gateway. Kidventure never stores your card details on its servers.",
+      "q4": "Will I be charged automatically when my plan renews?",
+      "a4": "Yes, subscriptions renew automatically at the end of each billing cycle unless you cancel beforehand from your dashboard."
     },
-     "auth": {
-      "signup": {
-        "title": "Create Account",
-        "subtitle": "Join thousands of families unlocking AI-powered education",
-        "socialText": "or use your email for registration",
-        "nameLabel": "Full Name",
-        "namePlaceholder": "Ahmed Mohamed",
-        "emailLabel": "Email Address",
-        "emailPlaceholder": "parent@example.com",
-        "passwordLabel": "Password",
-        "passwordPlaceholder": "Create password",
-        "confirmPasswordLabel": "Confirm Password",
-        "confirmPassword": "Confirm Password",
-        "signUpBtn": "Sign Up",
-        "haveAccount": "Already have an account?",
-        "loginLink": "Sign in",
-        "agreeToTerms": "I agree to the",
-        "googleTitle": "Continue with Google",
-        "facebookTitle": "Continue with Facebook",
-        "verifying": "Verifying...",
-        "nextBtn": "Next"
+    "mobileApp": {
+      "title": "Using the Mobile App",
+      "q1": "What can my child do in the app?",
+      "a1": "Children can explore Interactive Stories, play Educational Games, take Quizzes, use Flashcards and Mind Maps, view 3D Models, chat with the AI guide, and try Drawing Detection.",
+      "q2": "How does the Drawing Detection feature work?",
+      "a2": "Your child draws on the digital canvas, then taps Scan Drawing. The AI model identifies the object and shows a card confirming what was drawn along with fun facts.",
+      "q3": "How does the AI Chatbot work?",
+      "a3": "Your child can type or speak a question to the friendly AI guide. Answers are based on approved educational content and are limited to age-appropriate topics.",
+      "q4": "How do I access parental settings inside the app?",
+      "a4": "Tap the small gear icon on the Home Screen, then select Parental Section. You will be asked to solve a simple math question to confirm you are an adult."
+    },
+    "dashboard": {
+      "title": "Parent Dashboard",
+      "q1": "How do I view my child's progress?",
+      "a1": "Log in to the web dashboard and select your child's profile. The Progress by Subject widget shows completion bars for each learning area.",
+      "q2": "What do the badges and stars mean?",
+      "a2": "Stars are earned for completing activities, while badges are awarded for reaching specific milestones such as finishing a story or mastering a topic.",
+      "q3": "Can I see how much time my child spends on the app?",
+      "a3": "Yes. The At a Glance widget shows time spent this week, activities completed, and any new badges earned."
+    },
+    "safety": {
+      "title": "Safety & Privacy",
+      "q1": "Is the content appropriate for young children?",
+      "a1": "Yes. All AI responses are limited to educational topics and avoid sensitive subjects such as politics, religion, or gender, keeping the experience age-appropriate.",
+      "q2": "What is the I Am My Own Hero module?",
+      "a2": "It is a calm, non-gamified module that teaches children about personal safety, body boundaries, and trusted adults through simple lessons.",
+      "q3": "How is my child's data protected?",
+      "a3": "Kidventure follows Privacy by Design principles, requires parental consent for child accounts, and lets parents request deletion of their child's data at any time."
+    },
+    "account": {
+      "title": "Account & Security",
+      "q1": "I forgot my password. What should I do?",
+      "a1": "On the login page, select Forgot Password and follow the instructions sent to your email to reset it securely.",
+      "q2": "Can I log in with my Google account?",
+      "a2": "Yes, you can use Continue with Google on the login or registration page to sign in without a password.",
+      "q3": "How do I update my email or account details?",
+      "a3": "Go to your Dashboard, open Profile Settings, and edit your account information. Confirm changes to save them."
+    },
+    "contactUs": {
+      "hero": {
+        "badge": "We're here to help",
+        "titlePre": "Get in",
+        "titleAccent": "Touch",
+        "subtitle": "Have a question about Kidventure? Our friendly team replies within 24 hours.",
+        "scrollLabel": "Send a Message"
       },
-      "login": {
-        "title": "Sign In",
-        "subtitle": "Welcome back! Please enter your credentials",
-        "emailLabel": "Email Address",
-        "passwordLabel": "Password",
-        "rememberMe": "Remember me",
-        "forgotPassword": "Forgot password?",
-        "signInBtn": "Sign In",
-        "signingIn": "Signing in",
-        "noAccount": "Don't have an account?",
-        "signUpLink": "Sign up",
-        "orContinue": "Or continue with",
-        "googleTitle": "Continue with Google",
-        "facebookTitle": "Continue with Facebook"
+      "info": {
+        "email": {
+          "label": "Email",
+          "value": "hello@kidventure.app"
+        },
+        "responseTime": {
+          "label": "Response Time",
+          "value": "Within 24 hours"
+        },
+        "location": {
+          "label": "Location",
+          "value": "Mansoura, Egypt"
+        }
       },
-      "forgot": {
-        "title": "Reset Password",
-        "subtitle": "Enter your email and we'll send you a reset link",
-        "emailLabel": "Email Address",
-        "sendLink": "Send Reset Link",
-        "backToLogin": "Back to Sign In",
-        "checkEmail": "Check your email",
-        "emailSent": "We've sent password reset instructions to",
-        "gotIt": "Got it"
+      "stats": {
+        "families": "Happy Families",
+        "satisfaction": "Satisfaction Rate",
+        "responseTime": "Response Time",
+        "countries": "Countries Served"
       },
-      "validation": {
-        "required": "This field is required",
-        "invalidEmail": "Please enter a valid email",
-        "passwordMin": "Password must be at least 8 characters",
-        "passwordMatch": "Passwords do not match"
+      "features": {
+        "badge": "Why Kidventure Support?",
+        "title": "Support built for parents & kids",
+        "subtitle": "We understand your time is precious. That's why we built the fastest, friendliest support in the edtech world.",
+        "fast": {
+          "title": "Lightning Fast",
+          "desc": "Get a real answer in under 24 hours — no bots, no templates."
+        },
+        "safe": {
+          "title": "Safe & Private",
+          "desc": "Your family's data is encrypted and never shared with anyone."
+        },
+        "human": {
+          "title": "Human First",
+          "desc": "Every reply is written by a real person who cares about your child."
+        },
+        "improving": {
+          "title": "Always Improving",
+          "desc": "Your feedback directly shapes the next version of Kidventure."
+        }
+      },
+      "formSection": {
+        "badge": "Contact Form",
+        "title": "We'd love to hear from you"
+      },
+      "sidebar": {
+        "helpCenter": {
+          "title": "Help Center",
+          "desc": "Answers about Kidventure — setup, learning, safety & subscriptions."
+        },
+        "reachUs": "Reach Us",
+        "channels": {
+          "email": {
+            "label": "Email us",
+            "value": "hello@kidventure.app"
+          },
+          "response": {
+            "label": "Response time",
+            "value": "Within 24 hours"
+          },
+          "location": {
+            "label": "Location",
+            "value": "Mansoura, Egypt"
+          }
+        },
+        "followUs": "Follow Us"
+      },
+      "form": {
+        "title": "Send a Message",
+        "subtitle": "Tell us your question — we'll get right back to you.",
+        "topics": {
+          "general": "General Question",
+          "subscription": "Subscription",
+          "safety": "Safety & Privacy",
+          "support": "Tech Support",
+          "feedback": "Feedback",
+          "other": "Other"
+        },
+        "labels": {
+          "name": "Full Name",
+          "email": "Email",
+          "phone": "Phone (optional)",
+          "topic": "Topic",
+          "message": "Your Message"
+        },
+        "placeholders": {
+          "name": "Ahmed Mohamed",
+          "email": "parent@example.com",
+          "phone": "+20 1xx xxx xxxx",
+          "message": "Tell us how we can help. Be as detailed as possible…"
+        },
+        "selectTopic": "Select a topic…",
+        "errors": {
+          "name": "Please enter your name",
+          "email": "Please enter a valid email",
+          "message": "Please write your message"
+        },
+        "submit": "Send Message",
+        "sending": "Sending…",
+        "note": "Your information is secure and never shared with third parties."
+      },
+      "success": {
+        "title": "Message Sent! 🎉",
+        "body": "Thanks for reaching out. Our team will reply within 24 hours.",
+        "badge": "Reply within 24 hours",
+        "reset": "Send another message"
+      },
+      "map": {
+        "title": "Our Location",
+        "bodyPre": "Kidventure is based in",
+        "bodyLocation": "Mansoura, Egypt",
+        "bodyPost": "and operates fully online. Our team is available Mon–Fri, 9am–6pm EET.",
+        "tags": {
+          "location": "Mansoura, Dakahlia Governorate",
+          "languages": "Arabic & English support",
+          "hours": "Mon–Fri · 9am–6pm EET",
+          "email": "hello@kidventure.app"
+        },
+        "badge": "Mansoura, Egypt"
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "desc": "Quick answers about Kidventure — setting up your child's account, managing your subscription, tracking progress & staying safe online.",
+        "cta": "Visit Help Center"
       }
     },
-   "dashboard": {
+    "terms": {
+      "title": "Terms of Service",
+      "lead": "A summary of the rules and responsibilities for using Kidventure.",
+      "point1": "Use the platform responsibly and follow applicable laws.",
+      "point2": "Keep account access secure and do not share login details.",
+      "point3": "Subscriptions and billing are managed from the dashboard."
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "lead": "How we handle data with care and keep the experience secure by default.",
+      "point1": "We collect only what is needed to run the platform and provide progress insights.",
+      "point2": "We use secure storage practices and protect access to parent accounts.",
+      "point3": "Parents remain in control of account preferences and visibility."
+    }
+  },
+  "download": {
+    "available": "Now Available · Android & iOS",
+    "heroLine1": "Learn.",
+    "heroLine2": "Explore.",
+    "heroLine3": "Grow.",
+    "lead": "Kidventure brings curriculum-aligned learning to life through 3D models, AI-powered stories, and immersive educational games — built for children aged 6 to 12.",
+    "title": "Get Kidventure",
+    "titleAccent": "Free on Android & iOS.",
+    "androidTitle": "Android",
+    "androidStore": "Google Play · Firebase Distribution",
+    "androidCardTitle": "Kidventure for Android",
+    "iosTitle": "iOS & iPadOS",
+    "iosStore": "Apple App Store",
+    "iosCardTitle": "Kidventure for iOS",
+    "ctaSupAndroid": "GET IT ON",
+    "ctaAndroid": "Google Play",
+    "ctaSupIos": "DOWNLOAD ON THE",
+    "ctaIos": "App Store",
+    "live": "LIVE",
+    "free": "Free",
+    "feat1": "Fast, direct install via Firebase",
+    "feat2": "Verified, tamper-proof build",
+    "feat3": "Silent automatic updates",
+    "feat4": "Android 8.0 and above",
+    "iosFeat1": "Native iOS & iPadOS experience",
+    "iosFeat2": "Face ID & Touch ID support",
+    "iosFeat3": "Optimised for iPhone and iPad",
+    "iosFeat4": "Apple App Store reviewed",
+    "encrypted": "Encrypted",
+    "verified": "Verified",
+    "safe": "Child-Safe",
+    "qr": "Scan to Download",
+    "qrSub": "Point your camera at the code to open the Kidventure download link instantly on your device — no typing required.",
+    "statDownloads": "Downloads",
+    "statRating": "App Rating",
+    "statCountries": "Countries",
+    "statUptime": "Uptime",
+    "bgFeat1Title": "Curriculum-Aligned",
+    "bgFeat1Desc": "Every lesson, game, and story maps directly to Ministry of Education materials for children in grades 1 through 6.",
+    "bgFeat2Title": "AI-Powered Learning",
+    "bgFeat2Desc": "Powered by Google Gemini 3 Flash with a RAG system trained on official curriculum content, delivering accurate and trustworthy answers every time.",
+    "bgFeat3Title": "Drawing Detection",
+    "bgFeat3Desc": "A custom-trained CNN model recognises children's illustrations with over 90% accuracy and converts them into meaningful learning feedback.",
+    "bgFeat4Title": "Safe & Private",
+    "bgFeat4Desc": "Designed from the ground up for children. End-to-end encrypted with strict child-safety standards and full COPPA-aligned privacy practices.",
+    "bgFeat5Title": "Progress Tracking",
+    "bgFeat5Desc": "A unified progress dashboard gives parents and teachers a clear, real-time view of every child's growth across all platform features.",
+    "bgFeat6Title": "Always Up to Date",
+    "bgFeat6Desc": "Silent background updates ensure children always have access to the latest educational content, games, and platform improvements.",
+    "review1": "My daughter asks to open Kidventure every single day. The stories and games make learning feel like play.",
+    "review2": "Finally an educational app that actually follows the school curriculum. The AI chatbot answers my students' questions better than I expected.",
+    "review3": "The drawing feature is incredible. My son drew a cat and the app built an entire lesson around it. He was amazed.",
+    "review1Name": "Nadia H. — Parent",
+    "review2Name": "Ahmed F. — Primary School Teacher",
+    "review3Name": "Sara M. — Parent",
+    "sectionGetApp": "Get the App",
+    "sectionWhyKidventure": "Why Kidventure?",
+    "whySubtitle": "Everything we built, we built for one reason — to make learning genuinely exciting for every child."
+  },
+  "auth": {
+    "signup": {
+      "title": "Create Account",
+      "subtitle": "Join thousands of families unlocking AI-powered education",
+      "socialText": "or use your email for registration",
+      "nameLabel": "Full Name",
+      "namePlaceholder": "Ahmed Mohamed",
+      "emailLabel": "Email Address",
+      "emailPlaceholder": "parent@example.com",
+      "passwordLabel": "Password",
+      "passwordPlaceholder": "Create password",
+      "confirmPasswordLabel": "Confirm Password",
+      "confirmPassword": "Confirm Password",
+      "signUpBtn": "Sign Up",
+      "haveAccount": "Already have an account?",
+      "loginLink": "Sign in",
+      "agreeToTerms": "I agree to the",
+      "googleTitle": "Continue with Google",
+      "facebookTitle": "Continue with Facebook",
+      "verifying": "Verifying...",
+      "nextBtn": "Next"
+    },
+    "login": {
+      "title": "Sign In",
+      "subtitle": "Welcome back! Please enter your credentials",
+      "emailLabel": "Email Address",
+      "passwordLabel": "Password",
+      "rememberMe": "Remember me",
+      "forgotPassword": "Forgot password?",
+      "signInBtn": "Sign In",
+      "signingIn": "Signing in",
+      "noAccount": "Don't have an account?",
+      "signUpLink": "Sign up",
+      "orContinue": "Or continue with",
+      "googleTitle": "Continue with Google",
+      "facebookTitle": "Continue with Facebook"
+    },
+    "forgot": {
+      "title": "Reset Password",
+      "subtitle": "Enter your email and we'll send you a reset link",
+      "emailLabel": "Email Address",
+      "sendLink": "Send Reset Link",
+      "backToLogin": "Back to Sign In",
+      "checkEmail": "Check your email",
+      "emailSent": "We've sent password reset instructions to",
+      "gotIt": "Got it"
+    },
+    "validation": {
+      "required": "This field is required",
+      "invalidEmail": "Please enter a valid email",
+      "passwordMin": "Password must be at least 8 characters",
+      "passwordMatch": "Passwords do not match"
+    }
+  },
+  "dashboard": {
     "appName": "Kidventure",
     "signOut": "Sign Out",
     "switchChild": "Switch Child",
@@ -3210,9 +3562,143 @@
       ]
     }
   },
-    "notFound": {
-      "title": "Page not found",
-      "lead": "The page you're looking for doesn't exist.",
-      "backHome": "Back to Home"
+  "notFound": {
+    "title": "Page not found",
+    "lead": "The page you're looking for doesn't exist.",
+    "backHome": "Back to Home"
+  },
+  "contactUs": {
+    "hero": {
+      "badge": "We're here to help",
+      "titlePre": "Get in",
+      "titleAccent": "Touch",
+      "subtitle": "Have a question about Kidventure? Our friendly team replies within 24 hours.",
+      "scrollLabel": "Send a Message"
+    },
+    "info": {
+      "email": {
+        "label": "Email",
+        "value": "hello@kidventure.app"
+      },
+      "responseTime": {
+        "label": "Response Time",
+        "value": "Within 24 hours"
+      },
+      "location": {
+        "label": "Location",
+        "value": "Mansoura, Egypt"
+      }
+    },
+    "stats": {
+      "families": "Families",
+      "satisfaction": "Satisfaction",
+      "responseTime": "Response Time",
+      "countries": "Countries"
+    },
+    "features": {
+      "badge": "Why Kidventure Support?",
+      "title": "Support built for parents & kids",
+      "subtitle": "We understand your time is precious. That's why we built the fastest, friendliest support in the edtech world.",
+      "fast": {
+        "title": "Lightning Fast",
+        "desc": "Get a real answer in under 24 hours — no bots, no templates."
+      },
+      "safe": {
+        "title": "Safe & Private",
+        "desc": "Your family's data is encrypted and never shared with anyone."
+      },
+      "human": {
+        "title": "Human First",
+        "desc": "Every reply is written by a real person who cares about your child."
+      },
+      "improving": {
+        "title": "Always Improving",
+        "desc": "Your feedback directly shapes the next version of Kidventure."
+      }
+    },
+    "formSection": {
+      "badge": "Contact Form",
+      "title": "We'd love to hear from you"
+    },
+    "sidebar": {
+      "helpCenter": {
+        "title": "Help Center",
+        "desc": "Answers about Kidventure — setup, learning, safety & subscriptions."
+      },
+      "reachUs": "Reach Us",
+      "channels": {
+        "email": {
+          "label": "Email us",
+          "value": "hello@kidventure.app"
+        },
+        "response": {
+          "label": "Response time",
+          "value": "Within 24 hours"
+        },
+        "location": {
+          "label": "Location",
+          "value": "Mansoura, Egypt"
+        }
+      },
+      "followUs": "Follow Us"
+    },
+    "form": {
+      "title": "Send a Message",
+      "subtitle": "Tell us your question — we'll get right back to you.",
+      "topics": {
+        "general": "General Question",
+        "subscription": "Subscription",
+        "safety": "Safety & Privacy",
+        "support": "Tech Support",
+        "feedback": "Feedback",
+        "other": "Other"
+      },
+      "labels": {
+        "name": "Full Name",
+        "email": "Email",
+        "phone": "Phone (optional)",
+        "topic": "Topic",
+        "message": "Your Message"
+      },
+      "selectTopic": "Select a topic…",
+      "placeholders": {
+        "name": "Ahmed Mohamed",
+        "email": "parent@example.com",
+        "phone": "+20 1xx xxx xxxx",
+        "message": "Tell us how we can help. Be as detailed as possible…"
+      },
+      "errors": {
+        "name": "Please enter your name",
+        "email": "Please enter a valid email",
+        "message": "Please write your message"
+      },
+      "submit": "Send Message",
+      "sending": "Sending…",
+      "note": "Your information is secure and never shared with third parties."
+    },
+    "success": {
+      "title": "Message Sent! 🎉",
+      "body": "Thanks for reaching out. Our team will reply within 24 hours.",
+      "badge": "Reply within 24 hours",
+      "reset": "Send another message"
+    },
+    "map": {
+      "title": "Our Location",
+      "bodyPre": "Kidventure is based in",
+      "bodyLocation": "Mansoura, Egypt",
+      "bodyPost": "and operates fully online. Our team is available Mon–Fri, 9am–6pm EET.",
+      "tags": {
+        "location": "Mansoura, Dakahlia Governorate",
+        "languages": "Arabic & English support",
+        "hours": "Mon–Fri · 9am–6pm EET",
+        "email": "hello@kidventure.app"
+      },
+      "badge": "Mansoura, Egypt"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "desc": "Quick answers about Kidventure — setting up your child's account, managing your subscription, tracking progress & staying safe online.",
+      "cta": "Visit Help Center"
     }
   }
+}

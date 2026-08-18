@@ -9,9 +9,27 @@ import {
   Phone, Mail, MessageSquare, Send
 } from 'lucide-react';
 
-import pricingBgImage     from '../../assets/common/image.png';
-import pricingBgImageDark from '../../assets/common/image dark.png';
 import './Pricing.css';
+
+const commonImageModules = import.meta.glob(
+  '../../assets/common/*.{png,jpg,jpeg,webp}',
+  { eager: true, import: 'default' }
+);
+
+function commonImg(name) {
+  const match = Object.keys(commonImageModules).find((p) => p.endsWith(`/${name}`));
+  if (!match) {
+    if (import.meta.env?.DEV) {
+      // eslint-disable-next-line no-console
+      console.warn(`[Pricing] image not found in assets/common: ${name}`);
+    }
+    return '';
+  }
+  return commonImageModules[match];
+}
+
+const pricingBgImage     = commonImg('image.png');
+const pricingBgImageDark = commonImg('image dark.png');
 
 /* ━━━━━━━━━━━━━━━━━━━━━━━━
    STRIPE CONFIG
@@ -22,7 +40,6 @@ const STRIPE_YEARLY_PRICE  = import.meta.env.VITE_STRIPE_YEARLY_PRICE  || 'price
 
 /* ━━━━━━━━━━━━━━━━━━━━━━━━
    ERROR BOUNDARY
-   ✅ FIX: يمسك أي crash في Stripe ويعرض fallback بدل ما يوقع الصفحة كلها
 ━━━━━━━━━━━━━━━━━━━━━━━━ */
 class StripeErrorBoundary extends Component {
   constructor(props) {
@@ -187,8 +204,6 @@ const STATS = [
 
 /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
    STRIPE CARD INNER
-   ✅ FIX: كل كود Stripe منعزل في component منفصل
-   محاط بـ try/catch في كل خطوة
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
 function StripeCardField({ onReady, onError }) {
   const [loading, setLoading] = useState(true);
@@ -202,7 +217,6 @@ function StripeCardField({ onReady, onError }) {
 
     const initStripe = async () => {
       try {
-        /* 1. تحميل سكريبت Stripe لو مش موجود */
         if (!window.Stripe) {
           await new Promise((resolve, reject) => {
             const existing = document.querySelector('script[src*="js.stripe.com"]');
@@ -217,12 +231,10 @@ function StripeCardField({ onReady, onError }) {
 
         if (cancelled) return;
 
-        /* 2. التحقق من وجود Stripe بعد التحميل */
         if (!window.Stripe) {
           throw new Error('Stripe is not available (possibly blocked by an ad blocker)');
         }
 
-        /* 3. إنشاء Stripe instance */
         const stripe   = window.Stripe(STRIPE_PUBLIC_KEY);
         const elements = stripe.elements();
 
@@ -243,7 +255,6 @@ function StripeCardField({ onReady, onError }) {
 
         cardRef.current = card;
 
-        /* 4. انتظار قليلاً عشان الـ DOM يكون جاهز */
         await new Promise(r => setTimeout(r, 200));
 
         if (cancelled) return;
@@ -323,13 +334,10 @@ function PaymentPageInner({ plan, isYearly, onBack }) {
   const [email,  setEmail]  = useState('');
   const [errors, setErrors] = useState({});
 
-  /* ✅ FIX: stripe و card يتخزنوا في state بدل ref
-     عشان لو StripeCardField راح يعيد رندر مش يضيع */
   const [stripeInstance, setStripeInstance] = useState(null);
   const [stripeReady,    setStripeReady]    = useState(false);
   const [stripeError,    setStripeError]    = useState(null);
 
-  /* ✅ نفس كود scroll lock */
   useEffect(() => {
     const scrollY = window.scrollY;
     const prevOverflow = document.body.style.overflow;
@@ -388,7 +396,6 @@ function PaymentPageInner({ plan, isYearly, onBack }) {
 
       <div className="kv-pay-wrap">
 
-        {/* ── LEFT: Order Summary ── */}
         <div className="kv-pay-summary">
           <div className="kv-pay-summary-inner">
             <div className="kv-pay-brand">
@@ -441,7 +448,6 @@ function PaymentPageInner({ plan, isYearly, onBack }) {
           </div>
         </div>
 
-        {/* ── RIGHT: Form / States ── */}
         <div className="kv-pay-form-col">
 
           {step === 'form' && (
@@ -482,7 +488,6 @@ function PaymentPageInner({ plan, isYearly, onBack }) {
               <div className="kv-pay-section-label" style={{ marginTop: 6 }}>Payment details</div>
               <div className="kv-pay-field">
                 <label>Card details</label>
-                {/* ✅ FIX: StripeCardField في Error Boundary منفصلة */}
                 <StripeErrorBoundary>
                   <StripeCardField
                     onReady={(stripe, card) => {
@@ -598,7 +603,6 @@ function PaymentPageInner({ plan, isYearly, onBack }) {
   );
 }
 
-/* ✅ FIX: PaymentPage مغلفة بـ Error Boundary إضافية */
 function PaymentPage(props) {
   return (
     <StripeErrorBoundary>
@@ -935,7 +939,6 @@ export default function PricingPage() {
   const [faqRef,   faqVis]   = useReveal(0.06);
   const [ctaRef,   ctaVis]   = useReveal(0.06);
 
-  /* ── Render School Page ── */
   if (showSchool) {
     return (
       <div className="pp" dir={isRTL ? 'rtl' : 'ltr'}>
@@ -944,7 +947,6 @@ export default function PricingPage() {
     );
   }
 
-  /* ── Render Payment Page ── */
   if (showPayment && paymentPlanKey) {
     const plan = PLANS.find(p => p.key === paymentPlanKey);
     return (
@@ -961,7 +963,6 @@ export default function PricingPage() {
     );
   }
 
-  /* ── Render Main Pricing ── */
   return (
     <div className="pp" dir={isRTL ? 'rtl' : 'ltr'}>
 

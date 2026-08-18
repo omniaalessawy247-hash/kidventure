@@ -4,26 +4,12 @@ import {
   Eye, Shield, BarChart3, Star, Clock, BookOpen, Lock, Zap, Users,
   Check, X, ChevronDown, ChevronUp, Award, Activity, MessageCircle,
   Play, ArrowRight, Target, Brain, Bot, ShieldCheck, Sparkles,
-  Layers, Gem, Hexagon, Triangle, Atom, GraduationCap, Smile
+  Layers, Gem, Hexagon, Triangle, Atom, GraduationCap, Smile, Heart
 } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import './ParentGuide.css';
 
 const NS = 'pages.parentGuide';
-
-/* ─── theme-aware helper (kept for future light/dark image swaps) ─── */
-function useIsDark() {
-  const check = () =>
-    !document.documentElement.classList.contains('theme-light') &&
-    document.documentElement.getAttribute('data-theme') !== 'light';
-  const [dark, setDark] = useState(check);
-  useEffect(() => {
-    const obs = new MutationObserver(() => setDark(check()));
-    obs.observe(document.documentElement, { attributes: true, attributeFilter: ['class', 'data-theme'] });
-    return () => obs.disconnect();
-  }, []);
-  return dark;
-}
 
 /* ─── reveal-on-scroll ─── */
 function useReveal(threshold = 0.08) {
@@ -62,62 +48,6 @@ function Counter({ target, vis, suffix = '' }) {
   return <>{v}{suffix}</>;
 }
 
-/* ─── media slot: drop a real screenshot/video later via `src` / `videoSrc` ─── */
-function MediaSlot({ src, videoSrc, alt, path, icon: Icon = Layers, className = '' }) {
-  if (videoSrc) {
-    return (
-      <div className={className}>
-        <video src={videoSrc} poster={src} controls />
-      </div>
-    );
-  }
-  if (src) {
-    return (
-      <div className={className}>
-        <img src={src} alt={alt} />
-      </div>
-    );
-  }
-  return null;
-}
-
-/* ─── video card (marketing video placeholder, same pattern as Features videos) ─── */
-function VideoCard({ item, color, color2 }) {
-  const [playing, setPlaying] = useState(false);
-  return (
-    <div className="pg2-video-card" style={{ '--vc': color, '--vc2': color2 }}>
-      <div className="pg2-video-frame">
-        <span className="pg2-video-tag" style={{ background: color }}>
-          <Play size={9} fill="#fff" /> {item.tag}
-        </span>
-        {!playing ? (
-          <button
-            className="pg2-video-placeholder"
-            style={{ width: '100%', height: '100%', border: 'none', cursor: 'pointer' }}
-            onClick={() => setPlaying(true)}
-            aria-label={`Play ${item.title}`}
-          >
-            <div className="pg2-play-ring"><Play size={20} color="#fff" fill="#fff" /></div>
-            <small>/assets/videos/parent-guide-{item.id}.mp4</small>
-          </button>
-        ) : (
-          <video
-            className="pg2-video-el"
-            style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover' }}
-            src={`/assets/videos/parent-guide-${item.id}.mp4`}
-            controls
-            autoPlay
-          />
-        )}
-      </div>
-      <div className="pg2-video-meta">
-        <h3 className="pg2-video-title">{item.title}</h3>
-        <p className="pg2-video-desc">{item.desc}</p>
-      </div>
-    </div>
-  );
-}
-
 /* ─── FAQ accordion item ─── */
 function FaqItem({ item, color }) {
   const [open, setOpen] = useState(false);
@@ -146,7 +76,6 @@ export default function ParentGuidePage() {
   const [hRef, hVis] = useReveal(0.02);
   const [realRef, realVis] = useReveal();
   const [painRef, painVis] = useReveal();
-  const [vidRef, vidVis] = useReveal(0.05);
   const [dashRef, dashVis] = useReveal();
   const [gsRef, gsVis] = useReveal();
   const [currRef, currVis] = useReveal();
@@ -162,8 +91,6 @@ export default function ParentGuidePage() {
 
   const dashColors = ['#F4831F', '#1C92A8', '#7C3AED', '#F0608C', '#9A7BD9'];
   const dashIcons = [BarChart3, Activity, MessageCircle, Award, Users];
-
-  const videoColors = ['#1C92A8', '#F4831F', '#7C3AED', '#047857', '#DB2777', '#B45309'];
 
   const stepColors = ['#1C92A8', '#F4831F', '#F0608C', '#7C3AED'];
 
@@ -181,9 +108,6 @@ export default function ParentGuidePage() {
 
   const painCardsRaw = t(`${NS}.pain.cards`, { returnObjects: true });
   const painCards = Array.isArray(painCardsRaw) ? painCardsRaw : [];
-
-  const videoItemsRaw = t(`${NS}.videos.items`, { returnObjects: true });
-  const videoItems = Array.isArray(videoItemsRaw) ? videoItemsRaw : [];
 
   const dashFeaturesRaw = t(`${NS}.dashboard.features`, { returnObjects: true });
   const dashFeatures = Array.isArray(dashFeaturesRaw) ? dashFeaturesRaw : [];
@@ -206,7 +130,7 @@ export default function ParentGuidePage() {
   const closingNotesRaw = t(`${NS}.closing.notes`, { returnObjects: true });
   const closingNotes = Array.isArray(closingNotesRaw) ? closingNotesRaw : [];
 
-  const BG_ICONS = [BookOpen, BarChart3, Brain, Shield, Heart_, Star, Clock, Users, Award, Target, Atom, GraduationCap];
+  const BG_ICONS = [BookOpen, BarChart3, Brain, Shield, Heart, Star, Clock, Users, Award, Target, Atom, GraduationCap];
 
   return (
     <div className="pg2-page">
@@ -237,8 +161,6 @@ export default function ParentGuidePage() {
             <div className="pg2-eyebrow">
               <Users size={11} />
               <span>{t(`${NS}.hero.eyebrow`, 'FOR PARENTS')}</span>
-              <span className="pg2-eyebrow-dot" />
-              <span className="pg2-live">{t(`${NS}.hero.live`, 'LIVE')}</span>
             </div>
             <h1 className="pg2-h1">
               {t(`${NS}.hero.titleA`, '')}
@@ -264,26 +186,6 @@ export default function ParentGuidePage() {
               <span className="pg2-chip" style={{ '--cc': '#1C92A8' }}><Activity size={14} />{t(`${NS}.hero.chip1`, '')}</span>
               <span className="pg2-chip" style={{ '--cc': '#F4831F' }}><BarChart3 size={14} />{t(`${NS}.hero.chip2`, '')}</span>
               <span className="pg2-chip" style={{ '--cc': '#047857' }}><Shield size={14} />{t(`${NS}.hero.chip3`, '')}</span>
-            </div>
-
-            <div className="pg2-hero-btns">
-              <button className="pg2-btn pg2-btn-hero"
-                onClick={() => document.getElementById('pg2-get-started')?.scrollIntoView({ behavior: 'smooth' })}>
-                <ArrowRight size={13} /><span>{t(`${NS}.hero.ctaPrimary`, t(`${NS}.closing.cta1`, 'Get Started'))}</span>
-              </button>
-              <button className="pg2-btn pg2-btn-ghost"
-                onClick={() => document.getElementById('pg2-videos')?.scrollIntoView({ behavior: 'smooth' })}>
-                <Play size={13} fill="currentColor" /><span>{t(`${NS}.hero.ctaSecondary`, t(`${NS}.closing.cta2`, 'Watch How It Works'))}</span>
-              </button>
-            </div>
-
-            <div className="pg2-trust">
-              <div className="pg2-avs">
-                {[...Array(5)].map((_, i) => (
-                  <div key={i} className="pg2-av" style={{ background: `hsl(${i * 48 + 180},60%,55%)` }} />
-                ))}
-              </div>
-              <span className="pg2-trust-l">{t(`${NS}.hero.trustLabel`, '')}</span>
             </div>
           </div>
         </div>
@@ -357,31 +259,6 @@ export default function ParentGuidePage() {
         </div>
       </section>
 
-      {/* ════════ MARKETING VIDEOS ════════ */}
-      <section className="pg2-sec" id="pg2-videos">
-        <div className="pg2-sec-deco" aria-hidden="true">
-          <div className="pg2-sec-gridlines" />
-          <div className="pg2-sec-orb-a" style={{ background: '#7C3AED14' }} />
-          <div className="pg2-sec-orb-b" style={{ background: '#1C92A80e' }} />
-        </div>
-        <div className="pg2-wrap" ref={vidRef}>
-          <div className={`pg2-sec-head pg2-au ${vidVis ? 'pg2-in' : ''}`}>
-            <span className="pg2-label"><Play size={12} />{t(`${NS}.videos.eyebrow`, '')}</span>
-            <h2 className="pg2-h2">
-              {t(`${NS}.videos.titleA`, '')} <em className="pg2-grad">{t(`${NS}.videos.titleB`, '')}</em>
-            </h2>
-            <p className="pg2-lead">{t(`${NS}.videos.sub`, '')}</p>
-          </div>
-          <div className={`pg2-video-grid pg2-au ${vidVis ? 'pg2-in' : ''}`} style={{ transitionDelay: '.1s' }}>
-            {videoItems.map((v, i) => (
-              <VideoCard key={v.id || i} item={v}
-                color={videoColors[i % videoColors.length]}
-                color2={videoColors[(i + 1) % videoColors.length]} />
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* ════════ DASHBOARD ════════ */}
       <section className="pg2-sec pg2-sec-alt">
         <div className="pg2-sec-deco" aria-hidden="true">
@@ -389,48 +266,22 @@ export default function ParentGuidePage() {
           <div className="pg2-sec-orb-a" style={{ background: '#F4831F14' }} />
         </div>
         <div className="pg2-wrap" ref={dashRef}>
-          <div className={`pg2-sec-head pg2-au ${dashVis ? 'pg2-in' : ''}`}>
-            <span className="pg2-label pg2-l-orange"><Eye size={12} />{t(`${NS}.dashboard.eyebrow`, '')}</span>
-            <h2 className="pg2-h2">
-              {t(`${NS}.dashboard.titleA`, '')} <em className="pg2-grad">{t(`${NS}.dashboard.titleB`, '')}</em>
-            </h2>
-            <p className="pg2-lead">{t(`${NS}.dashboard.sub`, '')}</p>
-          </div>
-
-          <div className="pg2-dash-layout">
-            <div className={`pg2-dash-vis pg2-al ${dashVis ? 'pg2-in' : ''}`}>
-              <div className="pg2-dash-tech-pill"><BarChart3 size={10} color="#fff" /><span>{t(`${NS}.dashboard.tech`, 'Live Parent Analytics')}</span></div>
-              <div className="pg2-dash-frame">
-                <div className="pg2-dash-placeholder">
-                  <BarChart3 size={34} />
-                  <span>{t(`${NS}.dashboard.videoTitle`, 'Parent Dashboard')}</span>
-                  <small>/assets/parent-dashboard.png</small>
-                </div>
-              </div>
-              <div className="pg2-dash-fstat">
-                <div className="pg2-dash-fstat-bar" />
-                <span className="pg2-dash-fstat-v">{t(`${NS}.dashboard.stat1.v`, '13')}</span>
-                <span className="pg2-dash-fstat-l">{t(`${NS}.dashboard.stat1.l`, 'Features Tracked')}</span>
-              </div>
-            </div>
-
-            <div className={`pg2-dash-feat-list pg2-ar ${dashVis ? 'pg2-in' : ''}`} style={{ transitionDelay: '.12s' }}>
-              {dashFeatures.map((f, i) => {
-                const Ic = dashIcons[i] || BarChart3;
-                return (
-                  <div key={i} className="pg2-dash-feat" style={{ '--fc': dashColors[i] }}>
-                    <div className="pg2-dash-feat-icon"><Ic size={18} /></div>
-                    <div>
-                      <span className="pg2-dash-feat-tag">{f.tag}</span>
-                      <p className="pg2-dash-feat-title">{f.headline}</p>
-                    </div>
+          <div
+            className={`pg2-dash-feat-list pg2-au ${dashVis ? 'pg2-in' : ''}`}
+            style={{ maxWidth: 640, margin: '0 auto' }}
+          >
+            {dashFeatures.map((f, i) => {
+              const Ic = dashIcons[i] || BarChart3;
+              return (
+                <div key={i} className="pg2-dash-feat" style={{ '--fc': dashColors[i] }}>
+                  <div className="pg2-dash-feat-icon"><Ic size={18} /></div>
+                  <div>
+                    <span className="pg2-dash-feat-tag">{f.tag}</span>
+                    <p className="pg2-dash-feat-title">{f.headline}</p>
                   </div>
-                );
-              })}
-              <Link to="/dashboard" className="pg2-btn pg2-btn-ghost" style={{ alignSelf: 'flex-start', marginTop: 6 }}>
-                <Eye size={13} /><span>{t(`${NS}.dashboard.cta`, t(`${NS}.closing.cta3`, 'Open Dashboard'))}</span>
-              </Link>
-            </div>
+                </div>
+              );
+            })}
           </div>
         </div>
       </section>
@@ -475,43 +326,16 @@ export default function ParentGuidePage() {
           <div className="pg2-sec-orb-a" style={{ background: '#F4831F14' }} />
         </div>
         <div className="pg2-wrap" ref={currRef}>
-          <div className={`pg2-sec-head pg2-au ${currVis ? 'pg2-in' : ''}`}>
-            <span className="pg2-label pg2-l-orange"><BookOpen size={12} />{t(`${NS}.curriculum.eyebrow`, '')}</span>
-            <h2 className="pg2-h2">
-              {t(`${NS}.curriculum.titleA`, '')} <em className="pg2-grad">{t(`${NS}.curriculum.titleB`, '')}</em>
-            </h2>
-          </div>
-          <div className="pg2-curr-layout">
-            <div className={`pg2-al ${currVis ? 'pg2-in' : ''}`}>
-              <p className="pg2-curr-body">{t(`${NS}.curriculum.body`, '')}</p>
-              <p className="pg2-curr-body">{t(`${NS}.curriculum.body2`, '')}</p>
-              <p className="pg2-curr-body">{t(`${NS}.curriculum.body3`, '')}</p>
-              <div className="pg2-curr-pills">
-                {curriculumPills.map((p, i) => (
-                  <span key={i} className="pg2-curr-pill" style={{ '--cp': pillColors[i] }}>
-                    <Check size={14} />{p}
-                  </span>
-                ))}
-              </div>
-              <div className="pg2-curr-stats">
-                <div className="pg2-stat-card" style={{ '--sc': '#1C92A8', minWidth: 0, padding: '12px 18px' }}>
-                  <span className="pg2-stat-v" style={{ fontSize: '1.3rem' }}>{t(`${NS}.curriculum.stat1.v`, '')}</span>
-                  <span className="pg2-stat-l" style={{ fontSize: '.7rem' }}>{t(`${NS}.curriculum.stat1.l`, '')}</span>
-                </div>
-                <div className="pg2-stat-card" style={{ '--sc': '#F4831F', minWidth: 0, padding: '12px 18px' }}>
-                  <span className="pg2-stat-v" style={{ fontSize: '1.3rem' }}>{t(`${NS}.curriculum.stat2.v`, '')}</span>
-                  <span className="pg2-stat-l" style={{ fontSize: '.7rem' }}>{t(`${NS}.curriculum.stat2.l`, '')}</span>
-                </div>
-              </div>
-            </div>
-            <div className={`pg2-ar ${currVis ? 'pg2-in' : ''}`} style={{ transitionDelay: '.1s' }}>
-              <div className="pg2-curr-frame">
-                <div className="pg2-curr-placeholder">
-                  <BookOpen size={34} />
-                  <span>{t(`${NS}.curriculum.titleA`, 'Curriculum')}</span>
-                  <small>/assets/curriculum-app.png</small>
-                </div>
-              </div>
+          <div className={`pg2-al ${currVis ? 'pg2-in' : ''}`} style={{ maxWidth: 640, margin: '0 auto' }}>
+            <p className="pg2-curr-body">{t(`${NS}.curriculum.body`, '')}</p>
+            <p className="pg2-curr-body">{t(`${NS}.curriculum.body2`, '')}</p>
+            <p className="pg2-curr-body">{t(`${NS}.curriculum.body3`, '')}</p>
+            <div className="pg2-curr-pills">
+              {curriculumPills.map((p, i) => (
+                <span key={i} className="pg2-curr-pill" style={{ '--cp': pillColors[i] }}>
+                  <Check size={14} />{p}
+                </span>
+              ))}
             </div>
           </div>
         </div>
@@ -609,9 +433,6 @@ export default function ParentGuidePage() {
                 <div className="pg2-faq-box-ico"><Sparkles size={20} /></div>
                 <div>
                   <p className="pg2-faq-box-text">{t(`${NS}.faq.stillQ`, '')}</p>
-                  <Link to="/support/contact" className="pg2-btn pg2-btn-outline" style={{ marginTop: 10 }}>
-                    <Check size={12} /><span>{t(`${NS}.faq.contactBtn`, 'Contact Support')}</span>
-                  </Link>
                 </div>
               </div>
             </div>
@@ -641,7 +462,7 @@ export default function ParentGuidePage() {
                 <ArrowRight size={14} /><span>{t(`${NS}.closing.cta1`, '')}</span>
               </Link>
               <button className="pg2-btn pg2-btn-ghost"
-                onClick={() => document.getElementById('pg2-videos')?.scrollIntoView({ behavior: 'smooth' })}>
+                onClick={() => document.getElementById('pg2-get-started')?.scrollIntoView({ behavior: 'smooth' })}>
                 <Play size={13} fill="currentColor" /><span>{t(`${NS}.closing.cta2`, '')}</span>
               </button>
             </div>
@@ -660,6 +481,3 @@ export default function ParentGuidePage() {
     </div>
   );
 }
-
-/* fallback alias so an extra heart-style icon exists without importing twice */
-const Heart_ = Star;

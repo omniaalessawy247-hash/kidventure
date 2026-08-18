@@ -93,18 +93,18 @@ export default function ContactUs() {
   const scrollToContent = () => contentRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
 
   const topics = [
-    { key:'general',      label:'General Question', Icon: HelpCircle },
-    { key:'subscription', label:'Subscription',     Icon: Star       },
-    { key:'safety',       label:'Safety & Privacy', Icon: Shield     },
-    { key:'support',      label:'Tech Support',     Icon: Headphones },
-    { key:'feedback',     label:'Feedback',         Icon: Heart      },
-    { key:'other',        label:'Other',            Icon: Sparkles   },
+    { key:'general',      label: t('contactUs.form.topics.general'),      Icon: HelpCircle },
+    { key:'subscription', label: t('contactUs.form.topics.subscription'), Icon: Star       },
+    { key:'safety',       label: t('contactUs.form.topics.safety'),       Icon: Shield     },
+    { key:'support',      label: t('contactUs.form.topics.support'),      Icon: Headphones },
+    { key:'feedback',     label: t('contactUs.form.topics.feedback'),     Icon: Heart      },
+    { key:'other',        label: t('contactUs.form.topics.other'),        Icon: Sparkles   },
   ];
 
   const infoItems = [
-    { Icon: Mail,   label:'Email',         val:'hello@kidventure.app', col:'#FF6B35' },
-    { Icon: Clock,  label:'Response Time', val:'Within 24 hours',     col:'#8B5CF6' },
-    { Icon: MapPin, label:'Location',      val:'Mansoura, Egypt',     col:'#06B6D4' },
+    { Icon: Mail,   label: t('contactUs.info.email.label'),        val: t('contactUs.info.email.value'),        col:'#FF6B35' },
+    { Icon: Clock,  label: t('contactUs.info.responseTime.label'), val: t('contactUs.info.responseTime.value'), col:'#8B5CF6' },
+    { Icon: MapPin, label: t('contactUs.info.location.label'),     val: t('contactUs.info.location.value'),     col:'#06B6D4' },
   ];
 
   const socials = [
@@ -120,9 +120,9 @@ export default function ContactUs() {
 
   const validate = () => {
     const e = {};
-    if (!form.name.trim()) e.name = 'Please enter your name';
-    if (!form.email.trim() || !/\S+@\S+\.\S+/.test(form.email)) e.email = 'Please enter a valid email';
-    if (!form.message.trim()) e.message = 'Please write your message';
+    if (!form.name.trim()) e.name = t('contactUs.form.errors.name');
+    if (!form.email.trim() || !/\S+@\S+\.\S+/.test(form.email)) e.email = t('contactUs.form.errors.email');
+    if (!form.message.trim()) e.message = t('contactUs.form.errors.message');
     return e;
   };
 
@@ -153,13 +153,14 @@ export default function ContactUs() {
         <div className="cu-orb cu-orb-1" aria-hidden="true" />
         <div className="cu-orb cu-orb-2" aria-hidden="true" />
         <div className="cu-orb cu-orb-3" aria-hidden="true" />
+        <div className="cu-orb cu-orb-4" aria-hidden="true" />
 
         <div className="cu-hero-center">
-          <div className="cu-hero-badge"><Sparkles size={11}/><span>We're here to help</span></div>
-          <h1 className="cu-hero-title">Get in <span className="cu-hero-accent">Touch</span></h1>
-          <p className="cu-hero-sub">Have a question about Kidventure? Our friendly team replies within 24 hours.</p>
+          <div className="cu-hero-badge"><Sparkles size={11}/><span>{t('contactUs.hero.badge')}</span></div>
+          <h1 className="cu-hero-title">{t('contactUs.hero.titlePre')} <span className="cu-hero-accent">{t('contactUs.hero.titleAccent')}</span></h1>
+          <p className="cu-hero-sub">{t('contactUs.hero.subtitle')}</p>
           <button className="cu-scroll-btn" onClick={scrollToContent} aria-label="Scroll to form">
-            <span className="cu-scroll-label">Send a Message</span>
+            <span className="cu-scroll-label">{t('contactUs.hero.scrollLabel')}</span>
             <span className="cu-scroll-arrow"><ChevronDown size={18}/></span>
           </button>
         </div>
@@ -186,10 +187,10 @@ export default function ContactUs() {
       <div ref={statsRef} className={`cu-stats-section ${statsVis ? 'cu-vis' : ''}`}>
         <div className="kv-container">
           <div className="cu-stats-grid">
-            <StatCard Icon={Users}    target={12000} suffix="+" label="Happy Families"   color="#FF6B35" delay="0s"    started={statsVis} />
-            <StatCard Icon={Award}    target={98}    suffix="%" label="Satisfaction Rate" color="#8B5CF6" delay="0.1s" started={statsVis} />
-            <StatCard Icon={Clock}    target={24}    suffix="h" label="Response Time"     color="#06B6D4" delay="0.2s" started={statsVis} />
-            <StatCard Icon={Globe}    target={15}    suffix="+" label="Countries Served"  color="#10B981" delay="0.3s" started={statsVis} />
+            <StatCard Icon={Users}    target={12000} suffix="+" label={t('contactUs.stats.families')}     color="#FF6B35" delay="0s"    started={statsVis} />
+            <StatCard Icon={Award}    target={98}    suffix="%" label={t('contactUs.stats.satisfaction')} color="#8B5CF6" delay="0.1s" started={statsVis} />
+            <StatCard Icon={Clock}    target={24}    suffix="h" label={t('contactUs.stats.responseTime')} color="#06B6D4" delay="0.2s" started={statsVis} />
+            <StatCard Icon={Globe}    target={15}    suffix="+" label={t('contactUs.stats.countries')}    color="#10B981" delay="0.3s" started={statsVis} />
           </div>
         </div>
       </div>
@@ -198,15 +199,15 @@ export default function ContactUs() {
       <div ref={featRef} className={`cu-feat-section ${featVis ? 'cu-vis' : ''}`}>
         <div className="kv-container">
           <div className="cu-section-head">
-            <div className="cu-section-badge"><Zap size={11}/> Why Kidventure Support?</div>
-            <h2 className="cu-section-title">Support built for parents &amp; kids</h2>
-            <p className="cu-section-sub">We understand your time is precious. That's why we built the fastest, friendliest support in the edtech world.</p>
+            <div className="cu-section-badge"><Zap size={11}/> {t('contactUs.features.badge')}</div>
+            <h2 className="cu-section-title">{t('contactUs.features.title')}</h2>
+            <p className="cu-section-sub">{t('contactUs.features.subtitle')}</p>
           </div>
           <div className="cu-feat-grid">
-            <FeatureCard Icon={Zap}        title="Lightning Fast"   desc="Get a real answer in under 24 hours — no bots, no templates."      color="#FF6B35" delay="0s" />
-            <FeatureCard Icon={Shield}     title="Safe & Private"   desc="Your family's data is encrypted and never shared with anyone."       color="#8B5CF6" delay="0.1s" />
-            <FeatureCard Icon={Heart}      title="Human First"      desc="Every reply is written by a real person who cares about your child." color="#EC4899" delay="0.2s" />
-            <FeatureCard Icon={TrendingUp} title="Always Improving" desc="Your feedback directly shapes the next version of Kidventure."      color="#10B981" delay="0.3s" />
+            <FeatureCard Icon={Zap}        title={t('contactUs.features.fast.title')}       desc={t('contactUs.features.fast.desc')}       color="#FF6B35" delay="0s" />
+            <FeatureCard Icon={Shield}     title={t('contactUs.features.safe.title')}       desc={t('contactUs.features.safe.desc')}       color="#8B5CF6" delay="0.1s" />
+            <FeatureCard Icon={Heart}      title={t('contactUs.features.human.title')}      desc={t('contactUs.features.human.desc')}      color="#EC4899" delay="0.2s" />
+            <FeatureCard Icon={TrendingUp} title={t('contactUs.features.improving.title')}  desc={t('contactUs.features.improving.desc')}  color="#10B981" delay="0.3s" />
           </div>
         </div>
       </div>
@@ -217,8 +218,8 @@ export default function ContactUs() {
       <div className="kv-container">
 
         <div className="cu-grid-label">
-          <div className="cu-section-badge"><MessageSquare size={11}/> Contact Form</div>
-          <h2 className="cu-section-title">We'd love to hear from you</h2>
+          <div className="cu-section-badge"><MessageSquare size={11}/> {t('contactUs.formSection.badge')}</div>
+          <h2 className="cu-section-title">{t('contactUs.formSection.title')}</h2>
         </div>
 
         {/* ══ MAIN GRID ══ */}
@@ -228,33 +229,33 @@ export default function ContactUs() {
             <Link to="/support/help-safety" className="cu-hc-banner">
               <div className="cu-hc-ico"><LifeBuoy size={20}/></div>
               <div className="cu-hc-body">
-                <div className="cu-hc-title">Help Center</div>
-                <div className="cu-hc-sub">Answers about Kidventure — setup, learning, safety &amp; subscriptions.</div>
+                <div className="cu-hc-title">{t('contactUs.sidebar.helpCenter.title')}</div>
+                <div className="cu-hc-sub">{t('contactUs.sidebar.helpCenter.desc')}</div>
               </div>
               <ArrowRight size={14} className="cu-hc-arr"/>
             </Link>
 
             <div className="cu-sb-card">
-              <div className="cu-sb-head"><Mail size={13} className="cu-sb-hico"/><span>Reach Us</span></div>
+              <div className="cu-sb-head"><Mail size={13} className="cu-sb-hico"/><span>{t('contactUs.sidebar.reachUs')}</span></div>
               <div className="cu-channel-list">
                 <a href="mailto:hello@kidventure.app" className="cu-channel-row">
                   <div className="cu-channel-ico" style={{background:'rgba(255,107,53,.12)',color:'#FF6B35'}}><Mail size={13}/></div>
-                  <div><div className="cu-channel-lbl">Email us</div><div className="cu-channel-val">hello@kidventure.app</div></div>
+                  <div><div className="cu-channel-lbl">{t('contactUs.sidebar.channels.email.label')}</div><div className="cu-channel-val">{t('contactUs.sidebar.channels.email.value')}</div></div>
                   <ArrowRight size={12} className="cu-channel-arr"/>
                 </a>
                 <div className="cu-channel-row">
                   <div className="cu-channel-ico" style={{background:'rgba(139,92,246,.12)',color:'#8B5CF6'}}><Clock size={13}/></div>
-                  <div><div className="cu-channel-lbl">Response time</div><div className="cu-channel-val">Within 24 hours</div></div>
+                  <div><div className="cu-channel-lbl">{t('contactUs.sidebar.channels.response.label')}</div><div className="cu-channel-val">{t('contactUs.sidebar.channels.response.value')}</div></div>
                 </div>
                 <div className="cu-channel-row">
                   <div className="cu-channel-ico" style={{background:'rgba(6,182,212,.12)',color:'#06B6D4'}}><MapPin size={13}/></div>
-                  <div><div className="cu-channel-lbl">Location</div><div className="cu-channel-val">Mansoura, Egypt</div></div>
+                  <div><div className="cu-channel-lbl">{t('contactUs.sidebar.channels.location.label')}</div><div className="cu-channel-val">{t('contactUs.sidebar.channels.location.value')}</div></div>
                 </div>
               </div>
             </div>
 
             <div className="cu-sb-card">
-              <div className="cu-sb-head"><Users size={13} className="cu-sb-hico"/><span>Follow Us</span></div>
+              <div className="cu-sb-head"><Users size={13} className="cu-sb-hico"/><span>{t('contactUs.sidebar.followUs')}</span></div>
               <div className="cu-soc-grid">
                 {socials.map(({ label, col, bg, Svg }) => (
                   <a key={label} href="#" className="cu-soc-btn" style={{'--scol':col}}>
@@ -274,18 +275,18 @@ export default function ContactUs() {
                   <div className="cu-success-ring cu-ring-2"/>
                   <div className="cu-success-circle"><CheckCircle size={34}/></div>
                 </div>
-                <div className="cu-success-title">Message Sent! 🎉</div>
-                <p className="cu-success-body">Thanks for reaching out. Our team will reply within 24 hours.</p>
-                <div className="cu-success-badge"><CheckCircle size={11}/><span>Reply within 24 hours</span></div>
-                <button className="cu-reset-link" onClick={reset}>Send another message</button>
+                <div className="cu-success-title">{t('contactUs.success.title')}</div>
+                <p className="cu-success-body">{t('contactUs.success.body')}</p>
+                <div className="cu-success-badge"><CheckCircle size={11}/><span>{t('contactUs.success.badge')}</span></div>
+                <button className="cu-reset-link" onClick={reset}>{t('contactUs.success.reset')}</button>
               </div>
             ) : (
               <>
                 <div className="cu-form-head">
                   <div className="cu-form-hico"><MessageSquare size={16}/></div>
                   <div>
-                    <div className="cu-form-title">Send a Message</div>
-                    <p className="cu-form-sub">Tell us your question — we'll get right back to you.</p>
+                    <div className="cu-form-title">{t('contactUs.form.title')}</div>
+                    <p className="cu-form-sub">{t('contactUs.form.subtitle')}</p>
                   </div>
                 </div>
                 <div className="cu-topic-row">
@@ -300,53 +301,53 @@ export default function ContactUs() {
                 <form className="cu-form" onSubmit={onSubmit} noValidate>
                   <div className="cu-row-2">
                     <label className="cu-label">
-                      <span><BookOpen size={10}/> Full Name</span>
-                      <input className={`cu-input${errors.name?' cu-err':''}`} type="text" placeholder="Ahmed Mohamed"
+                      <span><BookOpen size={10}/> {t('contactUs.form.labels.name')}</span>
+                      <input className={`cu-input${errors.name?' cu-err':''}`} type="text" placeholder={t('contactUs.form.placeholders.name')}
                         value={form.name} onChange={e=>set('name',e.target.value)}/>
                       {errors.name && <em className="cu-errtxt">{errors.name}</em>}
                     </label>
                     <label className="cu-label">
-                      <span><Mail size={10}/> Email</span>
-                      <input className={`cu-input${errors.email?' cu-err':''}`} type="email" placeholder="parent@example.com"
+                      <span><Mail size={10}/> {t('contactUs.form.labels.email')}</span>
+                      <input className={`cu-input${errors.email?' cu-err':''}`} type="email" placeholder={t('contactUs.form.placeholders.email')}
                         value={form.email} onChange={e=>set('email',e.target.value)}/>
                       {errors.email && <em className="cu-errtxt">{errors.email}</em>}
                     </label>
                   </div>
                   <div className="cu-row-2">
                     <label className="cu-label">
-                      <span><Phone size={10}/> Phone (optional)</span>
-                      <input className="cu-input" type="tel" placeholder="+20 1xx xxx xxxx"
+                      <span><Phone size={10}/> {t('contactUs.form.labels.phone')}</span>
+                      <input className="cu-input" type="tel" placeholder={t('contactUs.form.placeholders.phone')}
                         value={form.phone} onChange={e=>set('phone',e.target.value)}/>
                     </label>
                     <label className="cu-label">
-                      <span><Sparkles size={10}/> Topic</span>
+                      <span><Sparkles size={10}/> {t('contactUs.form.labels.topic')}</span>
                       <select className="cu-input cu-select" value={activeTopic}
                         onChange={e=>{ setAT(e.target.value); set('topic',e.target.value); }}>
-                        <option value="">Select a topic…</option>
+                        <option value="">{t('contactUs.form.selectTopic')}</option>
                         {topics.map(tp=><option key={tp.key} value={tp.key}>{tp.label}</option>)}
                       </select>
                     </label>
                   </div>
                   <label className="cu-label">
                     <div className="cu-char-row">
-                      <span><MessageCircle size={10}/> Your Message</span>
+                      <span><MessageCircle size={10}/> {t('contactUs.form.labels.message')}</span>
                       <span className={`cu-char-count${form.message.length>MAX_MSG*.85?' warn':''}`}>
                         {form.message.length}/{MAX_MSG}
                       </span>
                     </div>
                     <textarea className={`cu-input cu-textarea${errors.message?' cu-err':''}`}
                       rows={5} maxLength={MAX_MSG}
-                      placeholder="Tell us how we can help. Be as detailed as possible…"
+                      placeholder={t('contactUs.form.placeholders.message')}
                       value={form.message} onChange={e=>set('message',e.target.value)}/>
                     {errors.message && <em className="cu-errtxt">{errors.message}</em>}
                   </label>
                   <button type="submit" className="cu-submit-btn" disabled={loading}>
                     <span className="cu-btn-bg"/>
                     {loading
-                      ? <><div className="cu-spinner"/><span>Sending…</span></>
-                      : <><Send size={14}/><span>Send Message</span><ArrowRight size={14}/></>}
+                      ? <><div className="cu-spinner"/><span>{t('contactUs.form.sending')}</span></>
+                      : <><Send size={14}/><span>{t('contactUs.form.submit')}</span><ArrowRight size={14}/></>}
                   </button>
-                  <p className="cu-form-note"><Lock size={10}/> Your information is secure and never shared with third parties.</p>
+                  <p className="cu-form-note"><Lock size={10}/> {t('contactUs.form.note')}</p>
                 </form>
               </>
             )}
@@ -357,20 +358,20 @@ export default function ContactUs() {
         <div ref={mapRef} className={`cu-map-wrap ${mapVis?'cu-vis':''}`}>
           <div className="cu-map-strip">
             <div className="cu-map-info">
-              <div className="cu-map-hd"><MapPin size={15} className="cu-map-hico"/><span>Our Location</span></div>
-              <p className="cu-map-body">Kidventure is based in <strong>Mansoura, Egypt</strong> and operates fully online. Our team is available Mon–Fri, 9am–6pm EET.</p>
+              <div className="cu-map-hd"><MapPin size={15} className="cu-map-hico"/><span>{t('contactUs.map.title')}</span></div>
+              <p className="cu-map-body">{t('contactUs.map.bodyPre')} <strong>{t('contactUs.map.bodyLocation')}</strong> {t('contactUs.map.bodyPost')}</p>
               <div className="cu-map-tags">
-                <span className="cu-map-tag"><CheckCircle size={10}/> Mansoura, Dakahlia Governorate</span>
-                <span className="cu-map-tag"><CheckCircle size={10}/> Arabic &amp; English support</span>
-                <span className="cu-map-tag"><CheckCircle size={10}/> Mon–Fri · 9am–6pm EET</span>
-                <span className="cu-map-tag"><CheckCircle size={10}/> hello@kidventure.app</span>
+                <span className="cu-map-tag"><CheckCircle size={10}/> {t('contactUs.map.tags.location')}</span>
+                <span className="cu-map-tag"><CheckCircle size={10}/> {t('contactUs.map.tags.languages')}</span>
+                <span className="cu-map-tag"><CheckCircle size={10}/> {t('contactUs.map.tags.hours')}</span>
+                <span className="cu-map-tag"><CheckCircle size={10}/> {t('contactUs.map.tags.email')}</span>
               </div>
             </div>
             <div className="cu-map-frame">
               <iframe title="Kidventure — Mansoura, Egypt"
                 src="https://www.openstreetmap.org/export/embed.html?bbox=31.2807%2C30.9364%2C31.4807%2C31.1364&layer=mapnik&marker=31.0364%2C31.3807"
                 loading="lazy" allowFullScreen style={{border:0,width:'100%',height:'100%',display:'block'}}/>
-              <div className="cu-map-badge"><MapPin size={11}/><span>Mansoura, Egypt</span></div>
+              <div className="cu-map-badge"><MapPin size={11}/><span>{t('contactUs.map.badge')}</span></div>
             </div>
           </div>
         </div>
@@ -381,12 +382,12 @@ export default function ContactUs() {
             <div className="cu-faq-left">
               <div className="cu-faq-ico"><HelpCircle size={18}/></div>
               <div>
-                <h3>Frequently Asked Questions</h3>
-                <p>Quick answers about Kidventure — setting up your child's account, managing your subscription, tracking progress &amp; staying safe online.</p>
+                <h3>{t('contactUs.faq.title')}</h3>
+                <p>{t('contactUs.faq.desc')}</p>
               </div>
             </div>
             <Link to="/support/help-safety" className="cu-faq-cta">
-              <LifeBuoy size={14}/><span>Visit Help Center</span><ArrowRight size={13}/>
+              <LifeBuoy size={14}/><span>{t('contactUs.faq.cta')}</span><ArrowRight size={13}/>
             </Link>
           </div>
         </div>

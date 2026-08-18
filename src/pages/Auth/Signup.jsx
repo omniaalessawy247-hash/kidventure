@@ -624,7 +624,21 @@ export default function Signup() {
   if (signedUp) {
     return (
       <>
-        <div className="auth-root-bg" style={{ backgroundImage: `url(${HERO_IMG})` }} />
+        {/* ✅ نفس طريقة الهوم بالظبط: <img> مباشرة مش CSS background-image */}
+        <img
+          src={HERO_IMG}
+          alt=""
+          aria-hidden="true"
+          className="auth-root-bg"
+          style={{
+            position: 'fixed',
+            inset: 0,
+            width: '100%',
+            height: '100%',
+            objectFit: 'cover',
+            zIndex: 0,
+          }}
+        />
         <div className="auth-page">
           <EduBackground />
           <ParticleCanvas />
@@ -636,7 +650,21 @@ export default function Signup() {
 
   return (
     <>
-      <div className="auth-root-bg" style={{ backgroundImage: `url(${HERO_IMG})` }} />
+      {/* ✅ نفس طريقة الهوم بالظبط: <img> مباشرة مش CSS background-image */}
+      <img
+        src={HERO_IMG}
+        alt=""
+        aria-hidden="true"
+        className="auth-root-bg"
+        style={{
+          position: 'fixed',
+          inset: 0,
+          width: '100%',
+          height: '100%',
+          objectFit: 'cover',
+          zIndex: 0,
+        }}
+      />
 
       <div className="auth-page">
         <EduBackground />

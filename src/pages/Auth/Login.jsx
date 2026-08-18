@@ -566,7 +566,21 @@ export default function Login() {
 
   return (
     <>
-      <div className="auth-root-bg" style={{ backgroundImage: `url(${loginHeroImg})` }} />
+      {/* ✅ نفس طريقة الهوم بالظبط: <img> مباشرة مش CSS background-image */}
+      <img
+        src={loginHeroImg}
+        alt=""
+        aria-hidden="true"
+        className="auth-root-bg"
+        style={{
+          position: 'fixed',
+          inset: 0,
+          width: '100%',
+          height: '100%',
+          objectFit: 'cover',
+          zIndex: 0,
+        }}
+      />
 
       <div className="auth-page">
         <EduBackground />
