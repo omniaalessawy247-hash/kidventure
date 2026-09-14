@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="docs/screenshots/07-landing-home-dark.png" alt="Kidventure — Where Learning Becomes an Adventure" width="100%" />
+<img src="docs/screenshots/01-dashboard-overview-dark.png" alt="Kidventure Parent Dashboard" width="100%" />
 
 <br />
 <br />
@@ -10,7 +10,7 @@
 <h3><em>Where Learning Becomes an Adventure</em></h3>
 
 <p>
-An AI-powered learning ecosystem that turns children's screen time into<br/>
+An AI-powered learning ecosystem that turns a child's screen time into<br/>
 purposeful, curriculum-aligned adventures — and gives parents complete visibility along the way.
 </p>
 
@@ -26,11 +26,11 @@ purposeful, curriculum-aligned adventures — and gives parents complete visibil
 </p>
 
 <p>
+  <a href="#-the-problem">The Problem</a> ·
+  <a href="#-the-solution">The Solution</a> ·
   <a href="#-live-demo">Live Demo</a> ·
-  <a href="#-the-idea">The Idea</a> ·
-  <a href="#-screenshots">Screenshots</a> ·
-  <a href="#-features">Features</a> ·
-  <a href="#-tech-stack">Tech Stack</a> ·
+  <a href="#-a-closer-look">A Closer Look</a> ·
+  <a href="#-under-the-hood">Under the Hood</a> ·
   <a href="#-project-structure">Structure</a> ·
   <a href="#-getting-started">Getting Started</a> ·
   <a href="#-project-status">Status</a>
@@ -40,151 +40,134 @@ purposeful, curriculum-aligned adventures — and gives parents complete visibil
 
 <br />
 
+## 🎯 The Problem
+
+Children today are growing up inside an attention economy engineered against them.
+
+Infinite scroll, short-form video, and algorithmic feeds are built on a single mechanic: **zero effort, instant reward.** Traditional education can't compete with that — it asks for patience, focus, and structure, and next to a feed that never stops, it simply feels *slow*.
+
+The measurable result is a generation with shrinking attention spans, a shrinking appetite for deep learning, and parents left staring at screen-time reports that say *how long*, but never *what for*.
+
+<br />
+
+## 💡 The Solution
+
+**Kidventure doesn't fight screen time. It redirects it.**
+
+Instead of adding another app to the pile of things competing for a child's attention, Kidventure rebuilds the *mechanics* children already love — progress, rewards, curiosity, story — and points them at real, curriculum-aligned learning. The result feels less like homework and more like the adventure it's named after.
+
+The product is engineered as a two-platform ecosystem sharing one identity:
+
+| Platform | Audience | Role |
+|:---|:---|:---|
+| 📱 **Mobile App** *(Flutter)* | Children, ages 6–9 | Gamified learning — interactive stories, quizzes, flashcards, mind maps, 3D models, an AI chatbot tutor, and a CNN-powered drawing-detection game |
+| 💻 **Web Platform** *(this repository)* | Parents | The marketing experience parents discover Kidventure through, and the private dashboard they use to follow their child's learning journey |
+
+This repository holds the **web platform** — a fully bilingual, dual-themed React application built to carry the entire brand experience, from the very first landing page to the parent's dashboard.
+
+<br />
+
 ## 🔴 Live Demo
 
 <div align="center">
 
 ### 👉 **[kidventure-1913.vercel.app](https://kidventure-1913.vercel.app/)** 👈
 
-*Explore the full marketing experience, switch between light & dark mode, flip the language to Arabic and watch the entire interface mirror into RTL, create a real account, and preview the Parent Dashboard.*
+Switch between light and dark mode. Flip the language to Arabic and watch the *entire* interface mirror into RTL — not just the text. Create a real account through a live Supabase-powered sign-up flow. Then explore the Parent Dashboard.
 
 </div>
 
 <br />
 
-## 💡 The Idea
+## 🖼️ A Closer Look
 
-Children today grow up on infinite scroll and short-form video — content engineered to reward *zero effort* with *instant* gratification. The result: shrinking attention spans and a generation that finds structured learning boring by comparison.
+<table>
+<tr><td width="100%"><img src="docs/screenshots/06-landing-home-light.png" width="100%" /></td></tr>
+<tr><td align="center"><sub><b>Home — Light Mode</b></sub></td></tr>
+</table>
 
-**Kidventure doesn't fight screen time. It redirects it.**
+<table>
+<tr><td width="100%"><img src="docs/screenshots/07-landing-home-dark.png" width="100%" /></td></tr>
+<tr><td align="center"><sub><b>Home — Dark Mode</b></sub></td></tr>
+</table>
 
-The product is built as a dual-platform ecosystem:
+<table>
+<tr><td width="100%"><img src="docs/screenshots/08-landing-home-arabic-rtl.png" width="100%" /></td></tr>
+<tr><td align="center"><sub><b>Arabic — full RTL mirroring, not just translated text</b></sub></td></tr>
+</table>
 
-| Platform | Audience | Role |
-|:---|:---|:---|
-| 📱 **Mobile App** (Flutter) | Children (6–9) | Gamified learning — interactive stories, quizzes, flashcards, mind maps, 3D models, an AI chatbot tutor, and a CNN-powered drawing-detection game |
-| 💻 **Web Platform** *(this repository)* | Parents | The marketing site parents discover Kidventure through, and the dashboard they use to monitor their child's learning journey |
-
-This repository is the **web platform**: a fully bilingual, dual-themed React application that carries the entire brand experience — from the very first landing page to the parent's private dashboard.
+<table>
+<tr><td width="100%"><img src="docs/screenshots/09-landing-why-kidventure.png" width="100%" /></td></tr>
+<tr><td align="center"><sub><b>"Why Kidventure" — a storybook-style scroll narrative</b></sub></td></tr>
+</table>
 
 <br />
 
-## 📸 Screenshots
-
-<details open>
-<summary><b>🌐 Marketing Website</b> — light & dark modes, full Arabic RTL localization</summary>
-<br />
+**Authentication**, live and connected to Supabase:
 
 <table>
 <tr>
-<td width="50%"><img src="docs/screenshots/06-landing-home-light.png" width="100%" /><p align="center"><sub>Home — Light Mode</sub></p></td>
-<td width="50%"><img src="docs/screenshots/07-landing-home-dark.png" width="100%" /><p align="center"><sub>Home — Dark Mode</sub></p></td>
+<td width="50%"><img src="docs/screenshots/15-auth-login.png" width="100%" /></td>
+<td width="50%"><img src="docs/screenshots/16-auth-signup.png" width="100%" /></td>
 </tr>
 <tr>
-<td width="50%"><img src="docs/screenshots/08-landing-home-arabic-rtl.png" width="100%" /><p align="center"><sub><b>Arabic — full RTL mirroring, not just translated text</b></sub></p></td>
-<td width="50%"><img src="docs/screenshots/09-landing-why-kidventure.png" width="100%" /><p align="center"><sub>"Why Kidventure" — storybook-style scroll narrative</sub></p></td>
-</tr>
-<tr>
-<td width="50%"><img src="docs/screenshots/10-landing-features.png" width="100%" /><p align="center"><sub>Features overview</sub></p></td>
-<td width="50%"><img src="docs/screenshots/11-landing-pricing.png" width="100%" /><p align="center"><sub>Plans & Pricing</sub></p></td>
-</tr>
-<tr>
-<td width="50%"><img src="docs/screenshots/12-landing-parent-guide.png" width="100%" /><p align="center"><sub>Parent Guide</sub></p></td>
-<td width="50%"><img src="docs/screenshots/14-landing-contact-us.png" width="100%" /><p align="center"><sub>Contact & Support</sub></p></td>
+<td align="center"><sub>Sign In</sub></td>
+<td align="center"><sub>Create Account</sub></td>
 </tr>
 </table>
 
-</details>
-
-<details>
-<summary><b>🔐 Authentication</b> — live, working Supabase-powered sign up & login</summary>
-<br />
+**The Parent Dashboard**, the full UX vision previewed with sample data:
 
 <table>
 <tr>
-<td width="50%"><img src="docs/screenshots/15-auth-login.png" width="100%" /><p align="center"><sub>Sign In</sub></p></td>
-<td width="50%"><img src="docs/screenshots/16-auth-signup.png" width="100%" /><p align="center"><sub>Create Account</sub></p></td>
+<td width="50%"><img src="docs/screenshots/02-dashboard-reports-dark.png" width="100%" /></td>
+<td width="50%"><img src="docs/screenshots/03-dashboard-profiles-dark.png" width="100%" /></td>
+</tr>
+<tr>
+<td align="center"><sub>Reports — progress by subject</sub></td>
+<td align="center"><sub>Multi-child family profiles</sub></td>
 </tr>
 </table>
 
-</details>
-
-<details>
-<summary><b>📊 Parent Dashboard</b> — the full UX vision, previewed with sample data</summary>
-<br />
+**Download & Support** — the pages that close the loop between marketing and product:
 
 <table>
 <tr>
-<td width="50%"><img src="docs/screenshots/01-dashboard-overview-dark.png" width="100%" /><p align="center"><sub>Overview — streaks, XP, badges, AI insights</sub></p></td>
-<td width="50%"><img src="docs/screenshots/02-dashboard-reports-dark.png" width="100%" /><p align="center"><sub>Reports — progress by subject, weekly activity</sub></p></td>
+<td width="50%"><img src="docs/screenshots/17-landing-download-app.png" width="100%" /></td>
+<td width="50%"><img src="docs/screenshots/13-landing-support-faq.png" width="100%" /></td>
 </tr>
 <tr>
-<td width="50%"><img src="docs/screenshots/03-dashboard-profiles-dark.png" width="100%" /><p align="center"><sub>Multi-child family profiles</sub></p></td>
-<td width="50%"><img src="docs/screenshots/04-dashboard-subscription-dark.png" width="100%" /><p align="center"><sub>Subscription & billing</sub></p></td>
+<td align="center"><sub>Download the app</sub></td>
+<td align="center"><sub>Support & Help Center</sub></td>
 </tr>
 </table>
-
-> ℹ️ The dashboard shown here is a **complete, production-ready interface** built ahead of the backend — see [Project Status](#-project-status) for details.
-
-</details>
 
 <br />
 
 ## ✨ Features
 
-### 🌍 Bilingual by Design, Not by Patch
-Full **English & Arabic** localization powered by `i18next`, including a genuine **RTL layout** — the entire interface mirrors, from navigation to card alignment, not just the copy.
+**🌍 Bilingual by design, not by patch.** Localization here isn't a translated string table bolted onto an English layout — English and Arabic are first-class citizens. Switching languages flips the entire interface into a genuine RTL layout: navigation, card alignment, spacing, and iconography all mirror correctly, powered by `i18next` and `i18next-browser-languagedetector`.
 
-### 🌗 Effortless Light & Dark Themes
-Every single page — marketing site and dashboard alike — ships with a fully designed light and dark theme, switchable instantly with zero layout shift.
+**🌗 Light and dark, considered from the first pixel.** Every page — the seven-page marketing site and the parent dashboard alike — ships with two fully designed themes, switchable instantly with no layout shift and no flash of unstyled content.
 
-### 🔐 Real Authentication, Not a Mock
-Sign up and login are wired to a **live Supabase project**. Create an account on the demo right now and it works.
+**🔐 Authentication that actually works.** Sign up and login are connected to a live Supabase project. This isn't a static mock — create an account on the demo right now and the flow runs end to end.
 
-### 🎬 A Marketing Site That Tells a Story
-Seven fully designed pages — Home, Why Kidventure, Features, Plans & Pricing, Parent Guide, Support, and Contact — built with `Framer Motion` for smooth, purposeful animation rather than decoration for its own sake.
+**🎬 A marketing site built to tell a story, not just to list features.** Seven distinct pages — Home, Why Kidventure, Features, Plans & Pricing, Parent Guide, Support, and Contact — choreographed with `Framer Motion` so every transition and reveal earns its place instead of existing for decoration.
 
-### 📊 A Dashboard Designed for Trust
-A complete Parent Dashboard experience — child progress by subject, learning streaks, badges, AI-generated insight cards, multi-child family management, and subscription controls — designed to give parents the clarity they're promised on the landing page.
+**📊 A dashboard designed around parental trust.** Learning streaks, subject-by-subject progress, badges, AI-generated insight cards, multi-child family management, and subscription controls — built to deliver on the promise the landing page makes.
 
 <br />
 
-## 🧱 Tech Stack
+## 🧩 Under the Hood
 
-<table>
-<tr>
-<td valign="top" width="33%">
+This is a single-page application, built and shipped as pure **React + Vite** — deliberately without a framework-level backend such as Laravel or Next.js API routes. Every piece of the stack earns its place:
 
-**Frontend**
-- React 19
-- Vite 7
-- React Router v7
-- Framer Motion
-- Custom CSS design system
-- PostCSS + Autoprefixer
-- lucide-react · react-icons
-
-</td>
-<td valign="top" width="33%">
-
-**Localization**
-- i18next
-- react-i18next
-- i18next-browser-languagedetector
-- Full Arabic RTL support
-
-</td>
-<td valign="top" width="33%">
-
-**Backend**
-- Supabase JS Client
-- Used exclusively for **Authentication** (sign up / login) at this stage
-
-</td>
-</tr>
-</table>
-
-> This is a pure **React + Vite** single-page application — no framework-level backend (e.g. Laravel, Next.js API routes) is involved. Supabase currently powers authentication only; the rest of the data you see in the dashboard is illustrative, ahead of the broader ecosystem's backend integration.
+- **React 19 + Vite 7** — the fastest possible developer feedback loop, paired with the newest React primitives for a UI this animation-heavy.
+- **React Router v7** — client-side routing for the seven marketing pages, the auth flow, and the dashboard, all inside one seamless SPA.
+- **Framer Motion** — every page transition, card reveal, and hover state is intentional motion design, not CSS afterthoughts.
+- **i18next / react-i18next / i18next-browser-languagedetector** — the localization engine behind full English↔Arabic switching, including automatic language detection and complete RTL layout mirroring.
+- **A custom CSS design system** — hand-built with PostCSS and Autoprefixer instead of a generic utility framework, so every themed page (light/dark × EN/AR) stays pixel-precise.
+- **Supabase JS Client** — currently wired to power **authentication only** (sign up / login). It's the first integration point of a larger backend that will eventually connect this dashboard to live data from across the Kidventure ecosystem.
 
 <br />
 
@@ -233,7 +216,7 @@ npm run dev
 
 The app will be running at `http://localhost:5173`.
 
-> Supabase credentials for authentication are configured directly inside `src/config`. If you're setting up your own Supabase project, update the client initialization there with your project URL and anon key.
+> Supabase credentials for authentication are configured directly inside `src/config`. If you're connecting your own Supabase project, update the client initialization there with your project URL and anon key.
 
 ### Other scripts
 
@@ -257,7 +240,7 @@ Kidventure's web platform is under active development as part of a graduation pr
 | 🔌 Dashboard ↔ live data integration | 🚧 In progress |
 | 🤖 AI-generated insights & reports | 🚧 In progress |
 
-The dashboard interface you see in the screenshots above represents the intended final product, deliberately built ahead of the backend so the complete vision is clear before wiring in live data from the broader Kidventure ecosystem (mobile app + Supabase tables).
+The dashboard shown in the screenshots above represents the intended final product — deliberately built ahead of the backend so the complete vision is clear before wiring it to live data from across the broader Kidventure ecosystem.
 
 <br />
 
@@ -277,6 +260,6 @@ Add your preferred license here (e.g. MIT).
 
 **Built with React, Vite & Supabase — part of the Kidventure ecosystem**
 
-[🔴 Try the Live Demo](https://kidventure-1913.vercel.app/)
+### [🔴 Try the Live Demo](https://kidventure-1913.vercel.app/)
 
 </div>
