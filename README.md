@@ -96,11 +96,6 @@ Switch between light and dark mode. Flip the language to Arabic and watch the *e
 <tr><td align="center"><sub><b>Arabic — full RTL mirroring, not just translated text</b></sub></td></tr>
 </table>
 
-<table>
-<tr><td width="100%"><img src="docs/screenshots/09-landing-why-kidventure.png" width="100%" /></td></tr>
-<tr><td align="center"><sub><b>"Why Kidventure" — a storybook-style scroll narrative</b></sub></td></tr>
-</table>
-
 <br />
 
 **Authentication**, live and connected to Supabase:
