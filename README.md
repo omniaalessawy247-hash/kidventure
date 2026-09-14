@@ -245,9 +245,13 @@ This project is part of an academic graduation project, but contributions, issue
 
 <br />
 
+## 🎓 Academic Context
+
+Kidventure was developed as a graduation project at **New Mansoura University**, Faculty of Computer Science and Engineering — awarded a grade of **A**.
+
 ## 📄 License
 
-Add your preferred license here (e.g. MIT).
+This project is licensed under the [MIT License](LICENSE) — free to use, modify, and build upon.
 
 <br />
 
