@@ -1,18 +1,6 @@
-/* ================================================================
-   WhyKidventure.css  v13.0
-   ✦ Premium physical book — fixed, no-flip on load
-   ✦ Typewriter brand name animation (letter by letter)
-   ✦ Two rich sections below the book
-   ✦ No white lines in light mode
-   ✦ Light bg: #F8FAFB | Dark: #0A0E1A
-   ✦ Cinzel + Crimson Pro + DM Sans font stack
-   Namespace: wk-*
-   ✦ v12: Light mode — larger fonts + stronger color contrast
-   ✦ v13: Sections font++, bubbles/floaters visible LM, new animations
-   ================================================================ */
-
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=DM+Sans:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,400;1,700&family=Nunito:wght@400;600;700;800;900&family=Lora:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&display=swap');
 
 /* ================================================================
    §0  CSS CUSTOM PROPERTIES
@@ -2838,7 +2826,7 @@ html[data-theme="light"] .wk-outcomes-deco--2,
 .wk-story-node-content[data-wk-reveal].wk-in  { animation:wkNodeSlide  .6s  cubic-bezier(.22,1,.36,1) both !important; }
 .wk-how-orb[data-wk-reveal].wk-in             { animation:wkOrbDrop    .6s  cubic-bezier(.34,1.56,.64,1) both !important; }
 
-/* ── Reduce Motion ──────────────────────────────────────────────*/
+
 @media (prefers-reduced-motion:reduce) {
   [data-wk-reveal] { opacity:1 !important; transform:none !important; transition:none !important; }
   .wk-exp-mediabox,.wk-intent-media,.wk-belief-item-mediabox,.wk-story-head-mediabox,.wk-photo { animation:none !important; }
@@ -2847,28 +2835,25 @@ html[data-theme="light"] .wk-outcomes-deco--2,
   .wk-how-steps::before { animation:none !important; }
 }
 
-/* أول ملف CSS */
-@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&display=swap');
-
 .kv-home {
   font-family: 'Cairo', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   font-weight: 400;
   line-height: 1.6;
 }
 
-/* عناوين أقوى */
+
 .kv-sh-title,
 .kv-hero-h1 {
   font-weight: 800;
 }
 
-/* نصوص عادية */
+
 .kv-sh-sub,
 .kv-hero-desc {
   font-weight: 400;
 }
 
-/* أزرار */
+
 .kv-btn {
   font-weight: 700;
 }
